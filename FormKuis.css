@@ -1,0 +1,97 @@
+body{
+    background-color: #BEE1E6;
+}
+
+@font-face {
+    font-family: ProductSansBold;
+    src: url(ProductSansBold.ttf);
+}
+
+@font-face {
+    font-family: ProductSansReguler;
+    src: url(ProductSansRegular.ttf);
+}
+
+.font1{
+    font-family: ProductSansBold;
+    font-size: 300%;
+}
+
+.font2{
+    font-family: ProductSansBold;
+    font-size: 230%;
+}
+
+.font3{
+    font-family: ProductSansReguler;
+}
+
+.font4{
+    font-family: ProductSansBold;
+    font-size: 130%;
+}
+
+.font5{
+    font-family: ProductSansBold;
+    font-size: 180%;
+}
+
+.font6 {
+    font-family: ProductSansBold;
+    font-size: 110%;
+    line-height: 1.5em;
+    padding-top: 50px;
+}
+
+.text1{
+    flex: 1; 
+    text-align: center;
+}
+
+.text2{
+    text-align: left;
+    font-size: medium;
+    color: #2c2c2c96;
+}
+
+.input1{
+    display: flex;
+    background-color: #F0FAE0;
+    justify-content: left;
+    width: 450px;
+    height: 45px;
+    padding-left: 20px;
+    padding-bottom: 13px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 80px;
+    margin-left: 460px;
+}
+
+.input2{
+    display: flex;
+    background-color: #F0FAE0;
+    justify-content: left;
+    width: 450px;
+    height: 45px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 460px;
+}
+
+.button{
+    display: flex;
+    background-color: #82B6BD;
+    color: #FFFF;
+    justify-content: center;
+    width: 450px;
+    height: 45px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-left: 460px;
+}
+

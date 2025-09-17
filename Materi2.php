@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi 2 PPKS</title>
+    <link rel="icon" href="logo Woah.png">
+    <link rel="stylesheet" href="Materi2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--Navbar-->
+    <div class="container-fluid text-center" style="color: #2C2C2C;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="item container-fluid">
+                <a class="navbar-brand" href="#"><img src="Logoo.png" max-width="50%" height="auto"></a>
+                    <ul class="navbar-nav ms-auto font3">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link font3" aria-current="page" href="home.php">Beranda</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active font3" style="font-weight: bold;" href="Materi.php">Materi</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link font3" href="pengaduan.php">Laporan</a>
+                        </li>
+                        <li class="nav-item mx-4" style="background-color: #82B6BD; width: 120px;">
+                            <a class="nav-link font3" href="kuis1.php">Kuisioner</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Materi-->
+    <div class="container1">
+        <img src="Mask group2.png" alt="Mask group2.png" class="image1">
+    </div>
+    <div class="container-fluid">
+        <div class="container2">
+            <h4 class="text1 font4" style="color: #82B6BD">Ketimpangan Hak Pendidikan Dan Dampaknya Pada Terciptanya SDM Yang Unggul</h4>
+            <h4 class="text2 font4" style="color: #00000042">Materi 2</h4>
+        </div>
+        <div class="container3">
+            <p class="text1 font2" style="color: #2C2C2C;">KETIMPANGAN HAK PENDIDIKAN DAN DAMPAKNYA PADA TERCIPTANYA SDM YANG UNGGUL</p>
+                <h5 class="text3 font3" style="color: #2C2C2C;">Tujuan Pembangunan Berkelanjutan, sebagaimana tertuang dalam Lampiran Perpres No.59 tahun 2017, adalah</h5>
+                <h5 class="text3 font3" style="color: #2C2C2C;">tujuan global yang selaras dengan pembangunan nasional Indonesia. Salah satu upaya untuk mewujudkannya adalah</h5>
+                <h5 class="text3 font3" style="color: #2C2C2C;">dengan menjamin kualitas pendidikan yang inklusif dan merata serta meningkatkan kesempatan belajar sepanjang</h5>
+                <h5 class="text3 font3" style="color: #2C2C2C;">hayat untuk seluruhmasyarakat Indonesia.</h5>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="Rectangle 40.png" alt="Rectangle 40.png" class="image3">
+                        <img src="Rectangle 41.png" alt="Rectangle 41.png" class="image4">
+                      </div>
+                      <div class="col-sm-9">
+                        <h5 class="text5 font6" style="color: #2C2C2C;">Pendidikan merupakan hak asasi yang berfungsi sebagai 
+                            bekal bagi generasi penerus untuk memajukan 
+                            kesejahteraan bangsa. Sayangnya, kita masih dapat 
+                            menemukanpraktik kekerasan, termasuk kekerasan seksual, 
+                            yang melibatkan pendidik, tenaga pendidik, dan mahasiswa 
+                            sebagai korban atau pun pelaku kekerasan seksual. Kekerasan merupakan halangan untuk menciptakan ruang 
+                            pembelajaran yang inklusif dan merata.</h5>
+                        <h5 class="text6 font6" style="color: #2C2C2C;">Merujuk dari Catatan Tahunan Komnas Perempuan 
+                            tahun 2015 sampai 2020, kekerasan berbasis gender 
+                            terjadi di semua jenjang pendidikan, mulai dari 
+                            pendidikan usia dini sampai pendidikan tinggi. Dari total 
+                            kasus yang diadukan, universitas menempati 
+                            urutan pertama dengan persentase sebesar 27 persen 
+                            dengan jenis kekerasan yang paling banyak adalah kekerasan 
+                            seksual.</h5>
+                      </div>
+                    </div>
+                </div>
+            <h5 class="text4 font3" style="color: #2C2C2C; padding-top: 30px;">Data mengenai kekerasan seksual di lingkungan perguruan tinggi juga diperkuat oleh Kolaborasi </h5>
+            <h5 class="text4 font3" style="color: #2C2C2C;">#NamaBaikKampus yang melibatkan sejumlah media massa nasional pada 2019. Dari 207 testimoni yang masuk,</h5>
+            <h5 class="text4 font3" style="color: #2C2C2C;">174 di antaranya merupakan kasus kekerasan seksual yang terjadi di kampus atau dilakukan oleh sivitas akademika </h5>
+            <h5 class="text4 font3" style="color: #2C2C2C;">dalam kegiatan akademik di luar kampus (Zuhra, 2019). Korban tersebar di 29 kota di Indonesia. </h5>
+        </div>
+    </div>
+    <div class="container5">
+        <p class="text1 font2" style="color: #2C2C2C;">LAPISAN IDENTITAS DAN KERENTANAN</p>
+        <div class="row">
+            <img src="image 10.png" alt="Image 10.png" style="width: 75%; margin-left: 10%;">
+            <h5 class="text7 font3" style="color: #2C2C2C; padding-top: 35px;">Pembagian tipologi tersebut menunjukkan kekerasan dapat terjadi di semua level, mulai dari individu, antar individu,  </h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;"> dan kelompok. Identitas setiap individu berbeda satu dari yang lain, sehingga dampak kekerasan pada setiap </h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;"> individu pun berbeda-beda tergantung pada identitas yang dimilikinya. Ada individu/kelompok yang lebih rentan  </h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;"> dibanding yang lain sehingga dapat mengalami dampak kekerasan yang lebih besar. </h5>
+    </div>
+    </div>
+    
+    <div class="container5">
+        <p class="text8 font2" style="color: #2C2C2C;">KESETARAAN BERKEADILAN DAN KESETARAAN DALAM RUANG PENDIDIKAN</p>
+        <div class="row">
+            <img src="image 9.png" alt="Image 9.png" style="width: 77%; margin-left: 10%;">
+            <h5 class="text7 font3" style="color: #2C2C2C; padding-top: 35px;">Kesetaraan merupakan kondisi ketika semua orang menerima hak, kesempatan, sumber daya, dan perlindungan </h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;"> yang sama, tanpa perlakuan berbeda berdasarkan identitas yang dimiliki.</h5>
+
+            <h5 class="text7 font3" style="color: #2C2C2C; padding-top: 35px;">Kesetaraan berkeadilan merupakan kondisi saat semua orang mendapatkan kesempatan dan akses sesuai dengan</h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;">kebutuhannya. Salah satu hal yang perlu dilakukan untuk menciptakan kondisi ini adalah melalui kebijakan afirmatif,</h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;">yakni dengan memuat standar minimum yang sesuai dengan kebutuhan dan situasi setiap individu.</h5>
+
+            <h5 class="text7 font3" style="color: #2C2C2C; padding-top: 35px;">Perlu diingat bahwa keadilan dan kesetaraan bukan konsep yang saling bersaing. Dalam upaya mewujudkan</h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;">keadaan di mana setiap orang mendapatkan hak dan akses yang setara, diperlukan pendekatan yang adil.</h5>
+
+            <h5 class="text7 font3" style="color: #2C2C2C; padding-top: 35px;"> Prinsip kesetaraan dan keadilan telah menjadi prinsip dasar masyarakat Indonesia dalam bernegara dan </h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;">bermasyarakat, sebagaimana tertuang dalam sila ke-5 Pancasila yang berbunyi "Keadilan Sosial bagi Seluruh Rakyat</h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;"> Indonesia". Prinsip keadilan merupakan inti dari nilai-nilai ketuhanan dan landasan pokok perikemanusiaan. Sebagai</h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;">bentuk pengamalan Pancasila, memastikan kesetaraan dan keadilan di lingkungan pendidikan merupakan tugas kita</h5>
+            <h5 class="text7 font3" style="color: #2C2C2C;">bersama sebagai warga negara Indonesia.</h5>
+    </div>
+    </div>
+
+
+    <!--Card-->
+    <div class="bg-con container-fluid p-5 py-5">
+        <h1 class="text-left font2" style="color: #2C2C2C; padding-top: 50px;">Materi Lainnya</h1>
+           <div class="container-fluid py-4">
+              <div class="row" style="color: #2c2c2c;">
+                <div class="col-sm-4" style="padding-bottom: 50px;">
+                    <div class="card-body" style="background-color: #BEE1E6;">
+                    <img src="image 11.png" class="card-img-top">
+                    <h6 class="pt-4 pb-4 text-center font3" style="font-size:larger; font-weight: bold;">Filosofi Pendidikan di Indonesia</h6>
+                    <div class="text-center highlight mb-3" style="background-color: #82B6BD; padding: 5px; margin: 13px; border-radius: 5px">
+                        <a href="Materi.php" style="text-decoration: none; color: #2C2C2C;"><p class="m-1 font3" style="font-weight: bold;">Lihat Materi</p></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="padding-bottom: 50px;">
+                    <div class="card-body" style="background-color: #BEE1E6;">
+                    <img src="Rectangle 63.png" class="card-img-top">
+                    <h6 class="pt-4 pb-4 text-center font3" style="font-size:larger; font-weight: bold;">Memahami Kekerasan Seksual</h6>
+                    <div class="text-center highlight mb-3" style="background-color: #82B6BD; padding: 5px; margin: 13px; border-radius: 5px;">
+                        <a href="Materi3.php" style="text-decoration: none; color: #2C2C2C;"><p class="m-1 font3" style="font-weight: bold;">Lihat Materi</p></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="padding-bottom: 50px;">
+                    <div class="card-body" style="background-color: #BEE1E6;">
+                    <img src="Rectangle 61.png" class="card-img-top">
+                    <h6 class="pt-4 pb-4 text-center font3" style="font-size:larger; font-weight: bold;">Memahami Dampak Kekerasan Seksual</h6>
+                    <div class="text-center highlight mb-3" style="background-color: #82B6BD; padding: 5px; margin: 13px; ">
+                        <a href="Materi4.php" style="text-decoration: none; color: #2C2C2C;"><p class="m-1 font3" style="font-weight: bold;">Lihat Materi</p></a>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid px-5 py-3 mx-0 footer" style="background-color: #BEE1E6 ; color: #2C2C2C;">
+
+        <!-- Row -->
+            <div class="row" style="padding: 50px;">
+            <!-- Kiri -->
+                <div class="col-sm-5 font3">
+                    <img src="Logoo.png" class="image5" style="width: 20%; ">
+                    <div>
+                        <p>Website ini kami bangun untuk memudahkan, membantu, serta menggencarkan pemahaman kepada seluruh masyarakat
+                            kampus mengenai Pencegahan dan Penanganan Kekerasan Seksual</p>
+                    </div>
+                </div>
+            <!-- Tengah -->
+                <div class="col-sm-3 font3" style="padding-left: 50px;">
+                    <p><span style="font-weight:bold; color: #767676;">Layanan Lainnya</span>
+                        <div>
+                    <a class="nav-link" href="Materi.php" style="margin-bottom: 5px;">Materi</a>
+                    <a class="nav-link" href="kuis1.php" style="margin-bottom: 5px;">Kuisioner</a>
+                    <a class="nav-link" href="pengaduan.php" style="margin-bottom: 5px;">Laporan</a>
+                    <a class="nav-link" href="tentang-kami.php" >Tentang</a>
+                    </div>
+                </div>
+            <!-- Kanan -->
+                <div class="col-sm-3 font3">
+                    <p><span style="font-weight:bold; color: #767676;">Ikuti Sosial Media</span>
+                        <div>
+                            <a style="color:#2C2C2C;" class="nav-link" href="#" span class="btn-label" ><i class="bi bi-instagram" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>                    
+    </div>
+
+    <!--Bottom text-->
+    <div class="container-fluid px-5 py-2 mx-0 footer" style="background-color: #82B6BD ; color: #2C2C2C; margin: 0">
+        <p class="text-left mx-2 font3" style="padding-top: 20px; padding-left: 40px;">@2024 Satgas PPKS | Terms and Condition</p>
+
+    </div>
+</body>
+</html>

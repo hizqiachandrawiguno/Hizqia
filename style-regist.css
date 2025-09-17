@@ -1,0 +1,77 @@
+.gambar{
+    background-image: url(morning-sun-on-gunung-batur-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.tombol{
+    color: white;
+    background-color: #82B6BD;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    width: 100%;
+}
+
+.padding-tombol{
+    padding: 20px 70px 20px 70px;
+}
+
+input{
+    padding: 60px 90px 60px 90px;
+
+}
+
+@font-face {
+    font-family: ProductSansRegular;
+    src: url(ProductSansRegular.ttf);
+}
+
+.font1{
+    font-family: ProductSansRegular;
+}
+
+@font-face {
+    font-family: ProductSansBold;
+    src: url(ProductSansBold.ttf);
+}
+
+font2{
+    font-family: ProductSansBold;
+}
+
+body{
+    background: #BEE1E6;
+}
+
+.tmbol{
+    padding: 10px 10px 10px 10px;
+}
+
+.gmbar{
+    background-image: url(pangkor-laut-island-malaysia-94763-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.login-wallpaper {
+    flex: 1; 
+    background: url(morning-sun-on-gunung-batur-wallpaper-preview.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+
+.container{
+    padding: 30px;
+}
+
+.login-form {
+    flex: 1;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+

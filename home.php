@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="icon" href="logo Woah.png">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--Heading-->
+    <div class="container-fluid header ">
+        <nav class="navbar navbar-expand-lg">
+            <div class="item container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Logoo.png" max-width="40%" height="auto">
+                </a>
+                    <ul class="navbar-nav font3">
+                        <li class="nav-item jarakbutton">
+                            <a class="nav-link active font3" aria-current="page" href="home.php">Beranda</a>
+                        </li>
+                        <li class="nav-item jarakbutton">
+                            <a class="nav-link font3" href="Materi.php">Materi</a>
+                        </li>
+                        <li class="nav-item  jarakbutton" >
+                            <a class="nav-link font3" href="pengaduan.php">Laporan</a>
+                        </li>
+                        <li class="nav-item jarakbutton1" style="background-color: #82B6BD; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#6b9fa6'" onmouseout="this.style.backgroundColor='#82B6BD'">
+                            <a class="nav-link font3" href="kuis1.php">Kuisioner</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+        
+        <!--isi-->
+        <div class="container">
+            <div class="image-section">
+                <img src="Ilustrasi_Beranda1.png" style="width: 100%;">
+            </div>
+            <div class="text-section">
+                <h1 class="pb-3 pt-5 font1" style="color: #2C2C2C">Kenali Pencegahan dan Penanganan Kekerasan Seksual</h1>
+                <p>Kekerasan Seksual dapat terjadi di lingkungan sekitar, ayo gencarkan untuk pemahaman Pencegahan dan Penanganan Kekerasan Seksual dimulai dari lingkungan kampus kita</p>
+                <button class="button-mulai" style="margin-top: 25px; background-color: #82B6BD;transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#6b9fa6'" onmouseout="this.style.backgroundColor='#82B6BD'">
+                    <a href="Materi.php" class="nav-link">Lihat Materi</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container-fluid isi">
+          <h2 class="pt-5 font2" >Materi Pencegahan dan Penanganan</h2> 
+          <h2 class="pb-4 font2" >Kekerasan Seksual</h2>
+
+          <div class="row jarak">
+            <div class="col-sm-3" >
+                <div class="card">
+                    <div class="card-body" style="background-color: #82B6BD;">
+                        <div class="container-fluid text-center font4 highlight nomor" style="background-color: #F0FAE0;">
+                            <p>01</p>
+                        </div>
+                        <h5 class="pt-4 pb-4 text-center font4 isicard" style="font-size:larger ;">Filosofi Pendidikan di Indonesia</h5>
+                        <button type="button" class="highlight mb-3 text-center buttoncard px-5" style="background-color: #B8D8D8; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#d9f1f1'" onmouseout="this.style.backgroundColor='#B8D8D8'" >
+                            <a href="Materi.php" style="text-decoration: none; color: #2C2C2C;"><p class="font3" style="font-weight: bold; ">Lihat Materi</p></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body" style="background-color: #B8D8D8 ;">
+                        <div class="container-fluid text-center font4 highlight nomor" style="background-color: #F0FAE0; max-width: min-content; height: 40px;">
+                            <p>02</p>
+                        </div>
+                        <h5 class="pt-4 pb-4 text-center font4 isicard" style="font-size:larger ;">Mengenal apa itu Kekerasan</h5>
+                        <button type="button" class="highlight mb-3 text-center buttoncard px-5" style="background-color: #82B6BD; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#6b9fa6'" onmouseout="this.style.backgroundColor='#82B6BD'" >
+                            <a href="Materi2.php" style="text-decoration: none; color: #2C2C2C;"><p class="font3" style="font-weight: bold; ">Lihat Materi</p></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body" style="background-color: #82B6BD;">
+                        <div class="container-fluid text-center font4 highlight nomor" style="background-color: #F0FAE0; max-width: min-content; height: 40px;">
+                            <p>03</p>
+                        </div>
+                        <h5 class="pt-4 pb-4 text-center font4 isicard" style="font-size:larger ;">Memahami Kekerasan Seksual</h5>
+                        <button type="button" class="highlight mb-3 text-center buttoncard px-5" style="background-color: #B8D8D8; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#d9f1f1'" onmouseout="this.style.backgroundColor='#B8D8D8'" >
+                           <a href="Materi3.php" style="text-decoration: none; color: #2C2C2C;"><p class="font3" style="font-weight: bold; ">Lihat Materi</p></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card" >
+                    <div class="card-body" style="background-color: #B8D8D8;">
+                        <div class="container-fluid text-center font4 highlight nomor" style="background-color: #F0FAE0; max-width: min-content; height: 40px;">
+                            <p>04</p>
+                        </div>
+                        <h5 class="pt-4 pb-4 text-center font4 isicard" style="font-size:larger ;">Memahami Dampak Kekerasan</h5>
+                        <button type="button" class="highlight mb-3 text-center buttoncard px-5" style="background-color: #82B6BD; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#6b9fa6'" onmouseout="this.style.backgroundColor='#82B6BD'" >
+                            <a href="Materi4.php" style="text-decoration: none; color: #2C2C2C;"><p class="font3" style="font-weight: bold; ">Lihat Materi</p></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container jarak3">
+            <div class="image-section" style="flex: 1; text-align: right; margin-right: 30px;">
+                <img src="Ilustrasi_Beranda2.png" style="width: 75%;">
+            </div>
+            <div class="text-section jarak1">
+                <h1 class="pb-3 pt-5 mt-5 font1" style="color: #2C2C2C">Hubungi Kami</h1>
+                <p>Jika anda mengalami atau menjadi Korban Kekerasan Seksual, jangan sungkan untuk melapor kepada satgas PPKS </p>
+                <button class="container-fluid button-dm font3 pt-3 pb-3 jarak5" style="background-color: #82B6BD; color: #F0FAE0; font-weight: bold; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#6b9fa6'" onmouseout="this.style.backgroundColor='#82B6BD'">
+                    <a href="pengaduan.php" class="nav-link">Laporan Pengaduan</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="container-fluid px-5 py-3 mx-0 footer" style="background-color: #BEE1E6 ; color: #2C2C2C;">
+
+        <!-- Row -->'
+            <div class="row jarak4">
+            <!-- Kiri -->
+                <div class="col-sm-5 font3">
+                    <img src="Logoo.png" style="width: 20%">
+                    <div>
+                        <p>Website ini kami bangun untuk memudahkan, membantu, serta menggencarkan pemahaman kepada seluruh masyarakat kampus mengenai Pencegahan dan Penanganan Kekerasan Seksual
+                        </p>
+                    </div>
+                </div>
+  
+                <!-- Tengah -->
+                <div class="col-sm-3 font3">
+                    <p><span style="font-weight:bold; color: #767676;">Layanan Lainnya</span>
+                        <div>
+                    <a class="nav-link" href="Materi.php" style="margin-bottom: 5px;">Materi</a>
+                    <a class="nav-link" href="kuis1.php" style="margin-bottom: 5px;">Kuisioner</a>
+                    <a class="nav-link" href="pengaduan.php" style="margin-bottom: 5px;" >Laporan</a>
+                    <a class="nav-link" href="tentang-kami.php" >Tentang</a>
+                    </div>
+                </div>
+  
+                <!-- Kanan -->
+                <div class="col-sm-3 font3">
+                    <p><span style="font-weight:bold; color: #767676;">Ikuti Sosial Media</span>
+                        <div>
+                            <a style="color:#2C2C2C;" class="nav-link" href="#" span class="btn-label" ><i class="bi bi-instagram" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>                 
+    </div>
+   
+
+
+    <!--bottom text-->
+    <div class="container-fluid px-5 py-3 mx-0 footer" style="background-color: #82B6BD ; color: white;">
+        <p class="text-left mx-1 palingbawah">@2024 Satgas PPKS | Terms and Condition</p>
+    </div>
+</body>
+</html>
