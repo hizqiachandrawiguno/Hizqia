@@ -31,7 +31,9 @@ Seri Tokoh Alkitab, Video 2. Follow supaya tidak ketinggalan tokoh berikutnya!
 #TokohAlkitab #DaudDanGoliat #KisahAlkitab #RenunganHarian #Alkitab #1Samuel17 #Iman #Kristen #FYP
 ```
 
-## 7. Pemeriksaan akurasi
+## 7. Pemeriksaan akurasi (BELUM diverifikasi dengan TB)
+> Catatan: Video 2 menayangkan kutipan "Engkau datang dengan pedang dan tombak. Aku datang dengan nama TUHAN semesta alam." Itu ringkasan dari 1 Sam. 17:45, bukan teks TB persis, dan ditulis dari ingatan. Untuk video berikutnya, kutipan seperti ini harus memakai teks TB persis (dari `ayat-tb.json`) atau ditulis sebagai parafrase tanpa tanda kutip.
+
 40 hari tantangan pagi dan petang (1 Sam. 17:16); Goliat enam hasta sejengkal, sekitar 3 meter (17:4); Daud gembala, bungsu Isai (17:12–14); baju perang Saul ditolak (17:38–39); lima batu licin dari sungai dan umban (17:40); ucapan Daud (17:45); batu mengenai dahi, Goliat tumbang (17:49); Filistin lari (17:51). Daud disebut "masih muda" (17:33, 42), bukan angka usia, jadi hook memakai "bocah gembala".
 
 ## 8. Asumsi

@@ -41,7 +41,7 @@ Seri: **Tokoh Alkitab**. Video 1 = pengantar seri, Video 2 = Daud (sudah tayang)
 | 6 | Senin, 14 Des 2026 | Video 18 | **Yosua** | Bilangan 13–14; Yosua 1–6 | Tembok kota runtuh tanpa satu pun senjata. | Taat pada perintah Tuhan, bahkan yang terdengar aneh. |  |
 | 6 | Rabu, 16 Des 2026 | Video 19 | **Kaleb** | Bilangan 13–14; Yosua 14 | Berusia 85 tahun, tetapi ia meminta gunung yang paling sulit. | Mengikut Tuhan dengan segenap hati sampai akhir. |  |
 | 6 | Jumat, 18 Des 2026 | Video 20 | **Rahab** | Yosua 2; 6 | Di kota yang akan hancur, ia memilih berpihak pada Tuhan. | Iman bisa menyelamatkan siapa pun. |  |
-| 7 | Senin, 21 Des 2026 | Video 21 | **Debora** | Hakim-hakim 4–5 | Hakim perempuan yang membuat seorang panglima gentar. | Keberanian lahir dari mendengar suara Tuhan. |  |
+| 7 | Senin, 21 Des 2026 | Video 21 | **Debora** | Hakim-hakim 4–5 | Sang panglima menolak berperang, kecuali Debora ikut bersamanya. | Keberanian lahir dari mendengar suara Tuhan. |  |
 | 7 | Rabu, 23 Des 2026 | Video 22 | **Gideon** | Hakim-hakim 6–7 | Dari 32.000 prajurit, Tuhan hanya memakai 300. | Kekuatan Tuhan nyata dalam kelemahan kita. |  |
 | 7 | Jumat, 25 Des 2026 | Video 23 | **Simson** | Hakim-hakim 13–16 | Orang terkuat di Israel, dikalahkan oleh kelemahannya sendiri. | Karunia tanpa karakter akan runtuh, tetapi Tuhan masih memulihkan. |  |
 | 8 | Senin, 28 Des 2026 | Video 24 | **Rut** | Rut 1–4 | Menantu yang menolak pulang dan akhirnya masuk silsilah Yesus. | Kesetiaan tidak pernah luput dari mata Tuhan. |  |
@@ -80,9 +80,9 @@ Seri: **Tokoh Alkitab**. Video 1 = pengantar seri, Video 2 = Daud (sudah tayang)
 | 15 | Jumat, 19 Feb 2027 | Video 47 | **Ester** | Ester 1–9 | Gadis yatim yang menjadi ratu, lalu mempertaruhkan nyawa demi bangsanya. | Berani bertindak untuk saat seperti ini. |  |
 | 16 | Senin, 22 Feb 2027 | Video 48 | **Nehemia** | Nehemia 1–6 | Tembok kota yang hancur dibangun kembali hanya dalam 52 hari. | Doa dan kerja nyata berjalan bersama. |  |
 | 16 | Rabu, 24 Feb 2027 | Video 49 | **Ayub** | Ayub 1–2; 42 | Kehilangan segalanya dalam satu hari, tetapi imannya bertahan. | Percaya kepada Tuhan di tengah penderitaan. |  |
-| 16 | Jumat, 26 Feb 2027 | Video 50 | **Zakharia & Elisabet** | Lukas 1 | Sembilan bulan Zakharia tak bisa bicara karena ragu pada janji Tuhan. | Tuhan menepati janji pada waktu-Nya. |  |
+| 16 | Jumat, 26 Feb 2027 | Video 50 | **Zakharia & Elisabet** | Lukas 1 | Zakharia tak bisa bicara sampai anaknya lahir, karena ragu pada janji Tuhan. | Tuhan menepati janji pada waktu-Nya. |  |
 | 17 | Senin, 1 Mar 2027 | Video 51 | **Maria** | Lukas 1–2 | Seorang gadis muda menjawab: jadilah padaku menurut perkataanmu. | Taat dan menyerahkan diri kepada rencana Tuhan. |  |
-| 17 | Rabu, 3 Mar 2027 | Video 52 | **Yusuf, suami Maria** | Matius 1–2 | Ia berniat membatalkan pertunangan, sampai malaikat berbicara dalam mimpi. | Taat pada pimpinan Tuhan meski tak masuk akal. |  |
+| 17 | Rabu, 3 Mar 2027 | Video 52 | **Yusuf, suami Maria** | Matius 1–2 | Ia berniat menceraikan Maria diam-diam, sampai malaikat berbicara dalam mimpi. | Taat pada pimpinan Tuhan meski tak masuk akal. |  |
 | 17 | Jumat, 5 Mar 2027 | Video 53 | **Yohanes Pembaptis** | Matius 3; Lukas 1 | Berpakaian bulu unta, makan belalang, dan menyiapkan jalan bagi sang Raja. | Mengecil supaya Kristus makin besar. |  |
 
 ### Bulan 5 (Pelayanan Yesus, Salib & Kebangkitan)
@@ -138,11 +138,18 @@ Catat 5 angka per video: **rata-rata durasi tonton**, **persentase ditonton samp
 - Ambil 2 video terlemah. Cek 3 detik pertama (hook) dan apakah ada bagian yang membosankan di tengah. Ubah satu hal saja, lalu bandingkan.
 - Catat pertanyaan yang sering muncul di komentar. Jadikan ide video bonus (tanya jawab, atau tokoh yang diminta penonton).
 
-## 5. Pedoman isi (ringkas)
+## 5. Verifikasi ayat (wajib sebelum tiap video dibuat)
+
+- Seluruh rujukan dan angka di kalender ini disusun dari ingatan dan **BELUM dicocokkan dengan Alkitab Terjemahan Baru (TB)**, karena sumber Alkitab tidak dapat dijangkau saat penyusunan. Anggap semuanya "perlu dicek".
+- Cek lebih dulu klaim berangka dan klaim khusus ini: Kej. 17:17 (Sara 90 tahun), Kej. 50:20, Yos. 14:10 (Kaleb 85 tahun), Hak. 4:8 (Debora dan panglima), Hak. 7:3–7 (32.000, 10.000, 300), 1 Raj. 18:19 (450 nabi Baal), 2 Raj. 2:9 (dua bagian roh), Neh. 6:15 (52 hari), Dan. 3:19 (tujuh kali lipat), Dan. 4:16 (tujuh masa), Luk. 1:20 (Zakharia bisu), Mat. 1:19 (Yusuf), Yoh. 11:39 (empat hari), Mat. 26:15 (30 keping perak), Kis. 6:15 (wajah Stefanus), Kis. 16:14 (Lidia), 1 Tim. 4:12.
+- Teks ayat yang akan dikutip harus ditempel dari Alkitab TB ke `references/ayat-tb.json`. Tanpa itu, naskah hanya boleh berupa parafrase tanpa tanda kutip.
+
+## 6. Pedoman isi (ringkas)
 
 - **Setia pada teks Alkitab.** Tandai dengan jelas bila ada hal yang berasal dari tradisi, bukan dari teks (misalnya usia atau rupa tokoh).
 - **Pakai nama dan istilah Terjemahan Baru (LAI)** secara konsisten, sama seperti di video Daud.
 - **Kisah yang sensitif** (kekerasan, pelecehan, bunuh diri, pemerkosaan) ditangani singkat dan lembut, tanpa detail visual. Contoh yang sengaja dilewati di kalender ini: kisah Tamar, anak-anak perempuan Lot, dan Batsyeba.
 - **Menggambarkan Yesus:** saran saya tidak menampilkan wajah. Pakai siluet, cahaya, tangan, atau sudut dari belakang. Ini keputusan Anda, boleh diubah.
 - **Setiap video** ditutup dengan satu pesan yang bisa dipraktikkan penonton, dan satu pertanyaan pemicu komentar.
+- **Mode naskah:** bawaan `detail` (240 sampai 300 kata, sekitar 2 sampai 2,5 menit). Pakai `ringkas` (sekitar 75 detik) bila jadwal padat.
 

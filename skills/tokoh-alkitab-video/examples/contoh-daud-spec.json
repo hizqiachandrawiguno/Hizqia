@@ -5,7 +5,8 @@
   "tag": "TOKOH ALKITAB  ·  VIDEO 2",
   "hook_end": 6.55,
   "outro_start": 72.0,
-  "total": 78.9
+  "total": 78.9,
+  "ground_shift": 110
  },
  "spoken": [
   [
@@ -240,7 +241,7 @@
     "type": "rays",
     "center": [
      540,
-     760
+     1010
     ],
     "colors": [
      [
@@ -261,9 +262,9 @@
     "type": "disc",
     "center": [
      540,
-     760
+     1010
     ],
-    "r": 330,
+    "r": 290,
     "color": [
      236,
      176,
@@ -274,8 +275,8 @@
     "type": "actor",
     "sprite": "giant",
     "x": 540,
-    "y": 820,
-    "scale": 0.95,
+    "y": 1060,
+    "scale": 0.8,
     "opts": {
      "black": true
     },
@@ -286,8 +287,8 @@
        0.6
       ],
       "y": [
-       1320,
-       820
+       1560,
+       1060
       ],
       "ease": "out"
      }
@@ -296,9 +297,9 @@
    {
     "type": "actor",
     "sprite": "person",
-    "x": 300,
-    "y": 1120,
-    "scale": 0.55,
+    "x": 260,
+    "y": 1370,
+    "scale": 0.6,
     "anim": [
      {
       "t": [
@@ -306,8 +307,8 @@
        0.6
       ],
       "y": [
-       1520,
-       1120
+       1770,
+       1370
       ],
       "ease": "out"
      }
@@ -317,7 +318,7 @@
     "type": "label",
     "text": "BOCAH GEMBALA INI",
     "x": 510,
-    "y": 500,
+    "y": 540,
     "t": 0.1,
     "style": "paper",
     "size": 74,
@@ -328,7 +329,7 @@
     "type": "label",
     "text": "JATUHKAN RAKSASA 3 METER",
     "x": 510,
-    "y": 690,
+    "y": 540,
     "t": 1.3,
     "style": "paper",
     "size": 62,
@@ -339,7 +340,7 @@
     "type": "label",
     "text": "HANYA DENGAN 1 BATU?!",
     "x": 510,
-    "y": 890,
+    "y": 540,
     "t": 3.5,
     "style": "brick",
     "size": 80,
@@ -350,13 +351,22 @@
     "type": "label",
     "text": "BAGAIMANA BISA?",
     "x": 510,
-    "y": 1060,
+    "y": 540,
     "t": 5.4,
     "style": "gold",
     "size": 64,
     "angle": 1.5
    }
-  ]
+  ],
+  "foreground": {
+   "color": [
+    96,
+    34,
+    30
+   ],
+   "kind": "rock",
+   "y": 1500
+  }
  },
  "scenes": [
   {

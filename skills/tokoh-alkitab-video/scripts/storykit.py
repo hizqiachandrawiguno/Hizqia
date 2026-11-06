@@ -28,7 +28,9 @@ CHAR = (28, 26, 24)
 EDGE = (246, 239, 222)
 SKIN = (214, 164, 120)
 CX = 510
-SAFE = dict(x0=60, x1=960, y0=150, y1=1440)
+SAFE = dict(x0=60, x1=960, y0=150, y1=1500)
+SUB_Y = 1385      # pusat subtitle (maks 2 baris, kotak tidak melewati y 1500)
+FG_Y = 1500       # bagian bawah y>=1500 diisi pemandangan latar depan (bukan teks)
 
 # ---------------------------------------------------------------- util
 def clamp(v, a=0.0, b=1.0):
@@ -583,9 +585,35 @@ def label_sprite(L):
 def label_pos(L, spr, sc=1.0):
     """Jepit pusat label agar seluruh kotaknya berada di zona aman. Mengembalikan (x, y, terjepit?)."""
     bw, bh = spr.bw * sc, spr.bh * sc
+    y0, y1 = (250, 1650) if L.get("zone") == "thumb" else (SAFE["y0"], SAFE["y1"])
     x = min(max(L["x"], SAFE["x0"] + bw / 2), SAFE["x1"] - bw / 2)
-    y = min(max(L["y"], SAFE["y0"] + bh / 2), SAFE["y1"] - bh / 2)
+    y = min(max(L["y"], y0 + bh / 2), y1 - bh / 2)
     return x, y, (abs(x - L["x"]) > 1 or abs(y - L["y"]) > 1)
+
+
+SHIFTABLE = {"rays", "sun", "disc", "hill", "water", "actor", "starburst", "confetti"}
+
+def shift_layer(L, dy):
+    if not dy or L["type"] not in SHIFTABLE:
+        return L
+    L = dict(L)
+    for k in ("center", "origin", "pivot_at"):
+        if k in L:
+            L[k] = [L[k][0], L[k][1] + dy]
+    for k in ("y", "base"):
+        if k in L and not isinstance(L[k], list):
+            L[k] = L[k] + dy
+    if L["type"] == "starburst" and "y" in L:
+        pass
+    if "anim" in L:
+        an = []
+        for a in L["anim"]:
+            a = dict(a)
+            if a.get("type", "tween") == "tween" and "y" in a:
+                a["y"] = [a["y"][0] + dy, a["y"][1] + dy]
+            an.append(a)
+        L["anim"] = an
+    return L
 
 
 def draw_layer(cv, L, t, fi, idx, spec):
@@ -627,7 +655,8 @@ def draw_layer(cv, L, t, fi, idx, spec):
         putj(cv, spr, x, y, ang=rot, sc=sc, i=idx * 13 + 5, fi=fi, pa=L.get("jitter", 2), ra=L.get("wobble", 0.6), alpha=al)
     elif ty == "label":
         t0 = L.get("t", 0.0)
-        if t <= t0 or ("until" in L and t > L["until"]):
+        un = L.get("until", L.get("_until"))
+        if t <= t0 or (un is not None and t > un):
             return
         spr = label_sprite(L)
         sc = back((t - t0) / L.get("pop", 0.4)) * L.get("scale", 1.0)
@@ -650,11 +679,112 @@ def draw_layer(cv, L, t, fi, idx, spec):
         raise ValueError("tipe lapisan tidak dikenal: %s" % ty)
 
 
-def draw_scene(spec, sc, t, fi):
+def darker(c, f):
+    return tuple(max(0, min(255, int(v * f))) for v in c)
+
+
+def draw_foreground(cv, col, kind="grass", y0=FG_Y, t=0.0):
+    """Pemandangan latar depan di bagian bawah layar supaya area bawah tidak kosong (tanpa teks penting)."""
+    cols = [darker(col, 0.92), darker(col, 0.78), darker(col, 0.62)]
+    bases = [y0, y0 + 140, y0 + 270]
+    for i in range(3):
+        spr, l, tp = hill(cols[i], bases[i], 26 - 4 * i, 130 + 25 * i, 0.7 + 1.3 * i, width=W + 700)
+        place_tl(cv, spr, l - 100, tp)
+        if kind == "grass":
+            rnd = random.Random(i * 31 + 7)
+            d = ImageDraw.Draw(cv)
+            for k in range(11 - 2 * i):
+                x = rnd.uniform(20, W - 20); y = bases[i] + 24 * math.sin(x / (130 + 25 * i) + 0.7 + 1.3 * i) + 10
+                h = rnd.uniform(26, 52) * (1 + 0.25 * i)
+                tone = tuple(min(255, int(v * 1.18)) for v in cols[i]) if i % 2 == 0 else darker(cols[i], 0.85)
+                for dx in (-9, 0, 9):
+                    d.polygon([(x + dx - 5, y), (x + dx + dx * 0.6, y - h * (1 - abs(dx) / 40)), (x + dx + 5, y)], fill=tone)
+        elif kind == "rock":
+            rnd = random.Random(i * 17 + 3)
+            d = ImageDraw.Draw(cv)
+            for k in range(5 - i):
+                x = rnd.uniform(40, W - 40); y = bases[i] + 18 + rnd.uniform(0, 40); r = rnd.uniform(18, 40)
+                d.ellipse((x - r, y - r * 0.6, x + r, y + r * 0.6), fill=darker(cols[i], 1.15), outline=darker(cols[i], 0.7), width=3)
+        elif kind == "sand":
+            rnd = random.Random(i * 13 + 1)
+            d = ImageDraw.Draw(cv)
+            for k in range(24):
+                x = rnd.uniform(10, W - 10); y = bases[i] + rnd.uniform(10, 120)
+                d.ellipse((x - 3, y - 2, x + 3, y + 2), fill=darker(cols[i], 0.8))
+
+
+def find_time(spoken, key, after=0.0, frac=True):
+    """Waktu kata/frasa `key` di dalam daftar ucapan (setelah detik `after`). Dengan frac=True waktu
+    diperkirakan dari posisi kata di dalam frasa, sehingga label muncul saat katanya diucapkan."""
+    k = key.lower()
+    for a, b, t in spoken:
+        tl = t.lower()
+        if a >= after - 0.01 and k in tl:
+            return a + ((b - a) * tl.index(k) / max(1, len(tl)) if frac else 0.0)
+    raise ValueError("frasa \"%s\" tidak ditemukan di 'spoken' setelah detik %.2f" % (key, after))
+
+
+def resolve_spoken(spec):
+    """Menempelkan waktu ke ucapan: scene.start_at, label.at, anim.at, meta.auto. Setelah MP3 asli
+    masuk, cukup ganti 'spoken' dan semua waktu ikut bergeser."""
+    sp = spec.get("spoken", []); m = spec["meta"]
+    prev = 0.0
+    for sc in spec["scenes"]:
+        if "start_at" in sc:
+            sc["start"] = find_time(sp, sc["start_at"], prev, frac=False) + sc.get("start_offset", 0.0)
+        prev = sc["start"]
+    blocks = [(0.0, spec["hook"])] + [(sc["start"], sc) for sc in spec["scenes"]]
+    for st, b in blocks:
+        for L in b.get("layers", []):
+            if "at" in L:
+                L["t"] = max(0.0, find_time(sp, L["at"], st - 0.05) - st + L.get("at_offset", 0.0))
+            for a in L.get("anim", []):
+                if "at" in a:
+                    t0 = find_time(sp, a["at"], st - 0.05) - st
+                    dt = a.get("dt", [0.0, 0.3])
+                    a["t"] = [max(0.0, t0 + dt[0]), max(0.0, t0 + dt[1])]
+    if m.get("auto") and sp:
+        m["hook_end"] = round(spec["scenes"][0]["start"], 2)
+        try:
+            m["outro_start"] = round(find_time(sp, m.get("outro_at", "Mau tahu kisah"), m["hook_end"], frac=False) - 0.1, 2)
+        except ValueError:
+            pass
+        m["total"] = round(sp[-1][1] + 1.3, 2)
+    return spec
+
+
+def prepare(spec):
+    """Satu teks pada satu waktu: label lama hilang saat label baru muncul, kecuali adegan memakai "stack": true."""
+    blocks = [spec["hook"]] + spec["scenes"]
+    for b in blocks:
+        if b.get("stack"):
+            continue
+        labs = sorted([L for L in b.get("layers", []) if L["type"] == "label" and not L.get("fixed")], key=lambda L: L.get("t", 0))
+        for i, L in enumerate(labs):
+            if "until" not in L and i + 1 < len(labs):
+                L["_until"] = labs[i + 1].get("t", 0)
+    return spec
+
+
+def draw_scene(spec, sc, t, fi, shift=0):
     cv = bg(tup(sc.get("bg", PARCH)), fi)
     layers = sc.get("layers", [])
+    last_hill = None
     for i, L in enumerate(layers):
-        draw_layer(cv, L, t, fi, i, spec)
+        if L["type"] == "label":
+            continue
+        L2 = shift_layer(L, shift)
+        if L2["type"] == "hill":
+            last_hill = L2["color"]
+        draw_layer(cv, L2, t, fi, i, spec)
+    fg = sc.get("foreground", "auto")
+    if fg == "auto":
+        fg = {"color": last_hill} if last_hill else None
+    if fg:
+        draw_foreground(cv, tup(fg.get("color", last_hill or EARTH)), fg.get("kind", "grass"), fg.get("y", FG_Y), t)
+    for i, L in enumerate(layers):
+        if L["type"] == "label":
+            draw_layer(cv, L, t, fi, i, spec)
     for L in layers:
         if L["type"] == "flash" and L["t"] <= t < L["t"] + L.get("dur", 0.2):
             cv = flash(cv, L.get("alpha", 0.8) * (1 - (t - L["t"]) / L.get("dur", 0.2)), tup(L.get("color", (255, 255, 255))))
@@ -674,7 +804,7 @@ def draw_hook(spec, t, fi):
     layers = list(h.get("layers", []))
     if m.get("tag") and h.get("auto_tag", True):
         layers.append({"type": "label", "text": m["tag"], "style": "tag", "size": 38, "x": CX, "y": 290, "t": 0.0, "angle": -2, "fixed": True})
-    return draw_scene(spec, {"bg": h.get("bg", (140, 44, 36)), "layers": layers}, t, fi)
+    return draw_scene(spec, {"bg": h.get("bg", (140, 44, 36)), "layers": layers, "foreground": h.get("foreground")}, t, fi)
 
 
 OUTRO_DEFAULT = {"question": 0.2, "sentence": 2.3, "follow": 3.3, "share": 3.9, "komen": 4.5}
@@ -685,14 +815,15 @@ def draw_outro(spec, t, fi):
     bgc = tup(o.get("bg", (126, 40, 34)))
     cv = bg(bgc, fi)
     rays(cv, 540, 800, t * 0.2, 24, tuple(min(255, c + 24) for c in bgc), bgc)
+    draw_foreground(cv, darker(bgc, 1.0), "rock", 1560, t)
     def pop(t0, dur=0.4):
         return back((t - t0) / dur) if t > t0 else 0.001
-    put(cv, label("Mau tahu kisah\nTokoh Alkitab lainnya?", 66, fg=CHAR, bg=PARCH), CX, 340, -2, pop(cues["question"], 0.5))
+    put(cv, label("Mau tahu kisah\nTokoh Alkitab lainnya?", 66, fg=CHAR, bg=PARCH), CX, 420, -2, pop(cues["question"], 0.5))
     for i, (kind, text, x) in enumerate([("follow", "FOLLOW", 200), ("share", "SHARE", 510), ("komen", "KOMEN", 820)]):
         t0 = cues[kind]
         bounce = math.sin((t - t0) * 4) * 8 if t > t0 + 0.5 else 0
-        putj(cv, btn(kind, text), x, 700 + bounce, ang=(-3, 2, -2)[i], sc=pop(t0, 0.45), i=80 + i, fi=fi, pa=1, ra=0.4)
-    put(cv, label("Jangan lupa untuk\nFollow, Share, dan Komen\nkonten ini!", 54, fg=PARCH, bg=EARTH), CX, 1010, 1.5, pop(cues["sentence"], 0.5))
+        putj(cv, btn(kind, text), x, 820 + bounce, ang=(-3, 2, -2)[i], sc=pop(t0, 0.45), i=80 + i, fi=fi, pa=1, ra=0.4)
+    put(cv, label("Jangan lupa untuk\nFollow, Share, dan Komen\nkonten ini!", 54, fg=PARCH, bg=EARTH), CX, 1190, 1.5, pop(cues["sentence"], 0.5))
     return cv
 
 
@@ -714,12 +845,35 @@ def scene_frame(spec, items, k, t, fi):
         return draw_hook(spec, tl, fi)
     if kind == "outro":
         return draw_outro(spec, tl, fi)
-    return draw_scene(spec, data, tl, fi)
+    return draw_scene(spec, data, tl, fi, shift=spec["meta"].get("ground_shift", 0))
+
+
+def chunk_spoken(spoken, maxc=44):
+    """Pecah frasa panjang menjadi potongan seimbang (maks sekitar 54 huruf) dengan waktu sebanding panjang."""
+    out = []
+    for a, b, text in spoken:
+        parts = [text]
+        while max(len(p) for p in parts) > maxc:
+            j = max(range(len(parts)), key=lambda k: len(parts[k]))
+            words = parts[j].split(" ")
+            if len(words) < 2:
+                break
+            half = len(parts[j]) / 2; acc = 0; cut = 1
+            for k, w in enumerate(words[:-1], 1):
+                acc += len(w) + 1
+                if acc >= half:
+                    cut = k; break
+            parts[j:j + 1] = [" ".join(words[:cut]), " ".join(words[cut:])]
+        tot = sum(len(p) for p in parts); cur = a
+        for p in parts:
+            d = (b - a) * len(p) / tot
+            out.append([cur, cur + d, p]); cur += d
+    return out
 
 
 def draw_sub(cv, t, spec):
     m = spec["meta"]
-    for a, b, text in spec.get("spoken", []):
+    for a, b, text in chunk_spoken(spec.get("spoken", [])):
         if a < m["hook_end"] - 0.3 or a >= m["outro_start"] - 0.2:
             continue
         if a <= t < b + 0.12:
@@ -741,7 +895,7 @@ def draw_sub(cv, t, spec):
             od.rounded_rectangle((0, 0, bw, bh), 24, fill=(22, 18, 16, 205))
             for i, l in enumerate(lines):
                 od.text((bw / 2, 18 + lh * (i + 0.5)), l, font=f, fill=(250, 244, 226, 255), anchor="mm")
-            cv.paste(ov, (int(CX - bw / 2), int(1315 - bh / 2)), ov)
+            cv.paste(ov, (int(CX - bw / 2), int(SUB_Y - bh / 2)), ov)
             return
 
 
@@ -773,6 +927,8 @@ def render_frame(fi):
 
 def _init(spec_path):
     spec = json.load(open(spec_path, encoding="utf-8"))
+    resolve_spoken(spec)
+    prepare(spec)
     _SPEC["spec"] = spec; _SPEC["items"] = timeline(spec)
 
 
@@ -868,23 +1024,43 @@ def sfx_sound(kind, dur=None, seed=0):
 def make_audio(spec, path):
     m = spec["meta"]; T = m["total"]; au = spec.get("audio", {})
     n = int(T * SR); tt = np.arange(n) / SR; mix = np.zeros(n)
-    inten = au.get("intensity") or [[0, 0.3], [T, 0.3]]
+    sp = spec.get("spoken", [])
+    scs = spec["scenes"]
+    auto_int, auto_drums, auto_oud, auto_sfx = [], [], [], []
+    for i, sc in enumerate(scs):
+        end = sc.get("end", scs[i + 1]["start"] if i + 1 < len(scs) else m["outro_start"])
+        if "intensity" in sc:
+            auto_int += [[sc["start"], sc["intensity"]], [max(sc["start"], end - 0.05), sc["intensity"]]]
+        if "drums" in sc:
+            auto_drums.append({"from": sc["start"], "to": end, "step": sc["drums"], "amp": sc.get("drums_amp", 0.65)})
+        if "oud" in sc:
+            o = sc["oud"]; auto_oud.append({"t": sc["start"] + o.get("offset", 0.2), "notes": o["notes"], "step": o.get("step", 0.6), "amp": o.get("amp", 0.5)})
+        for e in sc.get("sfx", []):
+            tt_ = (find_time(sp, e["at"], sc["start"] - 0.05) + e.get("dt", 0.0)) if "at" in e else sc["start"] + e["t"]
+            auto_sfx.append({"t": tt_, "type": e["type"], "amp": e.get("amp", 1.0), "dur": e.get("dur")})
+    if auto_int:
+        auto_int = [[0, 0.2], [max(0.1, m["hook_end"] - 0.2), 0.7], [m["hook_end"], 0.35]] + auto_int + [[m["outro_start"], 0.1], [T, 0.05]]
+        auto_int.sort(key=lambda x: x[0])
+    inten = au.get("intensity") or auto_int or [[0, 0.3], [T, 0.3]]
     env = np.interp(tt, [a for a, b in inten], [b for a, b in inten])
     drone = (np.sin(2 * np.pi * 55 * tt) + 0.6 * np.sin(2 * np.pi * 82.4 * tt + 1.3 * np.sin(tt * 0.3)) + 0.35 * np.sin(2 * np.pi * 110.5 * tt)) * (0.8 + 0.2 * np.sin(2 * np.pi * 0.25 * tt))
     mix += drone * env * 0.28
     pad = au.get("pad")
+    if not pad and scs:
+        last = scs[-1]["start"]
+        pad = [[0, 0], [last, 0], [last + 2.0, 0.35], [m["outro_start"], 0.45], [T - 1.5, 0.3], [T, 0]]
     if pad:
         penv = np.interp(tt, [a for a, b in pad], [b for a, b in pad])
         p = sum(np.sin(2 * np.pi * f * tt + i) for i, f in enumerate([146.8, 185.0, 220.0, 293.7])) * (0.85 + 0.15 * np.sin(2 * np.pi * 0.4 * tt))
         mix += p * penv * 0.1
-    for o in au.get("oud", []):
+    for o in (au.get("oud", []) + auto_oud):
         for i, nm in enumerate(o["notes"]):
             add(mix, o["t"] + i * o.get("step", 0.6), ks(note_hz(nm), 1.6, 0.997, i + int(o["t"])), o.get("amp", 0.5))
-    for d in au.get("drums", []):
+    for d in (au.get("drums", []) + auto_drums):
         t0 = d["from"]; k = 0
         while t0 < d["to"]:
             add(mix, t0, thump(115, 52, 0.4, 0.35, k), d.get("amp", 0.6)); t0 += d.get("step", 0.75); k += 1
-    for i, e in enumerate(au.get("sfx", [])):
+    for i, e in enumerate(au.get("sfx", []) + auto_sfx):
         add(mix, e["t"], sfx_sound(e["type"], e.get("dur"), i), e.get("amp", 1.0))
     if au.get("auto_ticks", True):
         add(mix, 0.02, sfx_sound("boom"), 1.2)
@@ -911,6 +1087,16 @@ def norm_words(text):
     import re
     return [w for w in re.findall(r"[a-zA-Z0-9]+", text.lower()) if len(w) > 3 and w not in STOP]
 
+def label_box(L):
+    spr = label_sprite(L)
+    x, y, clamped = label_pos(L, spr)
+    return (x - spr.bw / 2, y - spr.bh / 2, x + spr.bw / 2, y + spr.bh / 2), (x, y), clamped
+
+
+def rects_overlap(a, b, margin=12):
+    return not (a[2] + margin <= b[0] or b[2] + margin <= a[0] or a[3] + margin <= b[1] or b[3] + margin <= a[1])
+
+
 def lint(spec):
     problems = []; m = spec["meta"]; items = timeline(spec)
     prev_end = 0.0
@@ -919,6 +1105,8 @@ def lint(spec):
             problems.append("CELAH/TUMPANG TINDIH: %s mulai %.2f padahal sebelumnya berakhir %.2f" % (kind, a, prev_end))
         if b - a < 1.5 and kind == "scene":
             problems.append("Adegan terlalu pendek (%.2f dtk) mulai %.2f" % (b - a, a))
+        if b - a > 10.5 and kind == "scene":
+            problems.append("ADEGAN TERLALU LAMA (%.1f dtk) mulai %.2f: pecah menjadi dua adegan atau tambah gerak" % (b - a, a))
         prev_end = b
     spoken = spec.get("spoken", [])
     if spoken and spoken[-1][1] > m["total"] - 0.3:
@@ -928,38 +1116,58 @@ def lint(spec):
     for kind, a, b, d in items:
         if kind == "outro":
             continue
-        layers = spec["hook"].get("layers", []) if kind == "hook" else d.get("layers", [])
+        blk = spec["hook"] if kind == "hook" else d
+        layers = blk.get("layers", [])
+        labs = []
         for L in layers:
             if L["type"] != "label":
                 continue
-            spr = label_sprite(L)
-            x, y, clamped = label_pos(L, spr)
+            box, (x, y), clamped = label_box(L)
+            name = L["text"].replace("\n", " ")
             if clamped:
-                problems.append("DI LUAR ZONA AMAN (dijepit otomatis): label \"%s\" (%.2f, %.2f) -> (%.0f, %.0f)" % (L["text"].replace("\n", " "), L["x"], L["y"], x, y))
-            if L.get("fixed"):
-                continue
-            g = a + L.get("t", 0.0)
-            near = " ".join(txt for s0, s1, txt in spoken if s1 >= g - 1.0 and s0 <= g + 4.0)
-            words = norm_words(L["text"])
-            if words:
-                have = set(norm_words(near))
-                miss = [w for w in words if not any(w in h or h in w for h in have)]
-                if len(miss) / len(words) > 0.3:
-                    problems.append("TEKS != SUARA: label \"%s\" pada %.2f dtk; kata tidak ditemukan di ucapan sekitar: %s" % (L["text"].replace("\n", " "), g, ", ".join(miss)))
+                problems.append("DI LUAR ZONA AMAN (dijepit otomatis): label \"%s\" (%.0f, %.0f) -> (%.0f, %.0f)" % (name, L["x"], L["y"], x, y))
+            nwords = len(L["text"].split())
+            if not L.get("fixed") and (nwords > 7 or L["text"].count("\n") > 2):
+                problems.append("LABEL TERLALU PANJANG (%d kata): \"%s\". Pendekkan jadi maksimal 6-7 kata dan 2 baris" % (nwords, name))
+            g0 = a + L.get("t", 0.0)
+            un = L.get("until", L.get("_until"))
+            g1 = a + un if un is not None else b
+            labs.append((L, box, g0, g1, name))
+            if not L.get("fixed"):
+                near = " ".join(txt for s0, s1, txt in spoken if s1 >= g0 - 1.0 and s0 <= g0 + 4.0)
+                words = norm_words(L["text"])
+                if words:
+                    have = set(norm_words(near))
+                    miss = [w for w in words if not any(w in h or h in w for h in have)]
+                    if len(miss) / len(words) > 0.3:
+                        problems.append("TEKS != SUARA: label \"%s\" pada %.2f dtk; kata tidak ditemukan di ucapan sekitar: %s" % (name, g0, ", ".join(miss)))
+            if kind == "scene" and box[3] > SUB_Y - 100 and not L.get("fixed"):
+                problems.append("LABEL MENABRAK AREA SUBTITLE: \"%s\" (bawah y=%.0f). Pindahkan ke atas (y < %d)" % (name, box[3], SUB_Y - 100))
+        for i in range(len(labs)):
+            for j in range(i + 1, len(labs)):
+                A, B = labs[i], labs[j]
+                if A[2] < B[3] and B[2] < A[3]:  # terlihat bersamaan
+                    if rects_overlap(A[1], B[1]):
+                        problems.append("TEKS BERTUMPUK pada %.2f dtk: \"%s\" menimpa \"%s\"" % (max(A[2], B[2]), A[4], B[4]))
+                    elif not A[0].get("fixed") and not B[0].get("fixed") and not blk.get("stack"):
+                        problems.append("TERLALU PENUH pada %.2f dtk: \"%s\" dan \"%s\" tampil bersamaan (pakai satu teks pada satu waktu)" % (max(A[2], B[2]), A[4], B[4]))
     return problems
 
 
 # ------------------------------------------------------------------ thumbnail & CLI
 def thumbnail(spec):
     th = spec["thumbnail"]
-    return draw_scene(spec, {"bg": th.get("bg", (140, 44, 36)), "layers": th["layers"]}, 99.0, 3)
+    for L in th["layers"]:
+        if L["type"] == "label":
+            L.setdefault("zone", "thumb")
+    return draw_scene(spec, {"bg": th.get("bg", (140, 44, 36)), "layers": th["layers"], "foreground": th.get("foreground")}, 99.0, 3)
 
 
 def write_srt(spec, path):
     def ts(x):
         return "%02d:%02d:%02d,%03d" % (int(x // 3600), int(x % 3600 // 60), int(x % 60), int(round((x % 1) * 1000)) % 1000)
     m = spec["meta"]
-    rows = [(a, b, t) for a, b, t in spec.get("spoken", []) if m["hook_end"] - 0.3 <= a < m["outro_start"] - 0.2]
+    rows = [(a, b, t) for a, b, t in chunk_spoken(spec.get("spoken", [])) if m["hook_end"] - 0.3 <= a < m["outro_start"] - 0.2]
     with open(path, "w", encoding="utf-8") as f:
         for i, (a, b, text) in enumerate(rows, 1):
             f.write("%d\n%s --> %s\n%s\n\n" % (i, ts(a), ts(b + 0.12), text))
