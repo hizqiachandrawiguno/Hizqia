@@ -1,0 +1,4082 @@
+{
+ "meta": {
+  "tokoh": "Gideon",
+  "video_no": 22,
+  "tag": "TOKOH ALKITAB  ·  VIDEO 22",
+  "hook_end": 8.6,
+  "outro_start": 85.51,
+  "total": 92.78
+ },
+ "spoken": [
+  [
+   0.3,
+   3.52,
+   "Tiga ratus orang melawan pasukan yang tak terhitung banyaknya."
+  ],
+  [
+   3.97,
+   5.33,
+   "Senjata mereka hanya obor,"
+  ],
+  [
+   5.63,
+   6.13,
+   "kendi,"
+  ],
+  [
+   6.43,
+   7.21,
+   "dan sangkakala."
+  ],
+  [
+   7.66,
+   8.44,
+   "Bagaimana bisa?"
+  ],
+  [
+   8.89,
+   11.8,
+   "Tujuh tahun lamanya bangsa Israel ditindas orang Midian."
+  ],
+  [
+   12.25,
+   14.38,
+   "Mereka bersembunyi di gua dan pegunungan,"
+  ],
+  [
+   14.68,
+   16.86,
+   "karena hasil panen mereka selalu dirampas."
+  ],
+  [
+   17.31,
+   19.34,
+   "Pasukan Midian datang seperti belalang,"
+  ],
+  [
+   19.64,
+   20.89,
+   "tak terhitung banyaknya."
+  ],
+  [
+   21.34,
+   23.0,
+   "Israel pun berseru kepada TUHAN."
+  ],
+  [
+   23.45,
+   24.86,
+   "Di tempat pemerasan anggur,"
+  ],
+  [
+   25.16,
+   28.07,
+   "seorang pemuda bernama Gideon mengirik gandum diam-diam,"
+  ],
+  [
+   28.37,
+   29.51,
+   "supaya tidak terlihat."
+  ],
+  [
+   29.96,
+   31.32,
+   "Malaikat TUHAN menyapanya,"
+  ],
+  [
+   31.62,
+   32.86,
+   "\"TUHAN menyertai engkau,"
+  ],
+  [
+   33.16,
+   34.83,
+   "hai pahlawan yang gagah berani!\""
+  ],
+  [
+   35.28,
+   36.32,
+   "Gideon merasa kecil."
+  ],
+  [
+   36.77,
+   37.86,
+   "Sukunya paling lemah,"
+  ],
+  [
+   38.16,
+   39.98,
+   "dan ia yang termuda di keluarganya."
+  ],
+  [
+   40.43,
+   41.52,
+   "Tetapi TUHAN berkata,"
+  ],
+  [
+   41.82,
+   43.28,
+   "\"Aku akan menyertai engkau.\""
+  ],
+  [
+   43.73,
+   46.12,
+   "Gideon mengumpulkan tiga puluh dua ribu orang."
+  ],
+  [
+   46.57,
+   47.66,
+   "Tetapi TUHAN berkata,"
+  ],
+  [
+   47.96,
+   48.74,
+   "terlalu banyak."
+  ],
+  [
+   49.19,
+   51.22,
+   "Dua puluh dua ribu pulang karena takut."
+  ],
+  [
+   51.67,
+   52.76,
+   "Tersisa sepuluh ribu,"
+  ],
+  [
+   53.06,
+   54.57,
+   "dan itu masih terlalu banyak."
+  ],
+  [
+   55.02,
+   55.52,
+   "Akhirnya,"
+  ],
+  [
+   55.82,
+   57.69,
+   "hanya tiga ratus orang yang dipilih."
+  ],
+  [
+   58.14,
+   60.48,
+   "Malam itu mereka mengepung perkemahan Midian."
+  ],
+  [
+   60.93,
+   62.6,
+   "Setiap orang membawa sangkakala,"
+  ],
+  [
+   62.9,
+   64.4,
+   "dan kendi kosong berisi obor."
+  ],
+  [
+   64.85,
+   66.1,
+   "Mereka memecahkan kendi,"
+  ],
+  [
+   66.4,
+   67.34,
+   "meniup sangkakala,"
+  ],
+  [
+   67.64,
+   68.26,
+   "dan berseru,"
+  ],
+  [
+   68.56,
+   70.43,
+   "\"Pedang demi TUHAN dan demi Gideon!\""
+  ],
+  [
+   70.88,
+   71.98,
+   "Pasukan Midian kacau."
+  ],
+  [
+   72.43,
+   74.4,
+   "TUHAN membuat mereka saling menyerang,"
+  ],
+  [
+   74.7,
+   75.22,
+   "lalu lari."
+  ],
+  [
+   75.67,
+   77.39,
+   "Kadang kita merasa terlalu kecil,"
+  ],
+  [
+   77.69,
+   78.42,
+   "terlalu lemah,"
+  ],
+  [
+   78.72,
+   79.55,
+   "terlalu sedikit."
+  ],
+  [
+   80.0,
+   81.77,
+   "Tapi kemenangan bukan soal jumlah."
+  ],
+  [
+   82.22,
+   83.57,
+   "Kemenangan itu dari TUHAN."
+  ],
+  [
+   84.02,
+   85.16,
+   "Kamu hanya perlu taat."
+  ],
+  [
+   85.61,
+   87.54,
+   "Mau tahu kisah tokoh Alkitab lainnya?"
+  ],
+  [
+   87.99,
+   89.29,
+   "Jangan lupa untuk follow,"
+  ],
+  [
+   89.59,
+   90.09,
+   "share,"
+  ],
+  [
+   90.39,
+   91.48,
+   "dan komen konten ini!"
+  ]
+ ],
+ "hook": {
+  "bg": [
+   36,
+   34,
+   56
+  ],
+  "layers": [
+   {
+    "type": "disc",
+    "center": [
+     540,
+     700
+    ],
+    "r": 300,
+    "color": [
+     240,
+     230,
+     190
+    ]
+   },
+   {
+    "type": "actor",
+    "sprite": "person",
+    "x": 540,
+    "y": 1000,
+    "scale": 1.5,
+    "opts": {
+     "robe": [
+      160,
+      110,
+      60
+     ],
+     "belt": [
+      217,
+      164,
+      65
+     ],
+     "hair": [
+      70,
+      44,
+      28
+     ]
+    },
+    "anchor": "bottom"
+   },
+   {
+    "type": "actor",
+    "sprite": "obor",
+    "x": 250,
+    "y": 1150,
+    "scale": 1.3,
+    "anchor": "bottom"
+   },
+   {
+    "type": "actor",
+    "sprite": "kendi",
+    "x": 820,
+    "y": 1150,
+    "scale": 1.0,
+    "anchor": "bottom"
+   },
+   {
+    "type": "label",
+    "text": "TIGA RATUS ORANG",
+    "x": 510,
+    "y": 480,
+    "t": 0.1,
+    "style": "dark",
+    "size": 90,
+    "angle": -2,
+    "wiggle": 0.5
+   },
+   {
+    "type": "label",
+    "text": "MELAWAN PASUKAN\nTAK TERHITUNG",
+    "x": 510,
+    "y": 700,
+    "t": 1.6,
+    "style": "brick",
+    "size": 72,
+    "angle": 2,
+    "wiggle": 0.5
+   },
+   {
+    "type": "label",
+    "text": "HANYA OBOR, KENDI,\nDAN SANGKAKALA?!",
+    "x": 510,
+    "y": 940,
+    "t": 3.9,
+    "style": "gold",
+    "size": 64,
+    "angle": -1.5,
+    "wiggle": 0.6
+   },
+   {
+    "type": "label",
+    "text": "BAGAIMANA BISA?",
+    "x": 510,
+    "y": 1180,
+    "t": 7.7,
+    "style": "paper",
+    "size": 70,
+    "angle": 1.5
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "start": 8.6,
+   "bg": [
+    140,
+    92,
+    60
+   ],
+   "layers": [
+    {
+     "type": "sun",
+     "center": [
+      200,
+      330
+     ],
+     "r": 90,
+     "color": [
+      236,
+      176,
+      96
+     ],
+     "ray_color": [
+      220,
+      150,
+      90
+     ],
+     "n": 14
+    },
+    {
+     "type": "hill",
+     "color": [
+      120,
+      84,
+      60
+     ],
+     "base": 960,
+     "amp": 60,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "gua",
+     "x": 250,
+     "y": 990,
+     "scale": 1.2,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "gua",
+     "x": 780,
+     "y": 1000,
+     "scale": 1.0,
+     "anchor": "bottom"
+    },
+    {
+     "type": "hill",
+     "color": [
+      80,
+      56,
+      40
+     ],
+     "base": 1120,
+     "amp": 45,
+     "freq": 130,
+     "phase": 2.0,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 330,
+     "y": 1170,
+     "scale": 0.35,
+     "opts": {
+      "robe": [
+       120,
+       100,
+       80
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 390,
+     "y": 1170,
+     "scale": 0.35,
+     "opts": {
+      "robe": [
+       120,
+       100,
+       80
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 450,
+     "y": 1170,
+     "scale": 0.35,
+     "opts": {
+      "robe": [
+       120,
+       100,
+       80
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "label",
+     "text": "TUJUH TAHUN",
+     "x": 510,
+     "y": 420,
+     "t": 0.3,
+     "style": "brick",
+     "size": 110,
+     "angle": -2
+    },
+    {
+     "type": "label",
+     "text": "Gua dan pegunungan",
+     "x": 510,
+     "y": 620,
+     "t": 3.7,
+     "style": "paper",
+     "size": 58,
+     "angle": 2
+    }
+   ]
+  },
+  {
+   "start": 17.31,
+   "bg": [
+    170,
+    110,
+    70
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      130,
+      84,
+      56
+     ],
+     "base": 980,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.5,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 90,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        -210,
+        90
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 175,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        -125,
+        175
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 260,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        -40,
+        260
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 345,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        45,
+        345
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 430,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        130,
+        430
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 515,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        215,
+        515
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 600,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        300,
+        600
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 685,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        385,
+        685
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 770,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        470,
+        770
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 855,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        555,
+        855
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 940,
+     "y": 1010,
+     "scale": 0.5,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0,
+        1.2
+       ],
+       "x": [
+        640,
+        940
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "hill",
+     "color": [
+      90,
+      60,
+      44
+     ],
+     "base": 1100,
+     "amp": 40,
+     "freq": 140,
+     "phase": 1.8,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 60,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        -240,
+        60
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 155,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        -145,
+        155
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 250,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        -50,
+        250
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 345,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        45,
+        345
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 440,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        140,
+        440
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 535,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        235,
+        535
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 630,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        330,
+        630
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 725,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        425,
+        725
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 820,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        520,
+        820
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 915,
+     "y": 1180,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.2,
+        1.5
+       ],
+       "x": [
+        615,
+        915
+       ],
+       "ease": "out"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 3
+    },
+    {
+     "type": "label",
+     "text": "SEPERTI BELALANG",
+     "x": 510,
+     "y": 360,
+     "t": 0.8,
+     "style": "dark",
+     "size": 84,
+     "angle": -2
+    },
+    {
+     "type": "label",
+     "text": "TAK TERHITUNG",
+     "x": 510,
+     "y": 520,
+     "t": 2.4,
+     "style": "brick",
+     "size": 96,
+     "angle": 2
+    }
+   ]
+  },
+  {
+   "start": 23.45,
+   "bg": [
+    236,
+    214,
+    160
+   ],
+   "layers": [
+    {
+     "type": "sun",
+     "center": [
+      780,
+      360
+     ],
+     "r": 120,
+     "show": [
+      6.4,
+      99
+     ]
+    },
+    {
+     "type": "hill",
+     "color": [
+      170,
+      150,
+      96
+     ],
+     "base": 1020,
+     "amp": 50,
+     "freq": 150,
+     "phase": 0.7,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "pemeras",
+     "x": 420,
+     "y": 1150,
+     "scale": 1.0,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 640,
+     "y": 1150,
+     "scale": 1.3,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ]
+     },
+     "anim": [
+      {
+       "type": "osc",
+       "prop": "y",
+       "amp": -8,
+       "freq": 4,
+       "abs": true
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "label",
+     "text": "GIDEON",
+     "x": 400,
+     "y": 330,
+     "t": 1.8,
+     "style": "gold",
+     "size": 120,
+     "angle": -3
+    },
+    {
+     "type": "label",
+     "text": "Pahlawan yang\ngagah berani!",
+     "x": 510,
+     "y": 520,
+     "t": 9.6,
+     "style": "brick",
+     "size": 76,
+     "angle": 2
+    }
+   ]
+  },
+  {
+   "start": 35.28,
+   "bg": [
+    205,
+    185,
+    150
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      160,
+      140,
+      100
+     ],
+     "base": 1030,
+     "amp": 45,
+     "freq": 150,
+     "phase": 0.3,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      120,
+      100,
+      70
+     ],
+     "base": 1130,
+     "amp": 40,
+     "freq": 130,
+     "phase": 1.5,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 400,
+     "y": 1160,
+     "scale": 0.8,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ]
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "disc",
+     "center": [
+      760,
+      520
+     ],
+     "r": 150,
+     "color": [
+      250,
+      230,
+      160
+     ],
+     "show": [
+      5.0,
+      99
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Paling lemah.",
+     "x": 510,
+     "y": 330,
+     "t": 1.5,
+     "style": "earth",
+     "size": 76,
+     "angle": -2
+    },
+    {
+     "type": "label",
+     "text": "Yang termuda.",
+     "x": 510,
+     "y": 500,
+     "t": 2.9,
+     "style": "paper",
+     "size": 76,
+     "angle": 2
+    },
+    {
+     "type": "label",
+     "text": "Aku akan menyertai engkau.",
+     "x": 510,
+     "y": 330,
+     "t": 6.5,
+     "style": "gold",
+     "size": 54,
+     "angle": -2,
+     "until": 99
+    }
+   ]
+  },
+  {
+   "start": 43.73,
+   "bg": [
+    190,
+    160,
+    120
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      150,
+      124,
+      90
+     ],
+     "base": 960,
+     "amp": 50,
+     "freq": 150,
+     "phase": 0.9,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      110,
+      90,
+      64
+     ],
+     "base": 1110,
+     "amp": 40,
+     "freq": 130,
+     "phase": 2.2,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 90,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 175,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 260,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 345,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 430,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 515,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 600,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 685,
+     "y": 1060,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 90,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        90,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 175,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        175,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 260,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        260,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 345,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        345,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 430,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        430,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 515,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        515,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 600,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        600,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 685,
+     "y": 1120,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        685,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 90,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        90,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 175,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        175,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 260,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        260,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 345,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        345,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 430,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        430,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 515,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        515,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 600,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        600,
+        1300
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 685,
+     "y": 1180,
+     "scale": 0.42,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        5.5,
+        7.0
+       ],
+       "x": [
+        685,
+        -200
+       ],
+       "ease": "in"
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 2
+    },
+    {
+     "type": "label",
+     "text": "32.000",
+     "x": 510,
+     "y": 330,
+     "t": 0.8,
+     "style": "gold",
+     "size": 120,
+     "angle": -2
+    },
+    {
+     "type": "label",
+     "text": "22.000 pulang",
+     "x": 510,
+     "y": 330,
+     "t": 5.6,
+     "style": "brick",
+     "size": 84,
+     "angle": 2,
+     "until": 7.9
+    },
+    {
+     "type": "label",
+     "text": "10.000",
+     "x": 510,
+     "y": 330,
+     "t": 8.0,
+     "style": "paper",
+     "size": 120,
+     "angle": -2
+    }
+   ]
+  },
+  {
+   "start": 55.02,
+   "bg": [
+    190,
+    160,
+    120
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      150,
+      124,
+      90
+     ],
+     "base": 960,
+     "amp": 50,
+     "freq": 150,
+     "phase": 0.9,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      110,
+      90,
+      64
+     ],
+     "base": 1110,
+     "amp": 40,
+     "freq": 130,
+     "phase": 2.2,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 330,
+     "y": 1180,
+     "scale": 0.7,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 510,
+     "y": 1180,
+     "scale": 0.7,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 690,
+     "y": 1180,
+     "scale": 0.7,
+     "opts": {
+      "col": [
+       66,
+       84,
+       118
+      ],
+      "helm": [
+       150,
+       150,
+       160
+      ]
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "starburst",
+     "t": 0.8,
+     "x": 510,
+     "y": 900,
+     "r": 100,
+     "dur": 0.6
+    },
+    {
+     "type": "label",
+     "text": "300 ORANG",
+     "x": 510,
+     "y": 360,
+     "t": 0.9,
+     "style": "brick",
+     "size": 120,
+     "angle": -2
+    }
+   ]
+  },
+  {
+   "start": 58.14,
+   "bg": [
+    36,
+    34,
+    56
+   ],
+   "layers": [
+    {
+     "type": "disc",
+     "center": [
+      800,
+      330
+     ],
+     "r": 90,
+     "color": [
+      240,
+      230,
+      190
+     ]
+    },
+    {
+     "type": "hill",
+     "color": [
+      30,
+      28,
+      44
+     ],
+     "base": 1000,
+     "amp": 40,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "kemah",
+     "x": 150,
+     "y": 990,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kemah",
+     "x": 320,
+     "y": 990,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kemah",
+     "x": 490,
+     "y": 990,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kemah",
+     "x": 660,
+     "y": 990,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kemah",
+     "x": 830,
+     "y": 990,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "hill",
+     "color": [
+      20,
+      20,
+      34
+     ],
+     "base": 1130,
+     "amp": 40,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 160,
+     "y": 1180,
+     "scale": 0.5,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ],
+      "staff": false
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 270,
+     "y": 1180,
+     "scale": 0.5,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ],
+      "staff": false
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 380,
+     "y": 1180,
+     "scale": 0.5,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ],
+      "staff": false
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 490,
+     "y": 1180,
+     "scale": 0.5,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ],
+      "staff": false
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 600,
+     "y": 1180,
+     "scale": 0.5,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ],
+      "staff": false
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kendi",
+     "x": 260,
+     "y": 1010,
+     "scale": 1.0,
+     "anchor": "bottom",
+     "show": [
+      4.7,
+      99
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "kendi",
+     "x": 760,
+     "y": 1010,
+     "scale": 1.0,
+     "anchor": "bottom",
+     "show": [
+      4.7,
+      99
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Sangkakala.",
+     "x": 510,
+     "y": 360,
+     "t": 2.9,
+     "style": "paper",
+     "size": 90,
+     "angle": -2
+    },
+    {
+     "type": "label",
+     "text": "Kendi. Obor.",
+     "x": 510,
+     "y": 540,
+     "t": 4.8,
+     "style": "gold",
+     "size": 90,
+     "angle": 2
+    }
+   ]
+  },
+  {
+   "start": 64.85,
+   "bg": [
+    36,
+    34,
+    56
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      30,
+      28,
+      44
+     ],
+     "base": 1000,
+     "amp": 40,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      20,
+      20,
+      34
+     ],
+     "base": 1130,
+     "amp": 40,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "kendi",
+     "x": 200,
+     "y": 1010,
+     "scale": 1.1,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.1
+       ],
+       "alpha": [
+        1,
+        0
+       ],
+       "ease": "lin"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kendi",
+     "x": 370,
+     "y": 1010,
+     "scale": 1.1,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.1
+       ],
+       "alpha": [
+        1,
+        0
+       ],
+       "ease": "lin"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kendi",
+     "x": 540,
+     "y": 1010,
+     "scale": 1.1,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.1
+       ],
+       "alpha": [
+        1,
+        0
+       ],
+       "ease": "lin"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kendi",
+     "x": 710,
+     "y": 1010,
+     "scale": 1.1,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.1
+       ],
+       "alpha": [
+        1,
+        0
+       ],
+       "ease": "lin"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "obor",
+     "x": 200,
+     "y": 1040,
+     "scale": 1.2,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.3
+       ],
+       "scale": [
+        0.001,
+        1.2
+       ],
+       "ease": "back"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "obor",
+     "x": 370,
+     "y": 1040,
+     "scale": 1.2,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.3
+       ],
+       "scale": [
+        0.001,
+        1.2
+       ],
+       "ease": "back"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "obor",
+     "x": 540,
+     "y": 1040,
+     "scale": 1.2,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.3
+       ],
+       "scale": [
+        0.001,
+        1.2
+       ],
+       "ease": "back"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "obor",
+     "x": 710,
+     "y": 1040,
+     "scale": 1.2,
+     "anim": [
+      {
+       "t": [
+        1.0,
+        1.3
+       ],
+       "scale": [
+        0.001,
+        1.2
+       ],
+       "ease": "back"
+      }
+     ],
+     "anchor": "bottom"
+    },
+    {
+     "type": "flash",
+     "t": 1.0,
+     "dur": 0.25,
+     "alpha": 0.9,
+     "color": [
+      255,
+      200,
+      120
+     ]
+    },
+    {
+     "type": "shake",
+     "t": 1.0,
+     "dur": 0.5,
+     "amp": 12
+    },
+    {
+     "type": "starburst",
+     "t": 1.0,
+     "x": 540,
+     "y": 800,
+     "r": 140,
+     "dur": 0.5
+    },
+    {
+     "type": "label",
+     "text": "PEDANG DEMI TUHAN\ndan demi Gideon!",
+     "x": 510,
+     "y": 360,
+     "t": 3.7,
+     "style": "brick",
+     "size": 66,
+     "angle": -2
+    }
+   ]
+  },
+  {
+   "start": 70.88,
+   "bg": [
+    60,
+    40,
+    50
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      50,
+      34,
+      44
+     ],
+     "base": 1000,
+     "amp": 40,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      36,
+      26,
+      34
+     ],
+     "base": 1130,
+     "amp": 40,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 100,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        100,
+        -160
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 195,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        195,
+        455
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 290,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        290,
+        30
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 385,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        385,
+        645
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 480,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        480,
+        220
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 575,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        575,
+        835
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 670,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        670,
+        410
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 765,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        765,
+        1025
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 860,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        860,
+        600
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "actor",
+     "sprite": "soldier",
+     "x": 955,
+     "y": 1170,
+     "scale": 0.65,
+     "opts": {
+      "col": [
+       70,
+       50,
+       60
+      ],
+      "helm": [
+       50,
+       40,
+       48
+      ]
+     },
+     "anim": [
+      {
+       "t": [
+        0.6,
+        4.3
+       ],
+       "x": [
+        955,
+        1215
+       ],
+       "ease": "lin"
+      },
+      {
+       "type": "osc",
+       "prop": "rot",
+       "amp": 9,
+       "freq": 11,
+       "t": [
+        0.6,
+        4.3
+       ]
+      }
+     ],
+     "anchor": "bottom",
+     "jitter": 4
+    },
+    {
+     "type": "confetti",
+     "t": 0.4,
+     "origin": [
+      540,
+      900
+     ],
+     "seed": 5
+    },
+    {
+     "type": "label",
+     "text": "KACAU!",
+     "x": 510,
+     "y": 360,
+     "t": 0.1,
+     "style": "brick",
+     "size": 130,
+     "angle": -3
+    },
+    {
+     "type": "label",
+     "text": "Lalu lari.",
+     "x": 510,
+     "y": 540,
+     "t": 3.8,
+     "style": "dark",
+     "size": 84,
+     "angle": 2
+    }
+   ]
+  },
+  {
+   "start": 75.67,
+   "bg": [
+    248,
+    230,
+    176
+   ],
+   "layers": [
+    {
+     "type": "sun",
+     "center": [
+      510,
+      540
+     ],
+     "r": 300,
+     "speed": 0.15
+    },
+    {
+     "type": "hill",
+     "color": [
+      170,
+      166,
+      92
+     ],
+     "base": 1000,
+     "amp": 60,
+     "freq": 160,
+     "phase": 0.3,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      112,
+      126,
+      60
+     ],
+     "base": 1130,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.6,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 500,
+     "y": 1160,
+     "scale": 1.15,
+     "opts": {
+      "robe": [
+       160,
+       110,
+       60
+      ],
+      "belt": [
+       217,
+       164,
+       65
+      ],
+      "hair": [
+       70,
+       44,
+       28
+      ]
+     },
+     "anchor": "bottom"
+    },
+    {
+     "type": "label",
+     "text": "Bukan soal jumlah.",
+     "x": 510,
+     "y": 330,
+     "t": 4.4,
+     "style": "paper",
+     "size": 76,
+     "angle": -2
+    },
+    {
+     "type": "label",
+     "text": "Dari TUHAN.",
+     "x": 510,
+     "y": 330,
+     "t": 6.6,
+     "style": "earth",
+     "size": 96,
+     "angle": 1.5
+    },
+    {
+     "type": "label",
+     "text": "Taat.",
+     "x": 510,
+     "y": 330,
+     "t": 8.4,
+     "style": "brick",
+     "size": 130,
+     "angle": -2
+    }
+   ]
+  }
+ ],
+ "sprites": {
+  "kendi": {
+   "w": 200,
+   "h": 260,
+   "shapes": [
+    {
+     "ell": [
+      30,
+      60,
+      170,
+      244
+     ],
+     "fill": [
+      176,
+      120,
+      76
+     ]
+    },
+    {
+     "poly": [
+      [
+       70,
+       66
+      ],
+      [
+       130,
+       66
+      ],
+      [
+       122,
+       22
+      ],
+      [
+       78,
+       22
+      ]
+     ],
+     "fill": [
+      160,
+      108,
+      66
+     ]
+    },
+    {
+     "ell": [
+      62,
+      8,
+      138,
+      36
+     ],
+     "fill": [
+      190,
+      136,
+      88
+     ]
+    },
+    {
+     "poly": [
+      [
+       40,
+       130
+      ],
+      [
+       160,
+       130
+      ],
+      [
+       164,
+       150
+      ],
+      [
+       36,
+       150
+      ]
+     ],
+     "fill": [
+      120,
+      76,
+      44
+     ]
+    }
+   ]
+  },
+  "obor": {
+   "w": 120,
+   "h": 300,
+   "shapes": [
+    {
+     "poly": [
+      [
+       52,
+       120
+      ],
+      [
+       68,
+       120
+      ],
+      [
+       70,
+       292
+      ],
+      [
+       50,
+       292
+      ]
+     ],
+     "fill": [
+      110,
+      76,
+      42
+     ]
+    },
+    {
+     "poly": [
+      [
+       60,
+       8
+      ],
+      [
+       94,
+       70
+      ],
+      [
+       86,
+       124
+      ],
+      [
+       34,
+       124
+      ],
+      [
+       26,
+       70
+      ]
+     ],
+     "fill": [
+      240,
+      150,
+      50
+     ]
+    },
+    {
+     "ell": [
+      46,
+      52,
+      76,
+      112
+     ],
+     "fill": [
+      255,
+      220,
+      120
+     ],
+     "ew": 0
+    }
+   ]
+  },
+  "kemah": {
+   "w": 300,
+   "h": 220,
+   "shapes": [
+    {
+     "poly": [
+      [
+       150,
+       10
+      ],
+      [
+       290,
+       212
+      ],
+      [
+       10,
+       212
+      ]
+     ],
+     "fill": [
+      120,
+      60,
+      50
+     ]
+    },
+    {
+     "poly": [
+      [
+       128,
+       212
+      ],
+      [
+       150,
+       120
+      ],
+      [
+       172,
+       212
+      ]
+     ],
+     "fill": [
+      40,
+      30,
+      30
+     ],
+     "ew": 0
+    }
+   ]
+  },
+  "gua": {
+   "w": 300,
+   "h": 220,
+   "shapes": [
+    {
+     "poly": [
+      [
+       0,
+       220
+      ],
+      [
+       40,
+       100
+      ],
+      [
+       150,
+       20
+      ],
+      [
+       260,
+       100
+      ],
+      [
+       300,
+       220
+      ]
+     ],
+     "fill": [
+      110,
+      84,
+      60
+     ]
+    },
+    {
+     "ell": [
+      100,
+      112,
+      200,
+      222
+     ],
+     "fill": [
+      30,
+      24,
+      22
+     ],
+     "ew": 0
+    }
+   ]
+  },
+  "pemeras": {
+   "w": 360,
+   "h": 220,
+   "shapes": [
+    {
+     "poly": [
+      [
+       10,
+       80
+      ],
+      [
+       350,
+       80
+      ],
+      [
+       322,
+       210
+      ],
+      [
+       38,
+       210
+      ]
+     ],
+     "fill": [
+      150,
+      120,
+      90
+     ]
+    },
+    {
+     "ell": [
+      40,
+      66,
+      320,
+      112
+     ],
+     "fill": [
+      120,
+      30,
+      60
+     ]
+    },
+    {
+     "ell": [
+      80,
+      10,
+      130,
+      50
+     ],
+     "fill": [
+      90,
+      40,
+      100
+     ]
+    },
+    {
+     "ell": [
+      120,
+      0,
+      170,
+      40
+     ],
+     "fill": [
+      90,
+      40,
+      100
+     ]
+    }
+   ]
+  }
+ },
+ "thumbnail": {
+  "bg": [
+   36,
+   34,
+   56
+  ],
+  "layers": [
+   {
+    "type": "rays",
+    "center": [
+     540,
+     1100
+    ],
+    "colors": [
+     [
+      56,
+      50,
+      84
+     ],
+     [
+      36,
+      34,
+      56
+     ]
+    ],
+    "n": 28,
+    "speed": 0.0
+   },
+   {
+    "type": "disc",
+    "center": [
+     540,
+     1100
+    ],
+    "r": 340,
+    "color": [
+     240,
+     230,
+     190
+    ]
+   },
+   {
+    "type": "actor",
+    "sprite": "person",
+    "x": 540,
+    "y": 1270,
+    "scale": 1.0,
+    "opts": {
+     "robe": [
+      160,
+      110,
+      60
+     ],
+     "belt": [
+      217,
+      164,
+      65
+     ],
+     "hair": [
+      70,
+      44,
+      28
+     ]
+    },
+    "anchor": "bottom"
+   },
+   {
+    "type": "actor",
+    "sprite": "obor",
+    "x": 230,
+    "y": 1280,
+    "scale": 1.15,
+    "anchor": "bottom"
+   },
+   {
+    "type": "actor",
+    "sprite": "kendi",
+    "x": 830,
+    "y": 1270,
+    "scale": 0.9,
+    "anchor": "bottom"
+   },
+   {
+    "type": "label",
+    "text": "TOKOH ALKITAB  ·  VIDEO 22",
+    "x": 510,
+    "y": 320,
+    "t": 0,
+    "style": "tag",
+    "size": 40,
+    "angle": -2
+   },
+   {
+    "type": "label",
+    "text": "GIDEON",
+    "x": 510,
+    "y": 520,
+    "t": 0,
+    "style": "gold",
+    "size": 190,
+    "angle": -3
+   },
+   {
+    "type": "label",
+    "text": "300 vs MIDIAN",
+    "x": 510,
+    "y": 760,
+    "t": 0,
+    "style": "dark",
+    "size": 120,
+    "angle": 2
+   },
+   {
+    "type": "label",
+    "text": "HANYA 3 BENDA?!",
+    "x": 510,
+    "y": 1400,
+    "t": 0,
+    "style": "brick",
+    "size": 96,
+    "angle": -2
+   }
+  ]
+ },
+ "audio": {
+  "intensity": [
+   [
+    0,
+    0.2
+   ],
+   [
+    8.4,
+    0.7
+   ],
+   [
+    8.6,
+    0.35
+   ],
+   [
+    20,
+    0.4
+   ],
+   [
+    34,
+    0.25
+   ],
+   [
+    43,
+    0.45
+   ],
+   [
+    55,
+    0.55
+   ],
+   [
+    58,
+    0.3
+   ],
+   [
+    64.8,
+    0.6
+   ],
+   [
+    66.5,
+    0
+   ],
+   [
+    67.9,
+    0.0
+   ],
+   [
+    68.6,
+    0.7
+   ],
+   [
+    70.8,
+    0.35
+   ],
+   [
+    75,
+    0.1
+   ],
+   [
+    85.5,
+    0.1
+   ],
+   [
+    92.78,
+    0.05
+   ]
+  ],
+  "pad": [
+   [
+    0,
+    0
+   ],
+   [
+    74,
+    0
+   ],
+   [
+    76,
+    0.35
+   ],
+   [
+    84,
+    0.5
+   ],
+   [
+    85.51,
+    0.45
+   ],
+   [
+    92.78,
+    0
+   ]
+  ],
+  "oud": [
+   {
+    "t": 23.65,
+    "notes": [
+     "D4",
+     "F#4",
+     "G4",
+     "F#4",
+     "Eb4",
+     "D4"
+    ],
+    "step": 0.6
+   },
+   {
+    "t": 75.67,
+    "notes": [
+     "D4",
+     "F#4",
+     "A4",
+     "D5",
+     "A4",
+     "F#4"
+    ],
+    "step": 0.7
+   }
+  ],
+  "drums": [
+   {
+    "from": 43.73,
+    "to": 64.85,
+    "step": 0.6,
+    "amp": 0.7
+   }
+  ],
+  "sfx": [
+   {
+    "t": 65.85,
+    "type": "crack"
+   },
+   {
+    "t": 65.85,
+    "type": "boom"
+   },
+   {
+    "t": 71.08,
+    "type": "cheer",
+    "dur": 3.0
+   },
+   {
+    "t": 68.55,
+    "type": "hit"
+   }
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: tokoh-tanpa-bacaan
+expected_outcome: |
+  Skill memilih bacaan sendiri (Rut 1-4), tidak bertanya balik, dan menulis asumsi.
