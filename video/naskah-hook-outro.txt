@@ -1,0 +1,9 @@
+OPSIONAL — rekam di ElevenLabs dengan suara yang sama (Finn), simpan sebagai hook.mp3 dan outro.mp3
+di folder video/, lalu jalankan ./add_voiceover.sh lagi. Tanpa file ini, kartu pembuka/penutup tampil
+dengan teks dan efek suara saja.
+
+hook.mp3 (±3 detik, dipasang di kartu pembuka):
+Bocah gembala ini menjatuhkan raksasa tiga meter, hanya dengan satu batu. Bagaimana bisa?
+
+outro.mp3 (±5 detik, dipasang di kartu penutup):
+Mau tau kisah tokoh Alkitab lainnya? Jangan lupa untuk follow, share, dan komen konten ini!
