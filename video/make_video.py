@@ -26,56 +26,55 @@ CHAR = (28, 26, 24)
 EDGE = (246, 239, 222)
 SKIN = (214, 164, 120)
 
-HOOK = 3.6      # kartu pembuka (clickbait)
-OUTRO = 5.6     # kartu penutup (ajakan follow/share/komen)
-VO_OFF = HOOK + 0.3   # suara utama dimulai 0,3 dtk setelah adegan 1
+HOOK = 6.55     # kartu pembuka (kalimat pembuka ada di rekaman yang sama)
+OUTRO = 6.9     # kartu penutup
+VO_OFF = 0.0    # rekaman suara sudah memuat hook + cerita + penutup, mulai dari detik 0
 DY = -260       # seluruh adegan digeser ke atas agar bagian bawah (UI TikTok) kosong
 CX = 510        # pusat teks, sedikit ke kiri agar tidak tertutup tombol TikTok di kanan
-# titik awal tiap adegan pada waktu file MP3 (hasil transkrip, bukan tebakan)
-VO_ANCHORS = [0.0, 5.24, 12.91, 18.59, 26.13, 31.64, 35.73, 44.27, 48.03, 54.84]
-VO_END = 64.16
-_starts = [HOOK] + [VO_OFF + a for a in VO_ANCHORS[1:]]
-_main_end = VO_OFF + VO_END + 1.0
+# titik awal tiap adegan = awal kalimat pada rekaman (hasil transkrip Whisper)
+VO_ANCHORS = [0.0, 12.11, 20.23, 26.14, 33.74, 39.09, 43.18, 51.61, 55.68, 62.62]
+_starts = [HOOK] + list(VO_ANCHORS[1:])
+_main_end = 72.0
 SCENES = [(0.0, HOOK)] + [(_starts[i], _starts[i + 1] if i < 9 else _main_end) for i in range(10)] + [(_main_end, _main_end + OUTRO)]
 TOTAL = _main_end + OUTRO
 TW = {8: 7.0 / (SCENES[8][1] - SCENES[8][0])}  # adegan umban dimampatkan agar pas dengan suara
 
 # (mulai, selesai, teks) dalam waktu file MP3; ditambah VO_OFF saat dipakai.
 SUB_VO = [
-    (0.00, 0.95, "Empat puluh hari,"),
-    (1.28, 4.84, "pagi dan petang, seorang raksasa menantang bangsa Israel."),
-    (5.24, 6.21, "Namanya Goliat,"),
-    (6.61, 9.18, "prajurit Filistin setinggi hampir tiga meter."),
-    (9.71, 12.33, "Seluruh pasukan Raja Saul gemetar ketakutan."),
-    (12.91, 14.59, "Sementara itu, di Betlehem,"),
-    (14.87, 16.19, "ada seorang gembala muda."),
-    (16.57, 16.95, "Daud,"),
-    (17.18, 18.12, "anak bungsu Isai."),
-    (18.59, 20.89, "Ia datang membawa bekal untuk kakak-kakaknya,"),
-    (21.19, 22.86, "lalu mendengar tantangan itu."),
-    (23.32, 24.05, "Daud bertanya,"),
-    (24.51, 25.70, "“Mengapa tak ada yang berani?”"),
-    (26.13, 27.59, "Saul memberinya baju perang."),
-    (27.95, 29.07, "Namun Daud menolak."),
-    (29.56, 31.22, "Ia memilih yang ia kuasai."),
-    (31.64, 32.05, "Tongkat,"),
-    (32.38, 34.67, "umban, dan lima batu licin dari sungai."),
-    (35.14, 35.73, "Itu saja."),
-    (35.73, 36.79, "Goliat mengejek."),
-    (37.17, 38.31, "Tapi Daud menjawab,"),
-    (38.73, 40.78, "“Engkau datang dengan pedang dan tombak."),
-    (41.18, 43.82, "Aku datang dengan nama TUHAN semesta alam.”"),
-    (44.27, 45.14, "Daud berlari."),
-    (45.48, 46.41, "Umban berputar."),
-    (46.65, 47.65, "Satu batu melesat."),
-    (48.03, 49.98, "Batu itu mengenai dahi Goliat,"),
-    (49.98, 51.80, "dan raksasa itu pun tumbang."),
-    (52.20, 54.24, "Pasukan Filistin lari tunggang-langgang."),
-    (54.84, 57.44, "Raksasa dalam hidupmu mungkin bukan musuh."),
-    (57.80, 58.99, "Tapi ketakutan."),
-    (59.39, 60.25, "Dan seperti Daud,"),
-    (60.51, 62.16, "kamu tak perlu jadi yang terbesar."),
-    (62.56, 64.16, "Kamu hanya perlu percaya."),
+    (6.83, 7.71, "Empat puluh hari,"),
+    (8.09, 9.14, "pagi dan petang,"),
+    (9.50, 11.72, "seorang raksasa menantang bangsa Israel."),
+    (12.11, 13.16, "Namanya Goliat,"),
+    (13.63, 16.26, "prajurit Filistin setinggi hampir tiga meter."),
+    (16.82, 19.51, "Seluruh pasukan Raja Saul gemetar ketakutan."),
+    (20.23, 23.47, "Sementara itu, di Betlehem, ada seorang gembala muda."),
+    (23.89, 24.25, "Daud,"),
+    (24.55, 25.54, "anak bungsu Isai."),
+    (26.14, 28.33, "Ia datang membawa bekal untuk kakak-kakaknya,"),
+    (28.64, 30.28, "lalu mendengar tantangan itu."),
+    (30.84, 31.57, "Daud bertanya,"),
+    (32.05, 33.18, "“Mengapa tak ada yang berani?”"),
+    (33.74, 35.21, "Saul memberinya baju perang."),
+    (35.54, 36.60, "Namun Daud menolak."),
+    (36.97, 38.62, "Ia memilih yang ia kuasai."),
+    (39.09, 39.49, "Tongkat,"),
+    (39.82, 42.18, "umban, dan lima batu licin dari sungai."),
+    (42.67, 43.18, "Itu saja."),
+    (43.18, 44.10, "Goliat mengejek."),
+    (44.65, 45.55, "Tapi Daud menjawab,"),
+    (46.01, 48.14, "“Engkau datang dengan pedang dan tombak."),
+    (48.48, 51.05, "Aku datang dengan nama TUHAN semesta alam.”"),
+    (51.61, 52.53, "Daud berlari."),
+    (52.93, 53.99, "Umban berputar."),
+    (54.23, 55.31, "Satu batu melesat."),
+    (55.68, 57.37, "Batu itu mengenai dahi Goliat,"),
+    (57.69, 59.37, "dan raksasa itu pun tumbang."),
+    (59.85, 61.96, "Pasukan Filistin lari tunggang-langgang."),
+    (62.62, 65.10, "Raksasa dalam hidupmu mungkin bukan musuh."),
+    (65.52, 66.38, "Tapi ketakutan."),
+    (66.88, 67.73, "Dan seperti Daud,"),
+    (68.08, 69.69, "kamu tak perlu jadi yang terbesar."),
+    (70.10, 71.69, "Kamu hanya perlu percaya."),
 ]
 
 
@@ -505,7 +504,7 @@ def btn(kind, text):
 
 
 def hook(t, fi):
-    """Kartu pembuka clickbait (koordinat layar akhir)."""
+    """Kartu pembuka clickbait; muncul sesuai kalimat pembuka di suara (koordinat layar akhir)."""
     cv = bg((140, 44, 36), fi)
     rays(cv, 540, 760, t * 0.3, 28, (160, 54, 44), (140, 44, 36))
     d = ImageDraw.Draw(cv)
@@ -514,24 +513,24 @@ def hook(t, fi):
     putj(cv, goliath(True), 540, 820 + (1 - rise) * 500, sc=0.95, i=70, fi=fi, pa=4, ra=0.5)
     putj(cv, david(), 300, 1120 + (1 - rise) * 400, sc=0.55, i=71, fi=fi, pa=2)
     put(cv, label("TOKOH ALKITAB  ·  VIDEO 2", 38, fg=GOLD, bg=CHAR, fp=FONT_SANS), CX, 290, ang=-2, sc=pop(t, 0.0))
-    put(cv, label("BOCAH GEMBALA INI", 74, fg=CHAR, bg=PARCH), CX, 500, ang=-2 + math.sin(t * 9) * 0.5, sc=pop(t, 0.25))
-    put(cv, label("JATUHKAN RAKSASA 3 METER", 62, fg=CHAR, bg=PARCH), CX, 690, ang=2 + math.sin(t * 9 + 1) * 0.5, sc=pop(t, 0.95))
-    put(cv, label("HANYA DENGAN 1 BATU?!", 80, fg=PARCH, bg=BRICK, padx=60), CX, 890, ang=-1.5 + math.sin(t * 11) * 0.7, sc=pop(t, 1.65, 0.45))
-    put(cv, label("DAUD vs GOLIAT", 58, fg=CHAR, bg=GOLD), CX, 1060, ang=1.5, sc=pop(t, 2.6))
+    put(cv, label("BOCAH GEMBALA INI", 74, fg=CHAR, bg=PARCH), CX, 500, ang=-2 + math.sin(t * 9) * 0.5, sc=pop(t, 0.1))
+    put(cv, label("JATUHKAN RAKSASA 3 METER", 62, fg=CHAR, bg=PARCH), CX, 690, ang=2 + math.sin(t * 9 + 1) * 0.5, sc=pop(t, 1.3))
+    put(cv, label("HANYA DENGAN 1 BATU?!", 80, fg=PARCH, bg=BRICK, padx=60), CX, 890, ang=-1.5 + math.sin(t * 11) * 0.7, sc=pop(t, 3.5, 0.45))
+    put(cv, label("BAGAIMANA BISA?", 64, fg=CHAR, bg=GOLD), CX, 1060, ang=1.5, sc=pop(t, 5.4))
     if t < 0.12:
         cv = flash(cv, 0.7 * (1 - t / 0.12))
     return cv
 
 
 def outro(t, fi):
-    """Kartu penutup: ajakan Follow, Share, Komen (koordinat layar akhir)."""
+    """Kartu penutup; tombol muncul saat kata follow, share, komen diucapkan (koordinat layar akhir)."""
     cv = bg((126, 40, 34), fi)
     rays(cv, 540, 800, t * 0.2, 24, (150, 52, 44), (126, 40, 34))
-    put(cv, label("Mau tau kisah\nTokoh Alkitab lainnya?", 66, fg=CHAR, bg=PARCH), CX, 340, ang=-2, sc=pop(t, 0.2, 0.5))
-    for i, (kind, text, x, t0) in enumerate([("follow", "FOLLOW", 200, 1.2), ("share", "SHARE", 510, 1.7), ("komen", "KOMEN", 820, 2.2)]):
+    put(cv, label("Mau tahu kisah\nTokoh Alkitab lainnya?", 66, fg=CHAR, bg=PARCH), CX, 340, ang=-2, sc=pop(t, 0.2, 0.5))
+    for i, (kind, text, x, t0) in enumerate([("follow", "FOLLOW", 200, 3.3), ("share", "SHARE", 510, 3.9), ("komen", "KOMEN", 820, 4.5)]):
         bounce = math.sin((t - t0) * 4) * 8 if t > t0 + 0.5 else 0
         putj(cv, btn(kind, text), x, 700 + bounce, ang=(-3, 2, -2)[i], sc=pop(t, t0, 0.45), i=80 + i, fi=fi, pa=1, ra=0.4)
-    put(cv, label("Jangan lupa untuk\nFollow, Share, dan Komen\nkonten ini!", 54, fg=PARCH, bg=EARTH), CX, 1010, ang=1.5, sc=pop(t, 2.9, 0.5))
+    put(cv, label("Jangan lupa untuk\nFollow, Share, dan Komen\nkonten ini!", 54, fg=PARCH, bg=EARTH), CX, 1010, ang=1.5, sc=pop(t, 2.3, 0.5))
     return cv
 
 
@@ -652,9 +651,9 @@ def sc7(t, fi):
     spr, l, tp = slab
     place_tl(cv, spr, l - 20, tp)
     putj(cv, david(), 790, 1192, sc=0.8, i=13, fi=fi, pa=2)
-    putl(cv, label("“Kau datang dengan pedang,\ntombak, dan lembing…”", 46, fg=PARCH, bg=CHAR), CX, 250, ang=-2 + math.sin(t * 14) * 0.6, sc=pop(t, 0.3))
-    putl(cv, label("“Engkau datang dengan\npedang dan tombak.”", 40, fg=CHAR, bg=PARCH), 330, 960, ang=2, sc=pop(t, 3.0))
-    putl(cv, label("“Aku datang dengan nama\nTUHAN semesta alam.”", 40, fg=CHAR, bg=PARCH), 330, 1120, ang=-1.5, sc=pop(t, 5.4))
+    putl(cv, label("“Kau datang dengan pedang,\ntombak, dan lembing…”", 46, fg=PARCH, bg=CHAR), CX, 250, ang=-2 + math.sin(t * 14) * 0.6, sc=pop(t, 0.2))
+    putl(cv, label("“Engkau datang dengan\npedang dan tombak.”", 40, fg=CHAR, bg=PARCH), 330, 960, ang=2, sc=pop(t, 2.8))
+    putl(cv, label("“Aku datang dengan nama\nTUHAN semesta alam.”", 40, fg=CHAR, bg=PARCH), 330, 1120, ang=-1.5, sc=pop(t, 5.3))
     return cv
 
 
@@ -699,7 +698,7 @@ def sc8(t, fi):
     return cv
 
 
-HIT, FALL0, IMP = 1.2, 2.4, 3.4
+HIT, FALL0, IMP = 1.1, 2.2, 3.3
 
 def sc9(t, fi):
     cv = bg((224, 190, 152), fi)
@@ -900,7 +899,7 @@ def make_audio(path):
     add(mix, 0.02, thump(150, 36, 0.9, 0.4, 201), 1.3)
     rs = lp(noise(HOOK, 202), 6); rs = rs - lp(noise(HOOK, 202), 300)
     add(mix, 0.2, rs * np.linspace(0.05, 1.0, len(rs)) ** 2, 1.6)
-    for tp_ in (0.25, 0.95, 1.65, 2.6):
+    for tp_ in (0.0, 0.1, 1.3, 3.5, 5.4):
         add(mix, tp_, thump(260, 90, 0.35, 0.3, int(tp_ * 100)), 0.9)
 
     # langkah raksasa
@@ -966,7 +965,7 @@ def make_audio(path):
     add(mix, s9 + IMP + 0.2, cn * ce * (0.7 + 0.3 * np.sin(2 * np.pi * 3.1 * np.arange(len(cn)) / SR)), 1.3)
 
     # penutup: ketukan tiap tombol muncul
-    for tp_ in (0.2, 1.2, 1.7, 2.2, 2.9):
+    for tp_ in (0.2, 2.3, 3.3, 3.9, 4.5):
         tk = np.arange(int(SR * 0.3)) / SR
         add(mix, so + tp_, (np.sin(2 * np.pi * 1500 * tk) + 0.4 * np.sin(2 * np.pi * 2250 * tk)) * np.exp(-tk * 12), 0.3)
 
@@ -996,6 +995,27 @@ def write_srt(path):
             f.write("%d\n%s --> %s\n%s\n\n" % (i, ts(a).replace(".", ","), ts(b).replace(".", ","), text))
 
 
+# ---------------------------------------------------------------- thumbnail
+def thumbnail():
+    """Sampul 1080x1920. Semua elemen penting ada di y 300-1500 dan x 60-960: aman untuk TikTok, dan
+    tetap utuh saat Instagram memotong sampul menjadi 3:4 (y 240-1680) di grid profil."""
+    fi = 3
+    cv = bg((140, 44, 36), fi)
+    rays(cv, 540, 1120, 0.15, 28, (166, 56, 46), (140, 44, 36))
+    d = ImageDraw.Draw(cv)
+    d.ellipse((540 - 360, 1120 - 360, 540 + 360, 1120 + 360), fill=(236, 176, 96), outline=EDGE, width=8)
+    put(cv, goliath(True), 580, 1090, sc=0.7)
+    spr, l, tp = hill((60, 26, 22), 1470, 40, 140, 0.8); place_tl(cv, spr, l - 100, tp)
+    put(cv, david(), 215, 1250, sc=0.8)
+    put(cv, stone(), 870, 1290, ang=-12, sc=2.6)
+    starburst(cv, 870, 1280, 100, 0.3)
+    put(cv, label("TOKOH ALKITAB  ·  VIDEO 2", 40, fg=GOLD, bg=CHAR, fp=FONT_SANS), CX, 320, ang=-2)
+    put(cv, label("DAUD", 180, fg=CHAR, bg=GOLD, padx=70, pady=30), CX, 520, ang=-3)
+    put(cv, label("vs GOLIAT", 170, fg=PARCH, bg=CHAR, padx=60, pady=30), CX, 740, ang=2)
+    put(cv, label("HANYA 1 BATU?!", 96, fg=PARCH, bg=BRICK, padx=56, pady=26), CX, 1400, ang=-2)
+    return cv
+
+
 # ---------------------------------------------------------------- main
 if __name__ == "__main__":
     mode = sys.argv[1]
@@ -1005,6 +1025,12 @@ if __name__ == "__main__":
         for tm in times:
             fi = int(tm * FPS)
             render_frame(fi).resize((360, 640)).save(os.path.join(outdir, "s%05.1f.jpg" % tm), quality=85)
+    elif mode == "thumb":
+        out = sys.argv[2]
+        im = thumbnail()
+        im.save(os.path.join(out, "thumbnail-9x16.png"))
+        im.crop((0, 240, W, 1680)).save(os.path.join(out, "thumbnail-3x4-crop-instagram.png"))
+        im.resize((540, 960)).save("/tmp/thumb_preview.jpg", quality=88)
     elif mode == "all":
         work, out = sys.argv[2], sys.argv[3]
         fr = os.path.join(work, "frames"); os.makedirs(fr, exist_ok=True)
