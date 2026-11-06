@@ -1,116 +1,128 @@
 1
-00:00:00,350 --> 00:00:01,912
-Empat puluh hari, pagi dan petang,
+00:00:00,300 --> 00:00:01,370
+Empat puluh hari,
 
 2
-00:00:01,912 --> 00:00:03,750
-seorang raksasa menantang bangsa Israel.
+00:00:01,570 --> 00:00:05,260
+pagi dan petang, seorang raksasa menantang bangsa Israel.
 
 3
-00:00:04,350 --> 00:00:06,063
-Namanya Goliat, prajurit Filistin
+00:00:05,540 --> 00:00:06,630
+Namanya Goliat,
 
 4
-00:00:06,063 --> 00:00:07,465
-setinggi hampir tiga meter.
+00:00:06,910 --> 00:00:09,600
+prajurit Filistin setinggi hampir tiga meter.
 
 5
-00:00:07,465 --> 00:00:09,750
+00:00:10,010 --> 00:00:12,750
 Seluruh pasukan Raja Saul gemetar ketakutan.
 
 6
-00:00:10,350 --> 00:00:11,934
-Sementara itu, di Betlehem,
+00:00:13,210 --> 00:00:16,610
+Sementara itu, di Betlehem, ada seorang gembala muda.
 
 7
-00:00:11,934 --> 00:00:13,401
-ada seorang gembala muda.
-
-8
-00:00:13,401 --> 00:00:14,750
+00:00:16,870 --> 00:00:18,540
 Daud, anak bungsu Isai.
 
-9
-00:00:15,350 --> 00:00:17,392
+8
+00:00:18,890 --> 00:00:21,310
 Ia datang membawa bekal untuk kakak-kakaknya,
 
-10
-00:00:17,392 --> 00:00:18,708
+9
+00:00:21,490 --> 00:00:23,280
 lalu mendengar tantangan itu.
 
+10
+00:00:23,620 --> 00:00:24,470
+Daud bertanya,
+
 11
-00:00:18,708 --> 00:00:20,750
-Daud bertanya, “Mengapa tak ada yang berani?”
+00:00:24,810 --> 00:00:26,120
+“Mengapa tak ada yang berani?”
 
 12
-00:00:21,350 --> 00:00:23,421
+00:00:26,430 --> 00:00:28,010
 Saul memberinya baju perang.
 
 13
-00:00:23,421 --> 00:00:24,827
+00:00:28,250 --> 00:00:29,490
 Namun Daud menolak.
 
 14
-00:00:24,827 --> 00:00:26,750
+00:00:29,860 --> 00:00:31,640
 Ia memilih yang ia kuasai.
 
 15
-00:00:27,350 --> 00:00:30,666
-Tongkat, umban, dan lima batu licin
+00:00:31,940 --> 00:00:32,470
+Tongkat,
 
 16
-00:00:30,666 --> 00:00:32,750
-dari sungai. Itu saja.
+00:00:32,680 --> 00:00:35,090
+umban, dan lima batu licin dari sungai.
 
 17
-00:00:33,350 --> 00:00:35,286
-Goliat mengejek. Tapi Daud menjawab,
+00:00:35,440 --> 00:00:37,200
+Itu saja.
 
 18
-00:00:35,286 --> 00:00:37,437
-“Engkau datang dengan pedang dan tombak.
+00:00:37,470 --> 00:00:38,730
+Goliat mengejek.
 
 19
-00:00:37,437 --> 00:00:39,750
-Aku datang dengan nama TUHAN semesta alam.”
+00:00:39,030 --> 00:00:41,200
+Tapi Daud menjawab,
 
 20
-00:00:40,350 --> 00:00:42,159
-Daud berlari.
+00:00:41,480 --> 00:00:44,240
+“Engkau datang dengan pedang dan tombak.
 
 21
-00:00:42,159 --> 00:00:44,246
-Umban berputar.
+00:00:44,570 --> 00:00:45,570
+Aku datang dengan nama
 
 22
-00:00:44,246 --> 00:00:46,750
-Satu batu melesat.
+00:00:45,850 --> 00:00:48,070
+TUHAN semesta alam.”
 
 23
-00:00:47,350 --> 00:00:49,003
-Batu itu mengenai dahi Goliat,
+00:00:48,400 --> 00:00:49,570
+Daud berlari.
 
 24
-00:00:49,003 --> 00:00:50,546
-dan raksasa itu pun tumbang.
+00:00:49,450 --> 00:00:50,770
+Umban berputar.
 
 25
-00:00:50,546 --> 00:00:52,750
-Pasukan Filistin lari tunggang-langgang.
+00:00:50,650 --> 00:00:52,220
+Satu batu melesat.
 
 26
-00:00:53,350 --> 00:00:55,356
-Raksasa dalam hidupmu mungkin bukan musuh.
+00:00:52,500 --> 00:00:54,660
+Batu itu mengenai dahi Goliat,
 
 27
-00:00:55,356 --> 00:00:56,072
-Tapi ketakutan.
+00:00:55,000 --> 00:00:56,320
+dan raksasa itu pun tumbang.
 
 28
-00:00:56,072 --> 00:00:58,556
-Dan seperti Daud, kamu tak perlu jadi yang terbesar.
+00:00:56,200 --> 00:00:57,860
+Pasukan Filistin lari tunggang-langgang.
 
 29
-00:00:58,556 --> 00:00:59,750
+00:00:58,200 --> 00:00:59,920
+Raksasa dalam hidupmu mungkin bukan musuh.
+
+30
+00:00:59,800 --> 00:01:00,720
+Tapi ketakutan.
+
+31
+00:01:00,600 --> 00:01:02,580
+Dan seperti Daud, kamu tak perlu jadi yang terbesar.
+
+32
+00:01:02,900 --> 00:01:04,790
 Kamu hanya perlu percaya.
 

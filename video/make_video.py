@@ -12,7 +12,7 @@ from multiprocessing import Pool
 
 W, H = 1080, 1920
 FPS = 15
-TOTAL = 60
+TOTAL = 66
 GY = 1400  # garis tanah
 
 FONT_SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
@@ -26,19 +26,44 @@ CHAR = (28, 26, 24)
 EDGE = (246, 239, 222)
 SKIN = (214, 164, 120)
 
-SCENES = [(0, 4), (4, 10), (10, 15), (15, 21), (21, 27), (27, 33), (33, 40), (40, 47), (47, 53), (53, 60)]
+SCENES = [(0, 5.5), (5.5, 13.2), (13.2, 18.9), (18.9, 26.4), (26.4, 31.9), (31.9, 37.5), (37.5, 48.4), (48.4, 52.5), (52.5, 58.2), (58.2, 66)]
+TW = {7: 7.0 / 4.1}  # adegan umban dimampatkan agar pas dengan suara
+VO_OFF = 0.3  # suara dimulai 0,3 dtk setelah video
 
-SUBS = [
-    ["Empat puluh hari, pagi dan petang,", "seorang raksasa menantang bangsa Israel."],
-    ["Namanya Goliat, prajurit Filistin", "setinggi hampir tiga meter.", "Seluruh pasukan Raja Saul gemetar ketakutan."],
-    ["Sementara itu, di Betlehem,", "ada seorang gembala muda.", "Daud, anak bungsu Isai."],
-    ["Ia datang membawa bekal untuk kakak-kakaknya,", "lalu mendengar tantangan itu.", "Daud bertanya, “Mengapa tak ada yang berani?”"],
-    ["Saul memberinya baju perang.", "Namun Daud menolak.", "Ia memilih yang ia kuasai."],
-    ["Tongkat, umban, dan lima batu licin", "dari sungai. Itu saja."],
-    ["Goliat mengejek. Tapi Daud menjawab,", "“Engkau datang dengan pedang dan tombak.", "Aku datang dengan nama TUHAN semesta alam.”"],
-    ["Daud berlari.", "Umban berputar.", "Satu batu melesat."],
-    ["Batu itu mengenai dahi Goliat,", "dan raksasa itu pun tumbang.", "Pasukan Filistin lari tunggang-langgang."],
-    ["Raksasa dalam hidupmu mungkin bukan musuh.", "Tapi ketakutan.", "Dan seperti Daud, kamu tak perlu jadi yang terbesar.", "Kamu hanya perlu percaya."],
+# (mulai, selesai, teks) dalam waktu file MP3; ditambah VO_OFF saat dipakai.
+SUB_VO = [
+    (0.0, 0.95, "Empat puluh hari,"),
+    (1.27, 4.84, "pagi dan petang, seorang raksasa menantang bangsa Israel."),
+    (5.24, 6.21, "Namanya Goliat,"),
+    (6.61, 9.18, "prajurit Filistin setinggi hampir tiga meter."),
+    (9.71, 12.33, "Seluruh pasukan Raja Saul gemetar ketakutan."),
+    (12.91, 16.19, "Sementara itu, di Betlehem, ada seorang gembala muda."),
+    (16.57, 18.12, "Daud, anak bungsu Isai."),
+    (18.59, 20.89, "Ia datang membawa bekal untuk kakak-kakaknya,"),
+    (21.19, 22.86, "lalu mendengar tantangan itu."),
+    (23.32, 24.05, "Daud bertanya,"),
+    (24.51, 25.70, "“Mengapa tak ada yang berani?”"),
+    (26.13, 27.59, "Saul memberinya baju perang."),
+    (27.95, 29.07, "Namun Daud menolak."),
+    (29.56, 31.22, "Ia memilih yang ia kuasai."),
+    (31.64, 32.05, "Tongkat,"),
+    (32.38, 34.67, "umban, dan lima batu licin dari sungai."),
+    (35.14, 36.78, "Itu saja."),
+    (37.17, 38.31, "Goliat mengejek."),
+    (38.73, 40.78, "Tapi Daud menjawab,"),
+    (41.18, 43.82, "“Engkau datang dengan pedang dan tombak."),
+    (44.27, 45.15, "Aku datang dengan nama"),
+    (45.55, 47.65, "TUHAN semesta alam.”"),
+    (48.10, 49.15, "Daud berlari."),
+    (49.15, 50.35, "Umban berputar."),
+    (50.35, 51.80, "Satu batu melesat."),
+    (52.20, 54.24, "Batu itu mengenai dahi Goliat,"),
+    (54.70, 55.90, "dan raksasa itu pun tumbang."),
+    (55.90, 57.44, "Pasukan Filistin lari tunggang-langgang."),
+    (57.90, 59.50, "Raksasa dalam hidupmu mungkin bukan musuh."),
+    (59.50, 60.30, "Tapi ketakutan."),
+    (60.30, 62.16, "Dan seperti Daud, kamu tak perlu jadi yang terbesar."),
+    (62.60, 64.37, "Kamu hanya perlu percaya."),
 ]
 
 
@@ -484,11 +509,11 @@ def sc4(t, fi):
     spr, l, tp = hill((170, 132, 86), 1250, 60, 150, 0.8); place_tl(cv, spr, l - 100 - (t * 40) % 300, tp)
     putj(cv, goliath(True), 860, 952, sc=0.5 + 0.035 * t, i=5, fi=fi, pa=2, ra=0.3)
     spr, l, tp = hill((120, 90, 52), 1390, 45, 130, 1.9); place_tl(cv, spr, l - 100 - (t * 120) % 300, tp)
-    x = 150 + 400 * ease_io(t / 5.2)
+    x = 150 + 400 * ease_io(t / 6.4)
     bob = abs(math.sin(t * 6.5)) * 18
     putj(cv, david(), x, 1114 - bob, ang=math.sin(t * 6.5) * 2.5, sc=1.1, i=6, fi=fi, pa=2)
     putj(cv, sack(), x + 105, 1000 - bob, ang=-10 + math.sin(t * 6.5) * 6, sc=0.7, i=7, fi=fi, pa=2)
-    put(cv, label("Mengapa tak ada\nyang melawannya?", 64, fg=PARCH, bg=EARTH), 540, 300, ang=-2, sc=back((t - 2.4) / 0.5) if t > 2.4 else 0.001)
+    put(cv, label("Mengapa tak ada\nyang melawannya?", 64, fg=PARCH, bg=EARTH), 540, 300, ang=-2, sc=back((t - 4.5) / 0.5) if t > 4.5 else 0.001)
     return cv
 
 
@@ -503,17 +528,17 @@ def sc5(t, fi):
         d.ellipse((650 - r, 1140 - r, 650 + r, 1140 + r), fill=(236, 200, 120), outline=EDGE, width=6)
     putj(cv, saul(), 190, 1110, sc=1.0, i=8, fi=fi, pa=2)
     putj(cv, david(), 650, 1140, sc=1.0, i=9, fi=fi, pa=2)
-    if t < 2.5:
+    if t < 2.0:
         x = 1500 - (1500 - 660) * ease_out(t / 1.2)
         wob = math.sin(t * 9) * 3 if t > 1.2 else 0
         putj(cv, armor(), x, 1040, ang=wob, sc=1.2, i=10, fi=fi, pa=3)
     else:
-        p = (t - 2.5) / 0.9
+        p = (t - 2.0) / 0.9
         ang = -88 * ease_in(p)
         drop = 60 * ease_in(p)
         put_pivot(cv, armor(), (470, 714), (900, 1380 + drop * 0.2), ang, sc=1.2)
-    if t > 1.5:
-        put(cv, label("Terlalu berat.", 80, fg=PARCH, bg=BRICK), 540, 300, ang=-3, sc=back((t - 1.5) / 0.5))
+    if t > 1.2:
+        put(cv, label("Terlalu berat.", 80, fg=PARCH, bg=BRICK), 540, 300, ang=-3, sc=back((t - 1.2) / 0.5))
     return cv
 
 
@@ -529,7 +554,7 @@ def sc6(t, fi):
     spr, l, tp = hill((96, 112, 64), 1360, 40, 140, 2.4); place_tl(cv, spr, l - 100, tp)
     putj(cv, david(), 250, 1110, sc=1.0, i=11, fi=fi, pa=2)
     for k in range(5):
-        tk = t - (0.8 + 0.8 * k)
+        tk = t - (0.9 + 0.5 * k)
         if tk > 0:
             x = 470 + k * 120
             putj(cv, stone(), x, 1400, sc=back(tk / 0.35) * 2.0, i=40 + k, fi=fi, pa=1)
@@ -549,8 +574,8 @@ def sc7(t, fi):
     putj(cv, david(), 800, 1166, sc=0.9, i=13, fi=fi, pa=2)
     if t > 0.3:
         put(cv, label("“Kau datang dengan pedang,\ntombak, dan lembing…”", 52, fg=PARCH, bg=CHAR), 540, 190, ang=-2 + math.sin(t * 14) * 0.6, sc=back((t - 0.3) / 0.4))
-    if t > 3.6:
-        put(cv, label("“…aku datang dengan nama\nTUHAN semesta alam.”", 48, fg=CHAR, bg=PARCH), 370, 1060, ang=2, sc=back((t - 3.6) / 0.4))
+    if t > 3.9:
+        put(cv, label("“Engkau datang dengan\npedang dan tombak.\nAku datang dengan nama\nTUHAN semesta alam.”", 38, fg=CHAR, bg=PARCH), 350, 1060, ang=2, sc=back((t - 3.9) / 0.4))
     return cv
 
 
@@ -595,37 +620,45 @@ def sc8(t, fi):
     return cv
 
 
+HIT, FALL0, IMP = 1.0, 2.7, 3.7
+
 def sc9(t, fi):
     cv = bg((224, 190, 152), fi)
     spr, l, tp = hill((170, 120, 90), 1180, 50, 150, 0.3); place_tl(cv, spr, l - 100, tp)
+    run = t - (IMP + 0.4)
     for k in range(5):
         x0 = 120 + k * 150
-        x = x0 + (350 * (t - 2.2) if t > 2.2 else 0)
-        bob = abs(math.sin(t * 12 + k)) * 20 if t > 2.2 else 0
+        x = x0 + (350 * run if run > 0 else 0)
+        bob = abs(math.sin(t * 12 + k)) * 20 if run > 0 else 0
         putj(cv, soldier((120, 40, 40), (70, 60, 60)), x, 1130 - bob, sc=0.5, i=60 + k, fi=fi, pa=2)
     spr, l, tp = hill((120, 80, 56), 1440, 30, 120, 2.0); place_tl(cv, spr, l - 100, tp)
-    if t < 0.7:
-        ang = math.sin(t * 20) * 3
-    elif t < 1.7:
-        ang = 92 * ease_in((t - 0.7) / 1.0)
+    if t < HIT:
+        ang = 0.0
+    elif t < FALL0:
+        ang = 4 * math.sin((t - HIT) * 5) * min(1.0, (t - HIT) / 0.4)
+    elif t < IMP:
+        ang = 92 * ease_in((t - FALL0) / (IMP - FALL0))
     else:
-        ang = 92 - 3 * math.exp(-(t - 1.7) * 6) * math.sin((t - 1.7) * 25)
+        ang = 92 - 3 * math.exp(-(t - IMP) * 6) * math.sin((t - IMP) * 25)
     put_pivot(cv, goliath(), (320, 1215), (980, GY), ang, sc=0.75)
-    if 0.2 < t < 0.7:
-        starburst(cv, 880, 650, 120 * (1 - (t - 0.2) / 0.5) + 20, t * 5)
-    if t > 1.7:
-        confetti(cv, t - 1.7, 70, (480, 1350), 520, [(214, 184, 140), (170, 130, 90), (240, 220, 180)], seed=3)
-    jump = (t - 1.9) if t > 1.9 else None
+    if HIT < t < HIT + 0.5:
+        starburst(cv, 880, 650, 120 * (1 - (t - HIT) / 0.5) + 20, t * 5)
+    if t > IMP:
+        confetti(cv, t - IMP, 70, (480, 1350), 520, [(214, 184, 140), (170, 130, 90), (240, 220, 180)], seed=3)
+    jump = (t - (IMP + 0.2)) if t > IMP + 0.2 else None
     soldiers_row(cv, [130, 300, 520, 740, 930], 1500, fi, sc=0.8, jump=jump, shake=3)
-    if t > 1.8:
-        put(cv, label("TUMBANG.", 130, fg=PARCH, bg=BRICK, padx=70, pady=40), 540, 300, ang=-4, sc=back((t - 1.8) / 0.4))
-    if 0.2 <= t < 0.4:
-        cv = flash(cv, 0.8 * (1 - (t - 0.2) / 0.2))
-    if 1.7 <= t < 2.0:
-        cv = flash(cv, 0.5 * (1 - (t - 1.7) / 0.3), (255, 245, 220))
-    # guncangan
-    if t < 0.5 or 1.7 <= t < 2.5:
-        amp = 16 * math.exp(-(t - 1.7) * 3) if t >= 1.7 else 10 * (1 - t / 0.5)
+    if t > IMP + 0.1:
+        put(cv, label("TUMBANG.", 130, fg=PARCH, bg=BRICK, padx=70, pady=40), 540, 300, ang=-4, sc=back((t - IMP - 0.1) / 0.4))
+    if HIT <= t < HIT + 0.2:
+        cv = flash(cv, 0.8 * (1 - (t - HIT) / 0.2))
+    if IMP <= t < IMP + 0.3:
+        cv = flash(cv, 0.5 * (1 - (t - IMP) / 0.3), (255, 245, 220))
+    amp = 0.0
+    if HIT <= t < HIT + 0.4:
+        amp = 10 * (1 - (t - HIT) / 0.4)
+    elif IMP <= t < IMP + 0.8:
+        amp = 16 * math.exp(-(t - IMP) * 3)
+    if amp > 0:
         jx, jy, _ = jit(77, fi)
         cv = ImageChops.offset(cv, int(jx * amp), int(jy * amp))
     return cv
@@ -640,8 +673,8 @@ def sc10(t, fi):
     if t > 2.0:
         putj(cv, crown(), 540, 800 + 18 * math.sin(t * 2), sc=0.55, i=16, fi=fi, pa=1, alpha=ease_out((t - 2.0) / 1.0) * 0.8)
     put(cv, label("Bukan soal ukuran.\nSoal siapa yang kamu andalkan.", 50, fg=PARCH, bg=EARTH), 540, 200, ang=-1.5, sc=back((t - 0.6) / 0.5) if t > 0.6 else 0.001)
-    if t > 4.6:
-        put(cv, label("Bagikan jika ini menguatkanmu", 46, fg=CHAR, bg=PARCH), 540, 420, ang=1.5, sc=back((t - 4.6) / 0.5))
+    if t > 6.0:
+        put(cv, label("Bagikan jika ini menguatkanmu", 46, fg=CHAR, bg=PARCH), 540, 420, ang=1.5, sc=back((t - 6.0) / 0.5))
     return cv
 
 
@@ -651,15 +684,9 @@ SCENE_FN = [sc1, sc2, sc3, sc4, sc5, sc6, sc7, sc8, sc9, sc10]
 # ---------------------------------------------------------------- subtitles
 def sub_schedule():
     out = []
-    for k, phrases in enumerate(SUBS):
-        s0, s1 = SCENES[k]
-        a, b = s0 + 0.35, s1 - 0.25
-        tot = sum(len(p) for p in phrases)
-        cur = a
-        for p in phrases:
-            dur = (b - a) * len(p) / tot
-            out.append((cur, cur + dur, p))
-            cur += dur
+    for i, (a, b, text) in enumerate(SUB_VO):
+        end = b + 0.12
+        out.append((a + VO_OFF, end + VO_OFF, text))
     return out
 
 def draw_sub(cv, t, sched):
@@ -699,10 +726,10 @@ def render_frame(fi):
     t = fi / FPS
     k = scene_index(t)
     s0 = SCENES[k][0]
-    cv = SCENE_FN[k](t - s0, fi)
+    cv = SCENE_FN[k]((t - s0) * TW.get(k, 1.0), fi)
     tr = 0.3
     if k > 0 and t - s0 < tr:
-        prev = SCENE_FN[k - 1](t - SCENES[k - 1][0], fi)
+        prev = SCENE_FN[k - 1]((t - SCENES[k - 1][0]) * TW.get(k - 1, 1.0), fi)
         x = int(W * ease_io((t - s0) / tr))
         out = Image.new("RGB", (W, H))
         out.paste(prev, (-x, 0)); out.paste(cv, (W - x, 0))
@@ -765,83 +792,87 @@ def thump(f0=130, f1=45, dur=0.45, noise_amt=0.25, seed=0):
     return (np.sin(ph) + noise_amt * lp(noise(dur, seed), 8)) * np.exp(-tt * 9)
 
 def make_audio(path):
-    n = TOTAL * SR
+    NS = [a for a, b in SCENES]
+    s3, s4, s5, s6, s7, s8, s9, s10 = NS[2:10]
+    T = TOTAL
+    n = int(T * SR)
     tt = np.arange(n) / SR
     mix = np.zeros(n)
 
     # drone
-    kp = [(0, 0), (0.6, 0.5), (10, 0.45), (10.5, 0.15), (15, 0.2), (21, 0.38), (27, 0.25), (33, 0.5), (40, 0.65), (45.2, 0.75), (45.6, 0.0), (47.1, 0.0), (47.2, 0.5), (48.7, 0.2), (53, 0.1), (60, 0.05)]
+    kp = [(0, 0), (0.6, 0.5), (s3, 0.45), (s3 + 0.5, 0.15), (s4, 0.2), (s5, 0.38), (s6, 0.25), (s7, 0.5), (s8, 0.65),
+          (s8 + 2.9, 0.75), (s8 + 3.3, 0.0), (s9 + 0.9, 0.0), (s9 + 1.0, 0.5), (s9 + 3.7, 0.2), (s10, 0.1), (T, 0.05)]
     env = np.interp(tt, [a for a, b in kp], [b for a, b in kp])
     drone = (np.sin(2 * np.pi * 55 * tt) + 0.6 * np.sin(2 * np.pi * 82.4 * tt + 1.3 * np.sin(tt * 0.3)) + 0.35 * np.sin(2 * np.pi * 110.5 * tt)) * (0.8 + 0.2 * np.sin(2 * np.pi * 0.25 * tt))
     mix += drone * env * 0.28
 
     # padding kemenangan (D mayor)
-    pk = [(0, 0), (47.2, 0), (48.8, 0.35), (53, 0.5), (58.5, 0.4), (60, 0)]
+    pk = [(0, 0), (s9 + 3.7, 0), (s9 + 5.4, 0.35), (s10 + 4, 0.5), (T - 2, 0.4), (T, 0)]
     penv = np.interp(tt, [a for a, b in pk], [b for a, b in pk])
     pad = sum(np.sin(2 * np.pi * f * tt + i) for i, f in enumerate([146.8, 185.0, 220.0, 293.7])) * (0.85 + 0.15 * np.sin(2 * np.pi * 0.4 * tt))
     mix += pad * penv * 0.1
 
     # langkah raksasa
-    for k in range(10):
-        s = 0.6 + k * 1.0
-        add(mix, s, thump(150, 38, 0.6, 0.4, k), 1.0 if k < 4 else 0.85)
+    k = 0; t0 = 0.6
+    while t0 < s3 - 0.4:
+        add(mix, t0, thump(150, 38, 0.6, 0.4, k), 1.0 if t0 < 5 else 0.85)
         clink = lp(noise(0.12, 100 + k), 2) - lp(noise(0.12, 100 + k), 40)
-        add(mix, s + 0.04, clink * np.exp(-np.arange(len(clink)) / (SR * 0.03)), 0.5)
+        add(mix, t0 + 0.04, clink * np.exp(-np.arange(len(clink)) / (SR * 0.03)), 0.5)
+        k += 1; t0 += 1.0
 
     # oud
     D4, Eb4, Fs4, G4, A4, Bb4, C5, D5 = 293.66, 311.13, 369.99, 392.0, 440.0, 466.16, 523.25, 587.33
     D3, A3 = 146.83, 220.0
-    mel3 = [(10.3, D4), (10.9, Fs4), (11.4, G4), (11.9, Fs4), (12.6, Eb4), (13.1, D4), (13.6, Eb4), (14.1, Fs4), (14.6, D4)]
-    for i, (s, f) in enumerate(mel3):
-        add(mix, s, ks(f, 1.4, 0.997, i), 0.55)
-    for i, s in enumerate(np.arange(15.4, 21, 1.5)):
-        add(mix, s, ks(D3 if i % 2 == 0 else A3, 1.6, 0.997, 30 + i), 0.5)
-    for i, (s, f) in enumerate([(21.5, D3), (23.0, Eb4 / 2), (24.5, D3), (26.0, A3)]):
-        add(mix, s, ks(f, 1.8, 0.997, 50 + i), 0.5)
-    for i, (s, f) in enumerate([(27.2, A4), (28.4, G4), (29.6, Fs4), (31.0, D4)]):
-        add(mix, s, ks(f, 1.8, 0.997, 70 + i), 0.45)
+    for i, (off, f) in enumerate(zip([0.3, 0.9, 1.4, 1.9, 2.6, 3.1, 3.6, 4.1, 4.6], [D4, Fs4, G4, Fs4, Eb4, D4, Eb4, Fs4, D4])):
+        add(mix, s3 + off, ks(f, 1.4, 0.997, i), 0.55)
+    for i, st in enumerate(np.arange(s4 + 0.4, s5 - 1, 1.5)):
+        add(mix, st, ks(D3 if i % 2 == 0 else A3, 1.6, 0.997, 30 + i), 0.5)
+    for i, (off, f) in enumerate([(0.8, D3), (2.3, Eb4 / 2), (3.8, D3)]):
+        add(mix, s5 + off, ks(f, 1.8, 0.997, 50 + i), 0.5)
+    for i, (off, f) in enumerate([(0.2, A4), (1.4, G4), (2.6, Fs4), (4.0, D4)]):
+        add(mix, s6 + off, ks(f, 1.8, 0.997, 70 + i), 0.45)
     arp = [D4, Fs4, A4, D5, A4, Fs4, D4, A4, D5, Fs4 * 2]
     for i, f in enumerate(arp):
-        add(mix, 53.4 + i * 0.6, ks(f, 1.8, 0.998, 90 + i), 0.5)
+        add(mix, s10 + 0.4 + i * 0.6, ks(f, 1.8, 0.998, 90 + i), 0.5)
 
-    # frame drum
-    t = 15.0
-    while t < 33:
-        add(mix, t, thump(110, 55, 0.4, 0.35, int(t * 10)), 0.5 + 0.02 * (t - 15)); t += 0.75
-    while t < 40:
+    # drum
+    t = s4
+    while t < s7:
+        add(mix, t, thump(110, 55, 0.4, 0.35, int(t * 10)), min(0.8, 0.5 + 0.02 * (t - s4))); t += 0.75
+    while t < s8:
         add(mix, t, thump(120, 50, 0.4, 0.35, int(t * 10)), 0.75); t += 0.5
-    while t < 45.2:
-        add(mix, t, thump(120, 50, 0.35, 0.35, int(t * 10)), 0.9); t += 0.25 if t > 42.5 else 0.37
+    while t < s8 + 2.9:
+        add(mix, t, thump(120, 50, 0.35, 0.35, int(t * 10)), 0.9); t += 0.37 if t < s8 + 1.4 else 0.25
 
-    # air
-    wat = lp(noise(6, 5), 30) - lp(noise(6, 5), 400)
-    add(mix, 27, wat * (0.6 + 0.4 * np.sin(2 * np.pi * 0.7 * np.arange(len(wat)) / SR)), 1.6)
+    # air + batu
+    wat = lp(noise(5.6, 5), 30) - lp(noise(5.6, 5), 400)
+    add(mix, s6, wat * (0.6 + 0.4 * np.sin(2 * np.pi * 0.7 * np.arange(len(wat)) / SR)), 1.6)
     for i in range(5):
-        s = 27 + 0.8 + 0.8 * i
         tk = np.arange(int(SR * 0.4)) / SR
-        add(mix, s, (np.sin(2 * np.pi * 2200 * tk) + 0.5 * np.sin(2 * np.pi * 3300 * tk)) * np.exp(-tk * 14), 0.22)
+        add(mix, s6 + 0.9 + 0.5 * i, (np.sin(2 * np.pi * 2200 * tk) + 0.5 * np.sin(2 * np.pi * 3300 * tk)) * np.exp(-tk * 14), 0.22)
 
-    # umban
-    dt = np.arange(int(SR * 2.6)) / SR
+    # umban (waktu dimampatkan sama dengan visual)
+    dur = 1.52
+    dt = np.arange(int(SR * dur)) / SR * TW[7]
     th = 2 * np.pi * (0.9 * dt + 0.9 * dt ** 2)
-    wn = (lp(noise(2.6, 9), 4) - lp(noise(2.6, 9), 60))
-    add(mix, 42.4, wn * (0.45 + 0.55 * np.cos(th)) * np.linspace(0.2, 1.0, len(dt)), 2.2)
+    wn = (lp(noise(dur, 9), 4) - lp(noise(dur, 9), 60))
+    add(mix, s8 + 2.4 / TW[7], wn * (0.45 + 0.55 * np.cos(th)) * np.linspace(0.2, 1.0, len(dt)), 2.2)
     sw = noise(0.6, 11); sw = (sw - lp(sw, 30)) * np.exp(-np.arange(len(sw)) / (SR * 0.2))
-    add(mix, 45.0, sw, 0.9)
+    add(mix, s8 + 5.0 / TW[7], sw, 0.9)
 
     # hantaman + tumbang
     crack = noise(0.25, 13) * np.exp(-np.arange(int(SR * 0.25)) / (SR * 0.03))
-    add(mix, 47.2, crack, 0.9); add(mix, 47.2, thump(180, 60, 0.5, 0.2, 14), 0.9)
-    add(mix, 48.7, thump(90, 28, 1.6, 0.55, 15), 1.5)
+    add(mix, s9 + HIT, crack, 0.9); add(mix, s9 + HIT, thump(180, 60, 0.5, 0.2, 14), 0.9)
+    add(mix, s9 + IMP, thump(90, 28, 1.6, 0.55, 15), 1.5)
     dust = lp(noise(1.5, 16), 40) * np.exp(-np.arange(int(SR * 1.5)) / (SR * 0.5))
-    add(mix, 48.7, dust, 1.2)
+    add(mix, s9 + IMP, dust, 1.2)
 
     # sorak
     cn = lp(noise(4.5, 17), 3) - lp(noise(4.5, 17), 90)
     ce = np.interp(np.arange(len(cn)) / SR, [0, 0.4, 3.0, 4.5], [0, 0.6, 0.45, 0])
-    add(mix, 48.9, cn * ce * (0.7 + 0.3 * np.sin(2 * np.pi * 3.1 * np.arange(len(cn)) / SR)), 1.3)
+    add(mix, s9 + IMP + 0.2, cn * ce * (0.7 + 0.3 * np.sin(2 * np.pi * 3.1 * np.arange(len(cn)) / SR)), 1.3)
 
-    mix *= np.interp(tt, [0, 0.3, 59.0, 60], [0, 1, 1, 0])
+    mix *= np.interp(tt, [0, 0.3, T - 1.0, T], [0, 1, 1, 0])
     mix = np.tanh(mix * 1.1)
     mix = mix / np.max(np.abs(mix)) * 0.85
     d = int(0.012 * SR)
