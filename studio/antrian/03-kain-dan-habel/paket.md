@@ -6,7 +6,7 @@
 Kain & Habel, Kejadian 4. Pesan inti: iri hati yang dipelihara melahirkan hal terburuk, dosa mengintip tetapi bisa dikuasai, dan kita dipanggil peduli pada saudara.
 
 ## 2. Hook
-- Teks layar (satu per satu): DUA PERSEMBAHAN → SATU DITOLAK → APA YANG DILAKUKAN SANG KAKAK?
+- Teks layar (satu per satu): DUA PERSEMBAHAN → YANG LAIN TIDAK → APA YANG DILAKUKAN SANG KAKAK?
 - Suara: "Dua bersaudara membawa persembahan kepada Allah. Yang satu diterima, yang lain tidak. Lalu apa yang dilakukan sang kakak?"
 
 ## 3. Naskah suara
@@ -36,8 +36,8 @@ Prinsip baru (masukan pengguna): tiap adegan punya **aksi antar tokoh/benda**, b
 
 Gaya kolase, safe zone, satu label sekali tampil, dan bawah terisi tetap berlaku. Allah tidak digambar berwajah (cahaya saja). Peristiwa pembunuhan hanya siluet.
 
-### Catatan teknis animasi (untuk produksi setelah MP3 ada)
-`storykit.py` sudah mendukung `osc`, `tween`, `start_at`, `shake`, `flash`. Untuk "interaktif" saya akan menambahkan: (a) **jalur gerak** (tokoh berjalan dari titik A ke B dengan ayunan langkah), (b) **parent/bawa** (benda menempel ke tangan tokoh lalu diletakkan), (c) **kamera** (pan/zoom per adegan), (d) **layar terbelah**, (e) **reaksi** (tokoh menoleh/mundur saat tokoh lain mendekat). Ini fitur baru; saya tambahkan dan uji saat render, bukan sekarang.
+### Fitur animasi baru (sudah dibuat dan dipakai di render ini)
+Ditambahkan ke `storykit.py` dan didokumentasikan di `references/format-spec.md`: **`follow`** (benda ikut tokoh, dipakai untuk keranjang dan domba yang dibawa), **`camera`** (zoom dan geser per adegan), **`panel`** (layar terbelah dengan tepi sobek), jalur jalan (tween `x` + `osc` ayunan langkah), dan reaksi (tokoh mundur, menoleh, miring). Ada juga pemicu kata: tujuh kilatan "tujuh kali lipat" muncul satu per satu, retakan tanah saat "berteriak dari tanah", tanda emas muncul saat "menaruh tanda".
 
 ## 5. Thumbnail
 Teks: "KAIN & HABEL" (besar), "KAKAK vs ADIK?", "VIDEO 3". Dua mezbah, satu bercahaya dan satu redup, dua tokoh di depannya, bawah terisi (ladang dan domba). Alt text: Ilustrasi kolase kertas dua bersaudara di depan dua mezbah, satu bercahaya.

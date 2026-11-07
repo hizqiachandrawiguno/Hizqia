@@ -591,7 +591,7 @@ def label_pos(L, spr, sc=1.0):
     return x, y, (abs(x - L["x"]) > 1 or abs(y - L["y"]) > 1)
 
 
-SHIFTABLE = {"rays", "sun", "disc", "hill", "water", "actor", "starburst", "confetti"}
+SHIFTABLE = {"rays", "sun", "disc", "hill", "water", "actor", "starburst", "confetti"}  # panel tidak digeser
 
 def shift_layer(L, dy):
     if not dy or L["type"] not in SHIFTABLE:
@@ -616,9 +616,49 @@ def shift_layer(L, dy):
     return L
 
 
+_IDS = {}
+
+def actor_xy(L, t):
+    """Posisi (x, y) sebuah aktor pada waktu t, termasuk animasinya (dipakai oleh `follow`)."""
+    an = L.get("anim", [])
+    x = eval_prop(an, "x", t, L["x"]); y = eval_prop(an, "y", t, L["y"])
+    fo = L.get("follow")
+    if fo and fo.get("t", [0, 1e9])[0] <= t < fo.get("t", [0, 1e9])[1] and fo["id"] in _IDS and _IDS[fo["id"]] is not L:
+        tx, ty = actor_xy(_IDS[fo["id"]], t)
+        x, y = tx + fo.get("dx", 0), ty + fo.get("dy", 0)
+    return x, y
+
+
+def camera_apply(cv, cams, t):
+    """Kamera: zoom >= 1 dan geser pusat. Tween `zoom`, `cx`, `cy` memakai waktu lokal adegan."""
+    z = eval_prop(cams, "zoom", t, 1.0)
+    cx = eval_prop(cams, "cx", t, W / 2); cy = eval_prop(cams, "cy", t, H / 2)
+    if z <= 1.001 and abs(cx - W / 2) < 1 and abs(cy - H / 2) < 1:
+        return cv
+    z = max(1.0, z)
+    cw, ch = W / z, H / z
+    l = min(max(cx - cw / 2, 0), W - cw); tp = min(max(cy - ch / 2, 0), H - ch)
+    return cv.crop((int(l), int(tp), int(l + cw), int(tp + ch))).resize((W, H), Image.BILINEAR)
+
+
 def draw_layer(cv, L, t, fi, idx, spec):
     ty = L["type"]
     if not shown(L, t):
+        return
+    if ty == "panel":
+        # panel kertas berwarna dengan tepi sobek; `slide` ("left"/"right"/"top"/"bottom") dan `slide_dur` untuk masuk
+        x0, y0, x1, y1 = L["box"]
+        sd = L.get("slide"); p = 1.0
+        if sd:
+            p = ease_out(clamp((t - L.get("t", 0.0)) / L.get("slide_dur", 0.6)))
+            dx = {"left": -(x1 - x0), "right": (x1 - x0)}.get(sd, 0) * (1 - p)
+            dy = {"top": -(y1 - y0), "bottom": (y1 - y0)}.get(sd, 0) * (1 - p)
+            x0 += dx; x1 += dx; y0 += dy; y1 += dy
+        pts = torn([(x0, y0), (x1, y0), (x1, y1), (x0, y1)], amp=L.get("amp", 6), step=26, seed=idx)
+        ov = Image.new("RGBA", cv.size, (0, 0, 0, 0))
+        d = ImageDraw.Draw(ov)
+        d.polygon(pts, fill=tup(L.get("color", (30, 24, 20))) + (int(255 * L.get("alpha", 0.35)),), outline=EDGE)
+        cv.paste(Image.alpha_composite(cv.convert("RGBA"), ov).convert("RGB"))
         return
     if ty == "rays":
         rays(cv, L["center"][0], L["center"][1], t * L.get("speed", 0.2), L.get("n", 24), tup(L["colors"][0]), tup(L["colors"][1]))
@@ -645,6 +685,11 @@ def draw_layer(cv, L, t, fi, idx, spec):
         x = eval_prop(an, "x", t, L["x"]); y = eval_prop(an, "y", t, L["y"])
         rot = eval_prop(an, "rot", t, L.get("rot", 0.0)); sc = eval_prop(an, "scale", t, L.get("scale", 1.0))
         al = eval_prop(an, "alpha", t, L.get("alpha", 1.0))
+        fo = L.get("follow")
+        if fo and fo.get("t", [0, 1e9])[0] <= t < fo.get("t", [0, 1e9])[1] and fo["id"] in _IDS:
+            tx, ty = actor_xy(_IDS[fo["id"]], t)
+            x, y = tx + fo.get("dx", 0), ty + fo.get("dy", 0)
+            rot += fo.get("rot", 0.0)
         if sc <= 0.001 or al <= 0.001:
             return
         if "pivot" in L:
@@ -770,10 +815,14 @@ def draw_scene(spec, sc, t, fi, shift=0):
     cv = bg(tup(sc.get("bg", PARCH)), fi)
     layers = sc.get("layers", [])
     last_hill = None
+    _IDS.clear()
+    for L in layers:
+        if "id" in L:
+            _IDS[L["id"]] = shift_layer(L, shift)
     for i, L in enumerate(layers):
         if L["type"] == "label":
             continue
-        L2 = shift_layer(L, shift)
+        L2 = _IDS.get(L.get("id")) or shift_layer(L, shift)
         if L2["type"] == "hill":
             last_hill = L2["color"]
         draw_layer(cv, L2, t, fi, i, spec)
@@ -782,6 +831,8 @@ def draw_scene(spec, sc, t, fi, shift=0):
         fg = {"color": last_hill} if last_hill else None
     if fg:
         draw_foreground(cv, tup(fg.get("color", last_hill or EARTH)), fg.get("kind", "grass"), fg.get("y", FG_Y), t)
+    if sc.get("camera"):
+        cv = camera_apply(cv, sc["camera"], t)
     for i, L in enumerate(layers):
         if L["type"] == "label":
             draw_layer(cv, L, t, fi, i, spec)

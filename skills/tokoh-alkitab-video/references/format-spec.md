@@ -75,6 +75,12 @@ Tambahkan di `sprites`. Bentuk: `{"poly":[[x,y],...],"fill":[r,g,b]}`, `{"ell":[
 - Osilasi: `{"type":"osc","prop":"y","amp":-18,"freq":6.5,"abs":true,"phase":0,"t":[t0,t1]}`.
 - Munculnya benda: tween `scale` dari 0.001 ke nilai akhir dengan `"ease":"back"`.
 
+### Animasi interaktif (lapisan dan adegan)
+- `"id":"kain"` pada aktor, lalu aktor lain `"follow":{"id":"kain","dx":95,"dy":-300,"t":[0,3]}`: benda ikut tokoh (membawa) selama `t`; setelah itu memakai posisinya sendiri (meletakkan).
+- Jalan: tween `x` ditambah `{"type":"osc","prop":"y","amp":-12,"freq":9,"abs":true,"t":[t0,t1]}` untuk ayunan langkah.
+- Kamera per adegan: `"camera":[{"t":[0,5],"zoom":[1,1.3]},{"t":[0,5],"cx":[540,700]}]`. Teks label tetap diam. Zoom minimal 1.
+- `{"type":"panel","box":[x0,y0,x1,y1],"color":[r,g,b],"alpha":0.22,"slide":"left","slide_dur":0.6,"t":0}`: panel kertas berwarna untuk layar terbelah.
+
 ## Audio
 Per adegan (disarankan, mengikuti `start_at` otomatis): `"intensity": 0.4` (kekuatan drone), `"drums": 0.7` (selang detik antar ketukan), `"oud": {"notes":["D4","F#4"],"step":0.6}`, `"sfx": [{"at":"frasa","type":"crack"}]`. Pad kemenangan di adegan terakhir dan penutup dibuat otomatis. Jenis sfx: `boom`, `hit`, `step`, `crack`, `impact`, `tink`, `pop`, `whoosh`, `riser`, `water`, `cheer`. Pengaturan global opsional di `audio` (`intensity`, `pad`, `oud`, `drums`, `sfx`, `auto_ticks`). Turunkan `intensity` ke 0 sebelum klimaks untuk jeda dramatis.
 
