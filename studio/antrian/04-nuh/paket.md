@@ -1,6 +1,6 @@
 # Paket Video 4: Nuh (Kejadian 6–9), mode detail
 
-> **Status:** naskah menunggu persetujuan G1. **Tayang rencana:** Selasa 10 Nov 2026. **Status ayat:** Kejadian 6, 7, 8, 9 sudah **dicocokkan dengan TB (Bible.com) yang Anda tempel**; ayat yang dipakai tersimpan di `ayat-tb.json`. Naskah berupa parafrase dekat, tanpa tanda kutip.
+> **Status:** render selesai dengan suara Anda (150,6 dtk); menunggu persetujuan G2 (tonton `video-final.mp4`). **Tayang rencana:** Selasa 10 Nov 2026. Berkas video tidak disimpan di git; buat ulang dengan `python3 gen_spec.py`, `storykit.py render spec.json`, lalu `add_voiceover.sh`. **Status ayat:** Kejadian 6–9 dicocokkan dengan TB yang Anda tempel; naskah berupa parafrase dekat tanpa tanda kutip.
 
 ## 1. Ringkasan
 Nuh, Kejadian 6–9. Pesan inti: Nuh menaati Allah sebelum hujan turun, dan Allah setia pada janji-Nya.
@@ -10,7 +10,7 @@ Nuh, Kejadian 6–9. Pesan inti: Nuh menaati Allah sebelum hujan turun, dan Alla
 - Suara: "Allah menyuruh seorang laki-laki membangun kapal raksasa sebelum hujan turun. Apa yang ia lakukan?"
 
 ## 3. Naskah suara
-Lihat `naskah.txt`: hook 14 kata, cerita 302 kata (15 paragraf), penutup 15 kata. Perkiraan sekitar 2,5 menit. Tanpa tag, tanpa tanda kutip. Bagian air bah singkat dan lembut, tanpa gambaran mengerikan.
+Lihat `naskah.txt`: hook 14 kata, cerita 302 kata (15 paragraf), penutup 15 kata. Durasi final 150,6 detik (2 menit 31 detik). Tanpa tag, tanpa tanda kutip. Bagian air bah singkat dan lembut, tanpa gambaran mengerikan.
 
 ## 4. Storyboard dengan animasi interaktif
 | # | Paragraf | Aksi interaktif | Label (satu per satu) |
@@ -87,4 +87,4 @@ Kisahnya ada di kitab Kejadian, pasal 6–9. Bacalah sendiri di Alkitabmu, lalu 
 Bagian yang sengaja tidak dimasukkan: Kej 6:1–4 (anak-anak Allah dan raksasa, penafsirannya beragam) dan Kej 9:18–29 (Nuh mabuk, kutuk Kanaan), karena tidak mendukung pesan inti.
 
 ## 8. Asumsi
-Mode detail; ejaan nama dan istilah menurut TB yang ditempel (bahtera, gofir, hasta, Ararat). Animasi interaktif dibuat setelah MP3 ada.
+Mode detail; ejaan nama dan istilah menurut TB yang ditempel (bahtera, gofir, hasta, Ararat). Animasi dibuat dari rekaman asli.
