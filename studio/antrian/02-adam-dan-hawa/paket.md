@@ -2,7 +2,7 @@
 
 > **Status:** render selesai (menunggu persetujuan G2: pengguna menonton video-final.mp4). Berkas video tidak disimpan di git; dibuat ulang dengan storykit.py render dari spec.json dan voiceover.mp3.
 >
-> **Status ayat:** Kejadian 1, 2, dan 3 sudah **dicocokkan dengan teks Alkitab TB (Bible.com) yang Anda tempel** pada 7 Nov 2026 (tersimpan di `skills/tokoh-alkitab-video/references/ayat-tb.json`). Satu-satunya yang belum terverifikasi adalah penamaan "Adam" (muncul di Kejadian 4–5, belum ditempel). Naskah berupa parafrase tanpa tanda kutip.
+> **Status ayat:** Kejadian 1, 2, dan 3 sudah **dicocokkan dengan teks Alkitab TB (Bible.com) yang Anda tempel** pada 7 Nov 2026 (tersimpan di `skills/tokoh-alkitab-video/references/ayat-tb.json`). Penamaan "Adam" kini terverifikasi (Kejadian 4:25, ditempel 7 Nov 2026). Naskah berupa parafrase tanpa tanda kutip.
 
 ## 1. Ringkasan
 Adam & Hawa, Kejadian 1–3. Pesan inti: dosa bermula dari keraguan terhadap perkataan Allah, tetapi Allah tetap mencari manusia dan memanggil mereka.

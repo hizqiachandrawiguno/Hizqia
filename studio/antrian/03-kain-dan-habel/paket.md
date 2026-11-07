@@ -1,6 +1,6 @@
 # Paket Video 3: Kain & Habel (Kejadian 4), mode detail
 
-> **Status:** naskah menunggu persetujuan G1. **Status ayat:** Kejadian 4 BELUM ditempel, jadi semua isi berupa parafrase tanpa tanda kutip dan belum diverifikasi dengan TB. Tempel Kejadian 4 (TB, Bible.com) agar saya cocokkan sebelum Anda merekam.
+> **Status:** naskah menunggu persetujuan G1 (lalu rekam). **Status ayat:** Kejadian 4 sudah **dicocokkan dengan TB (Bible.com) yang Anda tempel** (tersimpan di `ayat-tb.json`). Naskah berupa parafrase dekat, tanpa tanda kutip.
 
 ## 1. Ringkasan
 Kain & Habel, Kejadian 4. Pesan inti: iri hati yang dipelihara melahirkan hal terburuk, dosa mengintip tetapi bisa dikuasai, dan kita dipanggil peduli pada saudara.
@@ -10,7 +10,7 @@ Kain & Habel, Kejadian 4. Pesan inti: iri hati yang dipelihara melahirkan hal te
 - Suara: "Dua bersaudara membawa persembahan kepada Allah. Yang satu diterima, yang lain tidak. Lalu apa yang dilakukan sang kakak?"
 
 ## 3. Naskah suara
-Lihat `naskah.txt`: hook 18 kata, cerita 247 kata (15 paragraf), penutup 15 kata. Perkiraan 2 sampai 2,2 menit. Tanpa tag, tanpa tanda kutip. Bagian pembunuhan sengaja satu kalimat saja, tanpa detail.
+Lihat `naskah.txt`: hook 18 kata, cerita 269 kata (15 paragraf), penutup 15 kata. Perkiraan sekitar 2,3 menit. Tanpa tag, tanpa tanda kutip. Bagian pembunuhan sengaja satu kalimat saja, tanpa detail.
 
 ## 4. Storyboard dengan animasi interaktif
 Prinsip baru (masukan pengguna): tiap adegan punya **aksi antar tokoh/benda**, bukan hanya tampil dan bergoyang. Tokoh berjalan, membawa, menaruh, menoleh, bereaksi; kamera bergerak; teks "dipicu" oleh aksi.
@@ -69,23 +69,26 @@ Kisahnya ada di kitab Kejadian, pasal 4. Bacalah sendiri di Alkitabmu, lalu ceri
 ```
 **Komentar sematan:** Menurutmu, apa yang paling sering memicu iri hati dalam hidup kita? 👇
 
-## 7. Pemeriksaan akurasi (BELUM diverifikasi dengan TB)
-| Fakta | Rujukan | Status |
+## 7. Pemeriksaan akurasi (dicocokkan dengan TB yang Anda tempel)
+| Fakta di naskah | Rujukan | Status |
 |---|---|---|
-| Kain sulung, lalu Habel | Kej 4:1–2 | belum TB |
-| Habel gembala, Kain petani | Kej 4:2 | belum TB |
-| Persembahan: hasil tanah vs anak sulung domba dan lemaknya | Kej 4:3–4 | belum TB |
-| TUHAN mengindahkan Habel, tidak Kain | Kej 4:4–5 | belum TB |
-| Kain marah, muka muram | Kej 4:5 | belum TB |
-| Peringatan: berbuat baik diterima; dosa mengintip, harus berkuasa atasnya | Kej 4:6–7 | belum TB (parafrase) |
-| Ajakan ke padang, pembunuhan | Kej 4:8 | belum TB |
-| "Di manakah Habel?" / "penjaga adikku?" | Kej 4:9 | belum TB |
-| Darah berteriak, kutuk, pengembara, tanah tak memberi hasil | Kej 4:10–12 | belum TB |
-| Hukuman terlalu berat, takut dibunuh | Kej 4:13–14 | belum TB |
-| Tanda pada Kain | Kej 4:15 | belum TB |
-| Tinggal di tanah Nod, timur Eden | Kej 4:16 | belum TB |
-| "Pembunuhan pertama yang dicatat Alkitab" | Kej 4:8 | simpulan dari urutan teks |
-Catatan: Kejadian 4 tidak menyebut alasan persembahan Kain tidak diindahkan; naskah tidak mengarang alasan.
+| Adam dan Hawa mendapat Kain; Hawa: "dengan pertolongan TUHAN" | Kej 4:1 | cocok (nama "Adam" muncul di 4:25) |
+| Lalu lahir Habel, adik Kain | 4:2 | cocok |
+| Habel gembala kambing domba, Kain petani | 4:2 | cocok |
+| Setelah beberapa waktu; Kain mempersembahkan sebagian hasil tanah | 4:3 | cocok |
+| Habel: anak sulung kambing dombanya, yakni lemak-lemaknya | 4:4 | cocok |
+| TUHAN mengindahkan Habel; Kain tidak diindahkan | 4:4–5 | cocok |
+| Hati Kain sangat panas, muka muram | 4:5 | cocok |
+| Pertanyaan TUHAN, berseri jika berbuat baik, dosa mengintip di depan pintu, menggoda, harus berkuasa | 4:6–7 | cocok (parafrase dekat) |
+| "Marilah kita pergi ke padang"; Kain memukul Habel dan membunuhnya | 4:8 | cocok |
+| "Di mana Habel, adikmu itu?" / "penjaga adikku?" | 4:9 | cocok |
+| Darah berteriak dari tanah; terkutuk, terbuang dari tanah; hasil tidak sepenuhnya; pelarian dan pengembara | 4:10–12 | cocok |
+| Hukuman lebih besar dari yang dapat ditanggung; takut dibunuh | 4:13–14 | cocok |
+| "Sekali-kali tidak", tujuh kali lipat, tanda pada Kain | 4:15 | cocok |
+| Pergi dari hadapan TUHAN, menetap di tanah Nod, timur Eden | 4:16 | cocok |
+| "Pembunuhan pertama yang dicatat Alkitab" | 4:8 | simpulan dari urutan teks |
+| Pesan "bawalah amarah kepada Allah", "peduli pada saudara" | - | [penerapan], bukan teks Alkitab |
+Catatan: Kejadian 4 tidak menyebut alasan persembahan Kain tidak diindahkan; naskah tidak mengarang alasan. Di sumber nama Tuhan tertulis "Tuhan"; naskah memakai TUHAN sesuai cetakan TB.
 
 ## 8. Asumsi
-Mode detail; nama Kain, Habel, Nod, Eden menurut TB (ejaan belum dicek). Animasi interaktif dibuat setelah MP3 ada.
+Mode detail; nama Kain, Habel, Nod, Eden menurut TB yang ditempel. Animasi interaktif dibuat setelah MP3 ada.
