@@ -1,6 +1,6 @@
 # Paket Video 2: Adam & Hawa (Kejadian 1–3), mode detail
 
-> **Status ayat:** Kejadian 2 dan 3 sudah **dicocokkan dengan teks Alkitab TB (Bible.com) yang Anda tempel** pada 7 Nov 2026 (tersimpan di `skills/tokoh-alkitab-video/references/ayat-tb.json`). **Kejadian 1 belum ditempel**, jadi klaim "enam hari", "hari keenam", dan "menurut gambar-Nya" masih belum diverifikasi. Naskah tetap berupa parafrase tanpa tanda kutip.
+> **Status ayat:** Kejadian 1, 2, dan 3 sudah **dicocokkan dengan teks Alkitab TB (Bible.com) yang Anda tempel** pada 7 Nov 2026 (tersimpan di `skills/tokoh-alkitab-video/references/ayat-tb.json`). Satu-satunya yang belum terverifikasi adalah penamaan "Adam" (muncul di Kejadian 4–5, belum ditempel). Naskah berupa parafrase tanpa tanda kutip.
 
 ## 1. Ringkasan
 Adam & Hawa, Kejadian 1–3. Pesan inti: dosa bermula dari keraguan terhadap perkataan Allah, tetapi Allah tetap mencari manusia dan memanggil mereka.
@@ -62,10 +62,11 @@ Kisahnya ada di kitab Kejadian, pasal 1–3. Bacalah sendiri di Alkitabmu, lalu 
 **Komentar sematan:** Menurutmu, bagian mana dari kisah Adam dan Hawa yang paling sering kita lupakan? 👇
 
 ## 7. Pemeriksaan akurasi (dicocokkan dengan TB yang Anda tempel)
-Status: **TB** = cocok dengan teks Kejadian 2 atau 3 yang Anda tempel; **BELUM** = ayatnya belum ditempel.
+Status: **TB** = cocok dengan teks Kejadian 1, 2, atau 3 yang Anda tempel; **BELUM** = ayatnya belum ditempel.
 | Fakta di naskah | Rujukan | Status |
 |---|---|---|
-| Penciptaan dalam enam hari; manusia pada hari keenam menurut gambar Allah | Kej. 1 | BELUM (Kej. 2:1–3 hanya menyebut hari ketujuh) |
+| Penciptaan langit dan bumi dalam enam hari (hari pertama sampai keenam), lalu hari ketujuh berhenti | Kej. 1:1–31; 2:1–3 | TB |
+| Manusia diciptakan pada hari keenam menurut gambar Allah | Kej. 1:26–27, 31 | TB |
 | Manusia dibentuk dari debu tanah; napas hidup ke dalam hidungnya | Kej. 2:7 | TB |
 | Manusia ditempatkan di taman Eden | Kej. 2:8, 15 | TB |
 | Boleh makan dari semua pohon kecuali pohon pengetahuan baik dan jahat; memakannya pasti mati | Kej. 2:16–17 | TB |
@@ -95,5 +96,5 @@ Catatan hasil pencocokan:
 - Pohon kehidupan disebut singkat di akhir (kerub menjaga jalan ke pohon kehidupan, Kej. 3:24).
 - Jadwal tayang rencana: Senin, 9 November 2026 (sesuaikan).
 
-## Yang masih perlu Anda tempel dari Bible.com TB
-Kejadian 1 (seluruh pasal, atau minimal 1:26–31), dan Kejadian 4:25 serta 5:1–5 bila Anda ingin nama "Adam" diverifikasi.
+## Yang masih perlu Anda tempel dari Bible.com TB (opsional)
+Kejadian 4:25 dan 5:1–5, hanya jika Anda ingin nama "Adam" ikut diverifikasi. Selain itu, seluruh fakta di naskah sudah cocok dengan TB.
