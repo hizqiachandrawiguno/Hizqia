@@ -48,3 +48,10 @@ Lima agen bekerja untuk satu akun konten. Semua agen membaca dan menulis berkas 
 - Tulis hasil dalam bahasa Indonesia, singkat, dengan temuan dulu.
 - Akhiri setiap pekerjaan dengan laporan: apa yang dikerjakan, berkas yang diubah, hal yang belum bisa dan alasannya.
 - Jangan menyentuh akun, kata sandi, atau token. Jangan mengirim data pribadi ke layanan luar.
+
+
+## Ritme harian (mulai 9 Nov 2026): 7 video per minggu
+- **Kerja per batch mingguan.** Tiap Minggu atau Senin, kirim 7 bacaan TB sekaligus ke Claude. Satu sesi: Trend & Copywriter menulis 7 naskah, Anda setujui (G1), rekam 7 MP3 sekali duduk, Production merender 7 video (sekitar 3 menit per video), Anda tonton (G2), lalu Social Media Specialist menyusun caption dan jadwal 7 hari (G3).
+- **Penyangga:** usahakan selalu 5 sampai 7 video siap tayang di depan. Jangan bekerja hari-H.
+- **Hari longgar:** boleh ganti 1 sampai 2 video per minggu ke mode ringkas (75 sampai 80 detik, tetap di atas 1 menit untuk syarat monetisasi) bila beban terlalu berat.
+- Tanggal ada di `state/kalender.json` dan `panduan/jadwal-harian.md`.
