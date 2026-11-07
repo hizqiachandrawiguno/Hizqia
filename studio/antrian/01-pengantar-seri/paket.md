@@ -1,6 +1,6 @@
 # Paket Video 1: Pengantar Seri "Tokoh Alkitab"
 
-Status: naskah (menunggu persetujuan G1 dan rekaman suara). Mode ringkas, tanpa kutipan ayat.
+Status: render selesai (menunggu persetujuan G2: pengguna menonton video-final.mp4). Mode ringkas, tanpa kutipan ayat.
 
 ## 1. Ringkasan
 Pengantar seri: belajar singkat tokoh-tokoh Alkitab dari Kejadian sampai Wahyu. Pesan inti: Alkitab bisa dipelajari pelan-pelan lewat kisah tokohnya.

@@ -19,7 +19,7 @@
    "hook_rencana": "Alkitab punya 66 kitab. Susuri lewat tokoh-tokohnya.",
    "pesan_inti": "Alkitab bisa dipelajari pelan-pelan lewat kisah tokohnya.",
    "tanggal_rencana": null,
-   "status": "naskah",
+   "status": "render",
    "ayat_terverifikasi_tb": false,
    "folder": "studio/antrian/01-pengantar-seri",
    "tayang": null
