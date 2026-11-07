@@ -55,8 +55,8 @@
       "hook_rencana": "Ia diperintahkan membangun kapal raksasa untuk banjir yang belum pernah terjadi.",
       "pesan_inti": "Taat pada Tuhan meski belum melihat hasilnya.",
       "tanggal_rencana": "2026-11-10",
-      "status": "rencana",
-      "ayat_terverifikasi_tb": false,
+      "status": "naskah",
+      "ayat_terverifikasi_tb": true,
       "folder": "studio/antrian/04-nuh",
       "tayang": null
     },
