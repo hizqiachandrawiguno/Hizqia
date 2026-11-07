@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Video hasil render besar: dibuat ulang dari spec.json + voiceover.mp3 (sekitar 3 menit)
+studio/antrian/*/video-final.mp4
+studio/antrian/*/video-tanpa-suara.mp4
