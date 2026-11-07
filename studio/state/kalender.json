@@ -25,19 +25,19 @@
    "tayang": null
   },
   {
-   "video_no": 3,
+   "video_no": 2,
    "tokoh": "Adam & Hawa",
    "bacaan": "Kejadian 1–3",
    "hook_rencana": "Satu buah yang mengubah segalanya. Apa yang sebenarnya terjadi di Taman Eden?",
    "pesan_inti": "Dosa merusak hubungan, tetapi Allah tetap mencari manusia.",
    "tanggal_rencana": "2026-11-09",
-   "status": "rencana",
+   "status": "naskah",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/03-adam-hawa",
+   "folder": "studio/antrian/02-adam-hawa",
    "tayang": null
   },
   {
-   "video_no": 4,
+   "video_no": 3,
    "tokoh": "Kain & Habel",
    "bacaan": "Kejadian 4",
    "hook_rencana": "Dua saudara, satu persembahan, dan pembunuhan pertama dalam sejarah.",
@@ -45,11 +45,11 @@
    "tanggal_rencana": "2026-11-11",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/04-kain-habel",
+   "folder": "studio/antrian/03-kain-habel",
    "tayang": null
   },
   {
-   "video_no": 5,
+   "video_no": 4,
    "tokoh": "Nuh",
    "bacaan": "Kejadian 6–9",
    "hook_rencana": "Ia diperintahkan membangun kapal raksasa untuk banjir yang belum pernah terjadi.",
@@ -57,11 +57,11 @@
    "tanggal_rencana": "2026-11-13",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/05-nuh",
+   "folder": "studio/antrian/04-nuh",
    "tayang": null
   },
   {
-   "video_no": 6,
+   "video_no": 5,
    "tokoh": "Abraham",
    "bacaan": "Kejadian 12; 15; 22",
    "hook_rencana": "Pergi ke tempat yang belum ia tahu. Apa yang membuat Abraham mau?",
@@ -69,11 +69,11 @@
    "tanggal_rencana": "2026-11-16",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/06-abraham",
+   "folder": "studio/antrian/05-abraham",
    "tayang": null
   },
   {
-   "video_no": 7,
+   "video_no": 6,
    "tokoh": "Sara",
    "bacaan": "Kejadian 17–18; 21",
    "hook_rencana": "Ia tertawa saat dijanjikan anak di usia 90 tahun. Lalu apa yang terjadi?",
@@ -81,11 +81,11 @@
    "tanggal_rencana": "2026-11-18",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/07-sara",
+   "folder": "studio/antrian/06-sara",
    "tayang": null
   },
   {
-   "video_no": 8,
+   "video_no": 7,
    "tokoh": "Hagar",
    "bacaan": "Kejadian 16; 21",
    "hook_rencana": "Diusir ke padang gurun, tetapi Tuhan melihatnya.",
@@ -93,11 +93,11 @@
    "tanggal_rencana": "2026-11-20",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/08-hagar",
+   "folder": "studio/antrian/07-hagar",
    "tayang": null
   },
   {
-   "video_no": 9,
+   "video_no": 8,
    "tokoh": "Lot",
    "bacaan": "Kejadian 13; 19",
    "hook_rencana": "Satu pilihan tempat tinggal yang mengubah seluruh hidupnya.",
@@ -105,11 +105,11 @@
    "tanggal_rencana": "2026-11-23",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/09-lot",
+   "folder": "studio/antrian/08-lot",
    "tayang": null
   },
   {
-   "video_no": 10,
+   "video_no": 9,
    "tokoh": "Ishak",
    "bacaan": "Kejadian 22; 26",
    "hook_rencana": "Ia hampir dikorbankan oleh ayahnya sendiri.",
@@ -117,11 +117,11 @@
    "tanggal_rencana": "2026-11-25",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/10-ishak",
+   "folder": "studio/antrian/09-ishak",
    "tayang": null
   },
   {
-   "video_no": 11,
+   "video_no": 10,
    "tokoh": "Ribka",
    "bacaan": "Kejadian 24",
    "hook_rencana": "Ia hanya memberi minum unta, tetapi itu mengubah hidupnya.",
@@ -129,11 +129,11 @@
    "tanggal_rencana": "2026-11-27",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/11-ribka",
+   "folder": "studio/antrian/10-ribka",
    "tayang": null
   },
   {
-   "video_no": 12,
+   "video_no": 11,
    "tokoh": "Esau",
    "bacaan": "Kejadian 25; 27; 33",
    "hook_rencana": "Ia menjual hak kesulungannya demi semangkuk sup.",
@@ -141,11 +141,11 @@
    "tanggal_rencana": "2026-11-30",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/12-esau",
+   "folder": "studio/antrian/11-esau",
    "tayang": null
   },
   {
-   "video_no": 13,
+   "video_no": 12,
    "tokoh": "Yakub",
    "bacaan": "Kejadian 28–33",
    "hook_rencana": "Penipu yang bergulat dengan Allah sepanjang malam.",
@@ -153,11 +153,11 @@
    "tanggal_rencana": "2026-12-02",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/13-yakub",
+   "folder": "studio/antrian/12-yakub",
    "tayang": null
   },
   {
-   "video_no": 14,
+   "video_no": 13,
    "tokoh": "Yusuf",
    "bacaan": "Kejadian 37; 39–50",
    "hook_rencana": "Dijual saudara sendiri, dipenjara, lalu menjadi penguasa Mesir.",
@@ -165,11 +165,11 @@
    "tanggal_rencana": "2026-12-04",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/14-yusuf",
+   "folder": "studio/antrian/13-yusuf",
    "tayang": null
   },
   {
-   "video_no": 15,
+   "video_no": 14,
    "tokoh": "Musa (dari sungai Nil sampai semak menyala)",
    "bacaan": "Keluaran 2–4",
    "hook_rencana": "Bayi di sungai Nil yang kelak membebaskan sebuah bangsa.",
@@ -177,11 +177,11 @@
    "tanggal_rencana": "2026-12-07",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/15-musa-dari-sungai-nil-sampai-semak-menyala",
+   "folder": "studio/antrian/14-musa-dari-sungai-nil-sampai-semak-menyala",
    "tayang": null
   },
   {
-   "video_no": 16,
+   "video_no": 15,
    "tokoh": "Miryam",
    "bacaan": "Keluaran 2; 15",
    "hook_rencana": "Kakak kecil yang diam-diam menjaga adiknya di tepi sungai.",
@@ -189,11 +189,11 @@
    "tanggal_rencana": "2026-12-09",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/16-miryam",
+   "folder": "studio/antrian/15-miryam",
    "tayang": null
   },
   {
-   "video_no": 17,
+   "video_no": 16,
    "tokoh": "Firaun",
    "bacaan": "Keluaran 5–14",
    "hook_rencana": "Sepuluh tulah menimpa Mesir, tetapi hatinya tetap keras.",
@@ -201,11 +201,11 @@
    "tanggal_rencana": "2026-12-11",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/17-firaun",
+   "folder": "studio/antrian/16-firaun",
    "tayang": null
   },
   {
-   "video_no": 18,
+   "video_no": 17,
    "tokoh": "Yosua",
    "bacaan": "Bilangan 13–14; Yosua 1–6",
    "hook_rencana": "Tembok kota runtuh tanpa satu pun senjata.",
@@ -213,11 +213,11 @@
    "tanggal_rencana": "2026-12-14",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/18-yosua",
+   "folder": "studio/antrian/17-yosua",
    "tayang": null
   },
   {
-   "video_no": 19,
+   "video_no": 18,
    "tokoh": "Kaleb",
    "bacaan": "Bilangan 13–14; Yosua 14",
    "hook_rencana": "Berusia 85 tahun, tetapi ia meminta gunung yang paling sulit.",
@@ -225,11 +225,11 @@
    "tanggal_rencana": "2026-12-16",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/19-kaleb",
+   "folder": "studio/antrian/18-kaleb",
    "tayang": null
   },
   {
-   "video_no": 20,
+   "video_no": 19,
    "tokoh": "Rahab",
    "bacaan": "Yosua 2; 6",
    "hook_rencana": "Di kota yang akan hancur, ia memilih berpihak pada Tuhan.",
@@ -237,11 +237,11 @@
    "tanggal_rencana": "2026-12-18",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/20-rahab",
+   "folder": "studio/antrian/19-rahab",
    "tayang": null
   },
   {
-   "video_no": 21,
+   "video_no": 20,
    "tokoh": "Debora",
    "bacaan": "Hakim-hakim 4–5",
    "hook_rencana": "Sang panglima menolak berperang, kecuali Debora ikut bersamanya.",
@@ -249,11 +249,11 @@
    "tanggal_rencana": "2026-12-21",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/21-debora",
+   "folder": "studio/antrian/20-debora",
    "tayang": null
   },
   {
-   "video_no": 22,
+   "video_no": 21,
    "tokoh": "Gideon",
    "bacaan": "Hakim-hakim 6–7",
    "hook_rencana": "Dari 32.000 prajurit, Tuhan hanya memakai 300.",
@@ -261,11 +261,11 @@
    "tanggal_rencana": "2026-12-23",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/22-gideon",
+   "folder": "studio/antrian/21-gideon",
    "tayang": null
   },
   {
-   "video_no": 23,
+   "video_no": 22,
    "tokoh": "Simson",
    "bacaan": "Hakim-hakim 13–16",
    "hook_rencana": "Orang terkuat di Israel, dikalahkan oleh kelemahannya sendiri.",
@@ -273,83 +273,84 @@
    "tanggal_rencana": "2026-12-25",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/23-simson",
+   "folder": "studio/antrian/22-simson",
+   "tayang": null
+  },
+  {
+   "video_no": 23,
+   "tokoh": "Rut & Boas",
+   "bacaan": "Rut 1–4",
+   "hook_rencana": "Menantu yang menolak pulang dan akhirnya masuk silsilah Yesus, berkat seorang pria yang memperhatikannya.",
+   "pesan_inti": "Kesetiaan dan kemurahan hati tidak pernah luput dari mata Tuhan.",
+   "tanggal_rencana": "2026-12-28",
+   "status": "rencana",
+   "ayat_terverifikasi_tb": false,
+   "folder": "studio/antrian/23-rut-boas",
    "tayang": null
   },
   {
    "video_no": 24,
-   "tokoh": "Rut",
-   "bacaan": "Rut 1–4",
-   "hook_rencana": "Menantu yang menolak pulang dan akhirnya masuk silsilah Yesus.",
-   "pesan_inti": "Kesetiaan tidak pernah luput dari mata Tuhan.",
-   "tanggal_rencana": "2026-12-28",
-   "status": "rencana",
-   "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/24-rut",
-   "tayang": null
-  },
-  {
-   "video_no": 25,
-   "tokoh": "Boas",
-   "bacaan": "Rut 2–4",
-   "hook_rencana": "Pria terpandang yang memperhatikan seorang pemungut gandum asing.",
-   "pesan_inti": "Kemurahan hati mencerminkan hati Allah.",
-   "tanggal_rencana": "2026-12-30",
-   "status": "rencana",
-   "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/25-boas",
-   "tayang": null
-  },
-  {
-   "video_no": 26,
    "tokoh": "Hana",
    "bacaan": "1 Samuel 1–2",
    "hook_rencana": "Doanya dikira orang mabuk. Padahal ia sedang menangis kepada Tuhan.",
    "pesan_inti": "Tuhan mendengar doa yang tulus.",
-   "tanggal_rencana": "2027-01-01",
+   "tanggal_rencana": "2026-12-30",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/26-hana",
+   "folder": "studio/antrian/24-hana",
    "tayang": null
   },
   {
-   "video_no": 27,
+   "video_no": 25,
    "tokoh": "Samuel",
    "bacaan": "1 Samuel 3; 7; 16",
    "hook_rencana": "Seorang anak mendengar suara yang memanggil namanya di tengah malam.",
    "pesan_inti": "Siap mendengar dan menjawab Tuhan.",
-   "tanggal_rencana": "2027-01-04",
+   "tanggal_rencana": "2027-01-01",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/27-samuel",
+   "folder": "studio/antrian/25-samuel",
    "tayang": null
   },
   {
-   "video_no": 28,
+   "video_no": 26,
    "tokoh": "Saul",
    "bacaan": "1 Samuel 9–15; 31",
    "hook_rencana": "Raja pertama Israel: tinggi, gagah, dan jatuh karena satu hal.",
    "pesan_inti": "Ketaatan lebih berharga daripada persembahan.",
-   "tanggal_rencana": "2027-01-06",
+   "tanggal_rencana": "2027-01-04",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/28-saul",
+   "folder": "studio/antrian/26-saul",
    "tayang": null
   },
   {
-   "video_no": 29,
+   "video_no": 27,
    "tokoh": "Yonatan",
    "bacaan": "1 Samuel 14; 18–20",
    "hook_rencana": "Pangeran yang rela melepas takhtanya demi seorang sahabat.",
    "pesan_inti": "Persahabatan sejati rela berkorban.",
-   "tanggal_rencana": "2027-01-08",
+   "tanggal_rencana": "2027-01-06",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/29-yonatan",
+   "folder": "studio/antrian/27-yonatan",
    "tayang": null
   },
   {
-   "video_no": 30,
+   "video_no": 28,
+   "tokoh": "Daud",
+   "bacaan": "1 Samuel 16–17",
+   "hook_rencana": "Bocah gembala menjatuhkan raksasa 3 meter hanya dengan 1 batu.",
+   "pesan_inti": "Bukan soal ukuran, tetapi soal siapa yang kamu andalkan.",
+   "tanggal_rencana": "2027-01-08",
+   "status": "video-lama-perlu-nomor-baru",
+   "ayat_terverifikasi_tb": false,
+   "folder": "studio/antrian/28-daud",
+   "tayang": null,
+   "catatan": "Video sudah dibuat dengan nomor lama (Video 2); render ulang dengan nomor Video 28 dan tata letak baru sebelum tayang."
+  },
+  {
+   "video_no": 29,
    "tokoh": "Natan",
    "bacaan": "2 Samuel 12",
    "hook_rencana": "Satu cerita membuat seorang raja sadar akan dosanya.",
@@ -357,11 +358,11 @@
    "tanggal_rencana": "2027-01-11",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/30-natan",
+   "folder": "studio/antrian/29-natan",
    "tayang": null
   },
   {
-   "video_no": 31,
+   "video_no": 30,
    "tokoh": "Absalom",
    "bacaan": "2 Samuel 15–18",
    "hook_rencana": "Anak raja yang merebut hati rakyat, lalu merebut takhta ayahnya.",
@@ -369,11 +370,11 @@
    "tanggal_rencana": "2027-01-13",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/31-absalom",
+   "folder": "studio/antrian/30-absalom",
    "tayang": null
   },
   {
-   "video_no": 32,
+   "video_no": 31,
    "tokoh": "Salomo",
    "bacaan": "1 Raja-raja 3; 10–11",
    "hook_rencana": "Tuhan menawarkan apa saja. Ia memilih hikmat.",
@@ -381,11 +382,11 @@
    "tanggal_rencana": "2027-01-15",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/32-salomo",
+   "folder": "studio/antrian/31-salomo",
    "tayang": null
   },
   {
-   "video_no": 33,
+   "video_no": 32,
    "tokoh": "Ratu Syeba",
    "bacaan": "1 Raja-raja 10",
    "hook_rencana": "Ia menempuh perjalanan jauh hanya untuk menguji hikmat Salomo.",
@@ -393,11 +394,11 @@
    "tanggal_rencana": "2027-01-18",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/33-ratu-syeba",
+   "folder": "studio/antrian/32-ratu-syeba",
    "tayang": null
   },
   {
-   "video_no": 34,
+   "video_no": 33,
    "tokoh": "Elia",
    "bacaan": "1 Raja-raja 17–19",
    "hook_rencana": "Api turun dari langit di hadapan 450 nabi Baal.",
@@ -405,11 +406,11 @@
    "tanggal_rencana": "2027-01-20",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/34-elia",
+   "folder": "studio/antrian/33-elia",
    "tayang": null
   },
   {
-   "video_no": 35,
+   "video_no": 34,
    "tokoh": "Janda Sarfat",
    "bacaan": "1 Raja-raja 17",
    "hook_rencana": "Segenggam tepung terakhir, dan keputusan yang mengubah segalanya.",
@@ -417,11 +418,11 @@
    "tanggal_rencana": "2027-01-22",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/35-janda-sarfat",
+   "folder": "studio/antrian/34-janda-sarfat",
    "tayang": null
   },
   {
-   "video_no": 36,
+   "video_no": 35,
    "tokoh": "Elisa",
    "bacaan": "2 Raja-raja 2–6",
    "hook_rencana": "Ia meminta dua bagian roh gurunya.",
@@ -429,11 +430,11 @@
    "tanggal_rencana": "2027-01-25",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/36-elisa",
+   "folder": "studio/antrian/35-elisa",
    "tayang": null
   },
   {
-   "video_no": 37,
+   "video_no": 36,
    "tokoh": "Naaman",
    "bacaan": "2 Raja-raja 5",
    "hook_rencana": "Panglima hebat yang sakit kusta disuruh mandi di sungai kecil.",
@@ -441,11 +442,11 @@
    "tanggal_rencana": "2027-01-27",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/37-naaman",
+   "folder": "studio/antrian/36-naaman",
    "tayang": null
   },
   {
-   "video_no": 38,
+   "video_no": 37,
    "tokoh": "Yunus",
    "bacaan": "Yunus 1–4",
    "hook_rencana": "Lari dari Tuhan, lalu ditelan ikan besar.",
@@ -453,11 +454,11 @@
    "tanggal_rencana": "2027-01-29",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/38-yunus",
+   "folder": "studio/antrian/37-yunus",
    "tayang": null
   },
   {
-   "video_no": 39,
+   "video_no": 38,
    "tokoh": "Yesaya",
    "bacaan": "Yesaya 6; 53",
    "hook_rencana": "Penglihatan akan Tuhan yang membuatnya berseru: celakalah aku!",
@@ -465,11 +466,11 @@
    "tanggal_rencana": "2027-02-01",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/39-yesaya",
+   "folder": "studio/antrian/38-yesaya",
    "tayang": null
   },
   {
-   "video_no": 40,
+   "video_no": 39,
    "tokoh": "Hizkia",
    "bacaan": "2 Raja-raja 18–20",
    "hook_rencana": "Raja yang membentangkan surat ancaman di hadapan Tuhan.",
@@ -477,11 +478,11 @@
    "tanggal_rencana": "2027-02-03",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/40-hizkia",
+   "folder": "studio/antrian/39-hizkia",
    "tayang": null
   },
   {
-   "video_no": 41,
+   "video_no": 40,
    "tokoh": "Yosia",
    "bacaan": "2 Raja-raja 22–23",
    "hook_rencana": "Kitab Taurat yang hilang ditemukan, dan seluruh negeri berubah.",
@@ -489,11 +490,11 @@
    "tanggal_rencana": "2027-02-05",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/41-yosia",
+   "folder": "studio/antrian/40-yosia",
    "tayang": null
   },
   {
-   "video_no": 42,
+   "video_no": 41,
    "tokoh": "Yeremia",
    "bacaan": "Yeremia 1; 20; 29",
    "hook_rencana": "Nabi yang menangis, dibenci, namun tetap berbicara.",
@@ -501,11 +502,11 @@
    "tanggal_rencana": "2027-02-08",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/42-yeremia",
+   "folder": "studio/antrian/41-yeremia",
    "tayang": null
   },
   {
-   "video_no": 43,
+   "video_no": 42,
    "tokoh": "Yehezkiel",
    "bacaan": "Yehezkiel 1–3; 37",
    "hook_rencana": "Lembah penuh tulang kering yang hidup kembali.",
@@ -513,11 +514,11 @@
    "tanggal_rencana": "2027-02-10",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/43-yehezkiel",
+   "folder": "studio/antrian/42-yehezkiel",
    "tayang": null
   },
   {
-   "video_no": 44,
+   "video_no": 43,
    "tokoh": "Daniel",
    "bacaan": "Daniel 1; 6",
    "hook_rencana": "Dilempar ke gua singa, tetapi pagi harinya ia masih hidup.",
@@ -525,11 +526,11 @@
    "tanggal_rencana": "2027-02-12",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/44-daniel",
+   "folder": "studio/antrian/43-daniel",
    "tayang": null
   },
   {
-   "video_no": 45,
+   "video_no": 44,
    "tokoh": "Sadrakh, Mesakh & Abednego",
    "bacaan": "Daniel 3",
    "hook_rencana": "Tungku dipanaskan tujuh kali lipat, tetapi mereka tidak terbakar.",
@@ -537,11 +538,11 @@
    "tanggal_rencana": "2027-02-15",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/45-sadrakh-mesakh-abednego",
+   "folder": "studio/antrian/44-sadrakh-mesakh-abednego",
    "tayang": null
   },
   {
-   "video_no": 46,
+   "video_no": 45,
    "tokoh": "Nebukadnezar",
    "bacaan": "Daniel 4",
    "hook_rencana": "Raja terkuat di dunia hidup seperti binatang selama tujuh masa.",
@@ -549,11 +550,11 @@
    "tanggal_rencana": "2027-02-17",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/46-nebukadnezar",
+   "folder": "studio/antrian/45-nebukadnezar",
    "tayang": null
   },
   {
-   "video_no": 47,
+   "video_no": 46,
    "tokoh": "Ester",
    "bacaan": "Ester 1–9",
    "hook_rencana": "Gadis yatim yang menjadi ratu, lalu mempertaruhkan nyawa demi bangsanya.",
@@ -561,11 +562,11 @@
    "tanggal_rencana": "2027-02-19",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/47-ester",
+   "folder": "studio/antrian/46-ester",
    "tayang": null
   },
   {
-   "video_no": 48,
+   "video_no": 47,
    "tokoh": "Nehemia",
    "bacaan": "Nehemia 1–6",
    "hook_rencana": "Tembok kota yang hancur dibangun kembali hanya dalam 52 hari.",
@@ -573,11 +574,11 @@
    "tanggal_rencana": "2027-02-22",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/48-nehemia",
+   "folder": "studio/antrian/47-nehemia",
    "tayang": null
   },
   {
-   "video_no": 49,
+   "video_no": 48,
    "tokoh": "Ayub",
    "bacaan": "Ayub 1–2; 42",
    "hook_rencana": "Kehilangan segalanya dalam satu hari, tetapi imannya bertahan.",
@@ -585,11 +586,11 @@
    "tanggal_rencana": "2027-02-24",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/49-ayub",
+   "folder": "studio/antrian/48-ayub",
    "tayang": null
   },
   {
-   "video_no": 50,
+   "video_no": 49,
    "tokoh": "Zakharia & Elisabet",
    "bacaan": "Lukas 1",
    "hook_rencana": "Zakharia tak bisa bicara sampai anaknya lahir, karena ragu pada janji Tuhan.",
@@ -597,11 +598,11 @@
    "tanggal_rencana": "2027-02-26",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/50-zakharia-elisabet",
+   "folder": "studio/antrian/49-zakharia-elisabet",
    "tayang": null
   },
   {
-   "video_no": 51,
+   "video_no": 50,
    "tokoh": "Maria",
    "bacaan": "Lukas 1–2",
    "hook_rencana": "Seorang gadis muda menjawab: jadilah padaku menurut perkataanmu.",
@@ -609,11 +610,11 @@
    "tanggal_rencana": "2027-03-01",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/51-maria",
+   "folder": "studio/antrian/50-maria",
    "tayang": null
   },
   {
-   "video_no": 52,
+   "video_no": 51,
    "tokoh": "Yusuf, suami Maria",
    "bacaan": "Matius 1–2",
    "hook_rencana": "Ia berniat menceraikan Maria diam-diam, sampai malaikat berbicara dalam mimpi.",
@@ -621,11 +622,11 @@
    "tanggal_rencana": "2027-03-03",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/52-yusuf-suami-maria",
+   "folder": "studio/antrian/51-yusuf-suami-maria",
    "tayang": null
   },
   {
-   "video_no": 53,
+   "video_no": 52,
    "tokoh": "Yohanes Pembaptis",
    "bacaan": "Matius 3; Lukas 1",
    "hook_rencana": "Berpakaian bulu unta, makan belalang, dan menyiapkan jalan bagi sang Raja.",
@@ -633,11 +634,11 @@
    "tanggal_rencana": "2027-03-05",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/53-yohanes-pembaptis",
+   "folder": "studio/antrian/52-yohanes-pembaptis",
    "tayang": null
   },
   {
-   "video_no": 54,
+   "video_no": 53,
    "tokoh": "Yesus: pencobaan di padang gurun",
    "bacaan": "Matius 4:1–11",
    "hook_rencana": "Empat puluh hari berpuasa, lalu iblis datang menawar.",
@@ -645,11 +646,11 @@
    "tanggal_rencana": "2027-03-08",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/54-yesus-pencobaan-di-padang-gurun",
+   "folder": "studio/antrian/53-yesus-pencobaan-di-padang-gurun",
    "tayang": null
   },
   {
-   "video_no": 55,
+   "video_no": 54,
    "tokoh": "Petrus",
    "bacaan": "Matius 14; Yohanes 21",
    "hook_rencana": "Berjalan di atas air, lalu tenggelam karena melihat angin.",
@@ -657,11 +658,11 @@
    "tanggal_rencana": "2027-03-10",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/55-petrus",
+   "folder": "studio/antrian/54-petrus",
    "tayang": null
   },
   {
-   "video_no": 56,
+   "video_no": 55,
    "tokoh": "Matius",
    "bacaan": "Matius 9",
    "hook_rencana": "Pemungut cukai yang meninggalkan mejanya hanya karena dua kata: ikutlah Aku.",
@@ -669,11 +670,11 @@
    "tanggal_rencana": "2027-03-12",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/56-matius",
+   "folder": "studio/antrian/55-matius",
    "tayang": null
   },
   {
-   "video_no": 57,
+   "video_no": 56,
    "tokoh": "Zakheus",
    "bacaan": "Lukas 19",
    "hook_rencana": "Pejabat pajak kaya yang memanjat pohon demi melihat Yesus.",
@@ -681,11 +682,11 @@
    "tanggal_rencana": "2027-03-15",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/57-zakheus",
+   "folder": "studio/antrian/56-zakheus",
    "tayang": null
   },
   {
-   "video_no": 58,
+   "video_no": 57,
    "tokoh": "Nikodemus",
    "bacaan": "Yohanes 3; 19",
    "hook_rencana": "Ia menemui Yesus diam-diam di malam hari.",
@@ -693,11 +694,11 @@
    "tanggal_rencana": "2027-03-17",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/58-nikodemus",
+   "folder": "studio/antrian/57-nikodemus",
    "tayang": null
   },
   {
-   "video_no": 59,
+   "video_no": 58,
    "tokoh": "Perempuan Samaria",
    "bacaan": "Yohanes 4",
    "hook_rencana": "Yesus meminta air kepada perempuan yang dijauhi semua orang.",
@@ -705,11 +706,11 @@
    "tanggal_rencana": "2027-03-19",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/59-perempuan-samaria",
+   "folder": "studio/antrian/58-perempuan-samaria",
    "tayang": null
   },
   {
-   "video_no": 60,
+   "video_no": 59,
    "tokoh": "Marta, Maria & Lazarus",
    "bacaan": "Lukas 10; Yohanes 11",
    "hook_rencana": "Empat hari di dalam kubur, lalu Yesus memanggil namanya.",
@@ -717,11 +718,11 @@
    "tanggal_rencana": "2027-03-22",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/60-marta-maria-lazarus",
+   "folder": "studio/antrian/59-marta-maria-lazarus",
    "tayang": null
   },
   {
-   "video_no": 61,
+   "video_no": 60,
    "tokoh": "Yudas Iskariot",
    "bacaan": "Matius 26–27",
    "hook_rencana": "Dekat dengan Yesus, tetapi tetap mengkhianati-Nya demi 30 keping perak.",
@@ -729,11 +730,11 @@
    "tanggal_rencana": "2027-03-24",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/61-yudas-iskariot",
+   "folder": "studio/antrian/60-yudas-iskariot",
    "tayang": null
   },
   {
-   "video_no": 62,
+   "video_no": 61,
    "tokoh": "Yesus: Salib",
    "bacaan": "Lukas 23; Yohanes 19",
    "hook_rencana": "Hari paling gelap yang ternyata kemenangan terbesar.",
@@ -741,11 +742,11 @@
    "tanggal_rencana": "2027-03-26",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/62-yesus-salib",
+   "folder": "studio/antrian/61-yesus-salib",
    "tayang": null
   },
   {
-   "video_no": 63,
+   "video_no": 62,
    "tokoh": "Yesus: Kebangkitan",
    "bacaan": "Lukas 24; Yohanes 20",
    "hook_rencana": "Kubur yang kosong mengubah seluruh sejarah.",
@@ -753,11 +754,11 @@
    "tanggal_rencana": "2027-03-29",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/63-yesus-kebangkitan",
+   "folder": "studio/antrian/62-yesus-kebangkitan",
    "tayang": null
   },
   {
-   "video_no": 64,
+   "video_no": 63,
    "tokoh": "Maria Magdalena",
    "bacaan": "Yohanes 20",
    "hook_rencana": "Orang pertama yang melihat Yesus bangkit.",
@@ -765,11 +766,11 @@
    "tanggal_rencana": "2027-03-31",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/64-maria-magdalena",
+   "folder": "studio/antrian/63-maria-magdalena",
    "tayang": null
   },
   {
-   "video_no": 65,
+   "video_no": 64,
    "tokoh": "Tomas",
    "bacaan": "Yohanes 20",
    "hook_rencana": "Ia berkata: aku tidak percaya sebelum menyentuh bekas luka-Nya.",
@@ -777,11 +778,11 @@
    "tanggal_rencana": "2027-04-02",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/65-tomas",
+   "folder": "studio/antrian/64-tomas",
    "tayang": null
   },
   {
-   "video_no": 66,
+   "video_no": 65,
    "tokoh": "Stefanus",
    "bacaan": "Kisah Para Rasul 6–7",
    "hook_rencana": "Martir pertama yang wajahnya seperti wajah malaikat.",
@@ -789,11 +790,11 @@
    "tanggal_rencana": "2027-04-05",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/66-stefanus",
+   "folder": "studio/antrian/65-stefanus",
    "tayang": null
   },
   {
-   "video_no": 67,
+   "video_no": 66,
    "tokoh": "Filipus",
    "bacaan": "Kisah Para Rasul 8",
    "hook_rencana": "Ia diperintahkan menghampiri kereta seorang pejabat Etiopia.",
@@ -801,11 +802,11 @@
    "tanggal_rencana": "2027-04-07",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/67-filipus",
+   "folder": "studio/antrian/66-filipus",
    "tayang": null
   },
   {
-   "video_no": 68,
+   "video_no": 67,
    "tokoh": "Paulus: jalan ke Damsyik",
    "bacaan": "Kisah Para Rasul 9",
    "hook_rencana": "Penganiaya orang Kristen dibutakan cahaya di tengah jalan.",
@@ -813,11 +814,11 @@
    "tanggal_rencana": "2027-04-09",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/68-paulus-jalan-ke-damsyik",
+   "folder": "studio/antrian/67-paulus-jalan-ke-damsyik",
    "tayang": null
   },
   {
-   "video_no": 69,
+   "video_no": 68,
    "tokoh": "Ananias",
    "bacaan": "Kisah Para Rasul 9",
    "hook_rencana": "Disuruh Tuhan menemui orang yang paling ditakuti jemaat.",
@@ -825,11 +826,11 @@
    "tanggal_rencana": "2027-04-12",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/69-ananias",
+   "folder": "studio/antrian/68-ananias",
    "tayang": null
   },
   {
-   "video_no": 70,
+   "video_no": 69,
    "tokoh": "Barnabas",
    "bacaan": "Kisah Para Rasul 4; 9; 11",
    "hook_rencana": "Satu-satunya yang mau menerima Paulus saat semua orang takut.",
@@ -837,11 +838,11 @@
    "tanggal_rencana": "2027-04-14",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/70-barnabas",
+   "folder": "studio/antrian/69-barnabas",
    "tayang": null
   },
   {
-   "video_no": 71,
+   "video_no": 70,
    "tokoh": "Kornelius",
    "bacaan": "Kisah Para Rasul 10",
    "hook_rencana": "Perwira Romawi yang menjadi orang non-Yahudi pertama yang menerima Injil.",
@@ -849,11 +850,11 @@
    "tanggal_rencana": "2027-04-16",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/71-kornelius",
+   "folder": "studio/antrian/70-kornelius",
    "tayang": null
   },
   {
-   "video_no": 72,
+   "video_no": 71,
    "tokoh": "Lidia",
    "bacaan": "Kisah Para Rasul 16",
    "hook_rencana": "Pedagang kain ungu yang hatinya dibukakan Tuhan.",
@@ -861,11 +862,11 @@
    "tanggal_rencana": "2027-04-19",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/72-lidia",
+   "folder": "studio/antrian/71-lidia",
    "tayang": null
   },
   {
-   "video_no": 73,
+   "video_no": 72,
    "tokoh": "Paulus & Silas di penjara",
    "bacaan": "Kisah Para Rasul 16",
    "hook_rencana": "Gempa bumi di tengah malam saat mereka sedang menyanyi di penjara.",
@@ -873,11 +874,11 @@
    "tanggal_rencana": "2027-04-21",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/73-paulus-silas-di-penjara",
+   "folder": "studio/antrian/72-paulus-silas-di-penjara",
    "tayang": null
   },
   {
-   "video_no": 74,
+   "video_no": 73,
    "tokoh": "Priskila & Akwila",
    "bacaan": "Kisah Para Rasul 18; Roma 16",
    "hook_rencana": "Pasangan pembuat tenda yang membimbing seorang ahli pidato.",
@@ -885,11 +886,11 @@
    "tanggal_rencana": "2027-04-23",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/74-priskila-akwila",
+   "folder": "studio/antrian/73-priskila-akwila",
    "tayang": null
   },
   {
-   "video_no": 75,
+   "video_no": 74,
    "tokoh": "Timotius",
    "bacaan": "Kisah Para Rasul 16; 2 Timotius",
    "hook_rencana": "Anak muda yang dipercaya meneruskan pelayanan Paulus.",
@@ -897,11 +898,11 @@
    "tanggal_rencana": "2027-04-26",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/75-timotius",
+   "folder": "studio/antrian/74-timotius",
    "tayang": null
   },
   {
-   "video_no": 76,
+   "video_no": 75,
    "tokoh": "Onesimus",
    "bacaan": "Filemon",
    "hook_rencana": "Budak buronan yang kembali sebagai saudara.",
@@ -909,11 +910,11 @@
    "tanggal_rencana": "2027-04-28",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/76-onesimus",
+   "folder": "studio/antrian/75-onesimus",
    "tayang": null
   },
   {
-   "video_no": 77,
+   "video_no": 76,
    "tokoh": "Lukas",
    "bacaan": "Kolose 4:14; Lukas 1:1–4",
    "hook_rencana": "Seorang tabib yang menulis dua kitab Alkitab dan ikut berlayar bersama Paulus.",
@@ -921,11 +922,11 @@
    "tanggal_rencana": "2027-04-30",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/77-lukas",
+   "folder": "studio/antrian/76-lukas",
    "tayang": null
   },
   {
-   "video_no": 78,
+   "video_no": 77,
    "tokoh": "Paulus: dari penjara Roma",
    "bacaan": "Kisah Para Rasul 27–28; Filipi",
    "hook_rencana": "Surat-surat paling penuh sukacita ditulis dari dalam penjara.",
@@ -933,11 +934,11 @@
    "tanggal_rencana": "2027-05-03",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/78-paulus-dari-penjara-roma",
+   "folder": "studio/antrian/77-paulus-dari-penjara-roma",
    "tayang": null
   },
   {
-   "video_no": 79,
+   "video_no": 78,
    "tokoh": "Yohanes di Pulau Patmos",
    "bacaan": "Wahyu 1",
    "hook_rencana": "Dibuang ke pulau terpencil, tetapi ia melihat langit terbuka.",
@@ -945,11 +946,11 @@
    "tanggal_rencana": "2027-05-05",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/79-yohanes-di-pulau-patmos",
+   "folder": "studio/antrian/78-yohanes-di-pulau-patmos",
    "tayang": null
   },
   {
-   "video_no": 80,
+   "video_no": 79,
    "tokoh": "Wahyu: langit dan bumi yang baru",
    "bacaan": "Wahyu 21–22",
    "hook_rencana": "Akhir dari semua cerita: tidak ada lagi air mata.",
@@ -957,7 +958,7 @@
    "tanggal_rencana": "2027-05-07",
    "status": "rencana",
    "ayat_terverifikasi_tb": false,
-   "folder": "studio/antrian/80-wahyu-langit-dan-bumi-yang-baru",
+   "folder": "studio/antrian/79-wahyu-langit-dan-bumi-yang-baru",
    "tayang": null
   }
  ]

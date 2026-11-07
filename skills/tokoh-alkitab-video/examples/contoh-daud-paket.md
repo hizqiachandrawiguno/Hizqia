@@ -1,4 +1,4 @@
-# Contoh paket: Video 2, Daud (1 Samuel 17)
+# Contoh paket: Daud (1 Samuel 17), nomor lama "Video 2" (kini dijadwalkan sebagai Video 28)
 
 Contoh ini memperlihatkan bentuk jawaban Tahap A. Berkas pendukung: `contoh-daud-naskah.txt` (naskah yang direkam), `contoh-daud-spec.json` (storyboard mesin render), `contoh-daud-spoken.json` (waktu ucapan dari rekaman nyata).
 

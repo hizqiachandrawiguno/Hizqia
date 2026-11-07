@@ -50,4 +50,4 @@ Tidak ada kutipan ayat. Fakta umum yang dipakai (cocokkan dengan Alkitab TB Anda
 ## 8. Asumsi
 - "Episode 1" diartikan sebagai Video 1 (pengantar seri), bukan Adam dan Hawa (Video 3).
 - Penutup suara memakai kalimat tetap seri; kata "lainnya" tetap dipertahankan agar seragam.
-- Kisah Daud (Video 2) sudah tayang; naskah tidak menyebut urutan tayang agar aman.
+- Naskah tidak menyebut urutan tayang tokoh lain agar aman terhadap perubahan kalender (Daud kini dijadwalkan sebagai Video 28).

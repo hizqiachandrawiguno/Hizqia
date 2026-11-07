@@ -2,7 +2,7 @@
 
 ## Konteks seri
 - Nama seri: "Tokoh Alkitab". Tujuan: mengajak orang belajar tokoh-tokoh Alkitab dari Kejadian sampai Wahyu.
-- Video 1 adalah pengantar seri, Video 2 adalah Daud (sudah tayang). Nomor ditentukan oleh `VIDEO_KE`.
+- Video 1 adalah pengantar seri, Video 2 adalah Adam & Hawa; urutan selanjutnya mengikuti `references/kalender-6-bulan.md` (Daud ada di Video 28). Nomor ditentukan oleh `VIDEO_KE`.
 - Terjemahan acuan: **Alkitab Terjemahan Baru (TB, LAI)**, dipakai di Gereja Bethel Indonesia. Nama Allah (YHWH) ditulis TUHAN (huruf kapital semua). Ejaan nama mengikuti TB.
 
 ## Aturan isi (wajib)
