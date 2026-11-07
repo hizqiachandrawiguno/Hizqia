@@ -1,6 +1,6 @@
 # Paket Video 2: Adam & Hawa (Kejadian 1–3), mode detail
 
-> **Status ayat:** BELUM diverifikasi dengan Alkitab TB (Bible.com). Naskah memakai parafrase tanpa tanda kutip. Tempel teks TB Kejadian 2 dan 3 (dan Kejadian 1:26–28) agar saya cocokkan sebelum rekaman.
+> **Status ayat:** Kejadian 2 dan 3 sudah **dicocokkan dengan teks Alkitab TB (Bible.com) yang Anda tempel** pada 7 Nov 2026 (tersimpan di `skills/tokoh-alkitab-video/references/ayat-tb.json`). **Kejadian 1 belum ditempel**, jadi klaim "enam hari", "hari keenam", dan "menurut gambar-Nya" masih belum diverifikasi. Naskah tetap berupa parafrase tanpa tanda kutip.
 
 ## 1. Ringkasan
 Adam & Hawa, Kejadian 1–3. Pesan inti: dosa bermula dari keraguan terhadap perkataan Allah, tetapi Allah tetap mencari manusia dan memanggil mereka.
@@ -10,7 +10,7 @@ Adam & Hawa, Kejadian 1–3. Pesan inti: dosa bermula dari keraguan terhadap per
 - Suara: "Mereka punya semua yang dibutuhkan di taman paling indah. Hanya satu hal yang dilarang. Lalu apa yang terjadi?"
 
 ## 3. Naskah suara
-Lihat `naskah.txt`: hook 18 kata, cerita 272 kata (14 paragraf), penutup 15 kata. Perkiraan sekitar 2 menit (angka pasti setelah rekaman). Tanpa tag, tanpa tanda kutip.
+Lihat `naskah.txt`: hook 18 kata, cerita 299 kata (14 paragraf), penutup 15 kata. Perkiraan sekitar 2 sampai 2,3 menit (angka pasti setelah rekaman). Tanpa tag, tanpa tanda kutip.
 
 ## 4. Storyboard (ide; `spec.json` dibuat setelah MP3 masuk. Satu label pada satu waktu)
 | # | Paragraf | Visual | Label |
@@ -61,31 +61,39 @@ Kisahnya ada di kitab Kejadian, pasal 1–3. Bacalah sendiri di Alkitabmu, lalu 
 ```
 **Komentar sematan:** Menurutmu, bagian mana dari kisah Adam dan Hawa yang paling sering kita lupakan? 👇
 
-## 7. Pemeriksaan akurasi (BELUM diverifikasi dengan TB; cocokkan di Alkitab Anda)
-| Fakta di naskah | Rujukan |
-|---|---|
-| Allah menciptakan langit dan bumi dalam enam hari | Kej. 1; 2:2 |
-| Manusia diciptakan menurut gambar Allah, pada hari keenam | Kej. 1:26–31 |
-| Adam dibentuk dari debu tanah; napas hidup | Kej. 2:7 |
-| Adam ditempatkan di taman Eden | Kej. 2:8, 15 |
-| Boleh makan dari semua pohon kecuali pohon pengetahuan baik dan jahat; memakannya berarti mati | Kej. 2:16–17 |
-| Tidak baik manusia seorang diri; dari salah satu rusuk, seorang perempuan; tanpa rasa malu | Kej. 2:18, 21–25 |
-| Ular licik bertanya kepada perempuan | Kej. 3:1 |
-| Jawaban perempuan; ular: tidak akan mati, akan seperti Allah | Kej. 3:2–5 |
-| Perempuan makan, memberikan kepada suaminya yang ada bersama dia | Kej. 3:6 |
-| Mata terbuka, sadar telanjang, daun ara, bersembunyi | Kej. 3:7–8 |
-| "Di manakah engkau?"; Adam takut; saling menyalahkan | Kej. 3:9–13 |
-| Akibat (kesakitan, kerja keras, kematian) dan janji keturunan perempuan meremukkan kepala ular | Kej. 3:14–19 (janji: 3:15) |
-| Adam menamai istrinya Hawa, ibu semua yang hidup | Kej. 3:20 |
-| Allah membuatkan pakaian dari kulit binatang | Kej. 3:21 |
-| Mereka harus keluar dari taman | Kej. 3:22–24 |
-- **[tafsir]**: banyak orang Kristen memahami Kej. 3:15 sebagai janji awal tentang Kristus. Naskah ini hanya menyebut janjinya dan tidak menyebut Kristus. Kalau Anda mau menambah kalimat itu, tandai sebagai tafsir.
+## 7. Pemeriksaan akurasi (dicocokkan dengan TB yang Anda tempel)
+Status: **TB** = cocok dengan teks Kejadian 2 atau 3 yang Anda tempel; **BELUM** = ayatnya belum ditempel.
+| Fakta di naskah | Rujukan | Status |
+|---|---|---|
+| Penciptaan dalam enam hari; manusia pada hari keenam menurut gambar Allah | Kej. 1 | BELUM (Kej. 2:1–3 hanya menyebut hari ketujuh) |
+| Manusia dibentuk dari debu tanah; napas hidup ke dalam hidungnya | Kej. 2:7 | TB |
+| Manusia ditempatkan di taman Eden | Kej. 2:8, 15 | TB |
+| Boleh makan dari semua pohon kecuali pohon pengetahuan baik dan jahat; memakannya pasti mati | Kej. 2:16–17 | TB |
+| Tidak baik manusia seorang diri; dari salah satu rusuk, seorang perempuan | Kej. 2:18, 21–22 | TB |
+| Tanpa rasa malu | Kej. 2:25 | TB |
+| Ular "paling cerdik" bertanya kepada perempuan itu | Kej. 3:1 | TB (naskah awal saya menulis "licik"; sudah dikoreksi) |
+| Jawaban perempuan; ular: tidak akan mati, akan seperti Allah | Kej. 3:2–5 | TB |
+| Buah baik, menarik hati; diberikan kepada suaminya yang bersama dia | Kej. 3:6 | TB |
+| Mata terbuka, sadar telanjang, daun pohon ara | Kej. 3:7 | TB |
+| Mendengar langkah Allah di taman, bersembunyi | Kej. 3:8 | TB |
+| "Di manakah engkau?", takut, saling menyalahkan | Kej. 3:9–13 | TB |
+| Ular dikutuk; keturunan perempuan meremukkan kepala ular | Kej. 3:14–15 | TB (urutan diperbaiki: janji ini ada dalam firman kepada ular) |
+| Kesakitan perempuan; kerja keras manusia sampai kembali menjadi tanah | Kej. 3:16–19 | TB |
+| Hawa, ibu semua yang hidup | Kej. 3:20 | TB |
+| Pakaian dari kulit binatang | Kej. 3:21 | TB |
+| Diusir dari taman; kerub dengan pedang bernyala-nyala menjaga jalan ke pohon kehidupan | Kej. 3:22–24 | TB |
+Catatan hasil pencocokan:
+- **Nama "Adam":** dalam Kej. 2–3 TB memakai "manusia itu"; nama Adam baru muncul di Kejadian 4 dan 5. Naskah memakai "Adam" agar mudah diikuti penonton. Nama itu belum diverifikasi karena Kej. 4–5 belum ditempel.
+- **TB memakai "Tuhan Allah"** dalam Kejadian 2–3. Naskah menyebut "Allah" saja; tidak ada masalah ejaan.
+- **[tafsir]:** banyak orang Kristen memahami Kej. 3:15 sebagai janji awal tentang Kristus. Naskah hanya menyebut isi ayatnya dan tidak menyebut Kristus. Kalau Anda mau menambah, tandai sebagai tafsir.
+- **[penerapan]:** kalimat pesan "Dosa bermula dari keraguan terhadap perkataan Allah" adalah penerapan dari pertanyaan ular (Kej. 3:1, 4), bukan kalimat langsung dari ayat.
+- Kejadian 3:3 mencatat perempuan itu berkata "ataupun raba"; frasa itu tidak ada di Kej. 2:16–17. Naskah tidak memakainya.
 - Alkitab tidak menyebut jenis buahnya (bukan apel).
 
 ## 8. Asumsi
 - Mode detail (bawaan). Nomor Video 2 mengikuti kalender terbaru (Daud dipindah ke Video 28).
-- Pohon kehidupan sengaja tidak disebut agar naskah tidak melebihi 300 kata; bisa ditambahkan bila Anda mau (Kej. 2:9; 3:22–24).
+- Pohon kehidupan disebut singkat di akhir (kerub menjaga jalan ke pohon kehidupan, Kej. 3:24).
 - Jadwal tayang rencana: Senin, 9 November 2026 (sesuaikan).
 
-## Ayat yang perlu Anda tempel dari Bible.com TB agar saya verifikasi
-Kejadian 1:26–31, Kejadian 2 (seluruh pasal), dan Kejadian 3 (seluruh pasal).
+## Yang masih perlu Anda tempel dari Bible.com TB
+Kejadian 1 (seluruh pasal, atau minimal 1:26–31), dan Kejadian 4:25 serta 5:1–5 bila Anda ingin nama "Adam" diverifikasi.
