@@ -42,7 +42,7 @@ def use_landscape():
     global W, H, CX, SAFE, SUB_Y, FG_Y, TAG_XY, SUB_W, LAND
     W, H, CX, LAND = 1920, 1080, 960, True
     SAFE = dict(x0=110, x1=1810, y0=60, y1=930)
-    SUB_Y, FG_Y, TAG_XY, SUB_W = 880, 960, (330, 95), 1100
+    SUB_Y, FG_Y, TAG_XY, SUB_W = 880, 960, (960, 68), 1100
 
 KY, KS, KX = 0.63, 0.7, 1.5
 def _mx(x): return 960 + (x - 540) * KX
@@ -62,7 +62,30 @@ def _map_anim(an):
         out.append(a)
     return out
 
-def _map_layers(layers, thumb=False):
+TX = lambda x: 1360 + (x - 540) * 0.62   # miniatur: tokoh di sisi kanan, teks di sisi kiri
+TY = lambda y: y * 0.62
+
+def _map_thumb_layers(layers):
+    out = []
+    labs = sorted([L for L in layers if L["type"] == "label"], key=lambda L: L["y"])
+    ys = {1: [400], 2: [230, 470], 3: [140, 330, 560]}.get(len(labs), [150 + 200 * i for i in range(len(labs))])
+    for L in layers:
+        L = json.loads(json.dumps(L)); t = L["type"]
+        if t in ("sun", "disc", "rays"):
+            L["center"] = [TX(L["center"][0]), TY(L["center"][1])]
+            if "r" in L: L["r"] = L["r"] * 0.85
+        elif t == "hill":
+            L["base"] = TY(L["base"]); L["amp"] = L.get("amp", 50) * 0.7
+        elif t == "actor":
+            L["x"] = TX(L["x"]); L["y"] = TY(L["y"]); L["scale"] = L.get("scale", 1.0) * 0.9
+        elif t == "label":
+            i = [id(x) for x in labs].index(id(next(x for x in labs if x["text"] == L["text"] and x["y"] == L["y"])))
+            L["x"] = 560; L["y"] = ys[i]
+            if L.get("style") != "tag": L["size"] = min(L.get("size", 64), (170 if len(L["text"]) <= 6 else 100) if i == 1 else 76)
+        out.append(L)
+    return out
+
+def _map_layers(layers, thumb=False, hook=False):
     out = []
     for L in layers:
         L = json.loads(json.dumps(L)); t = L["type"]
@@ -74,7 +97,7 @@ def _map_layers(layers, thumb=False):
         elif t == "water":
             L["y"] = _my(L["y"]); L["step"] = L.get("step", 62) * KY
         elif t == "actor":
-            L["x"] = _mx(L["x"]); L["y"] = _my(L["y"]); L["scale"] = L.get("scale", 1.0) * KS
+            L["x"] = _mx(L["x"]); L["y"] = _my(L["y"]); L["scale"] = L.get("scale", 1.0) * (0.78 if hook else KS)
             if "pivot_at" in L: L["pivot_at"] = [_mx(L["pivot_at"][0]), _my(L["pivot_at"][1])]
             if "anim" in L: L["anim"] = _map_anim(L["anim"])
             if "follow" in L:
@@ -87,8 +110,8 @@ def _map_layers(layers, thumb=False):
         elif t == "panel":
             x0, y0, x1, y1 = L["box"]; L["box"] = [_mx(x0), _my(y0), _mx(x1), _my(y1)]
         elif t == "label":
-            if thumb:
-                L["x"] = 960 + (L["x"] - 510) * 1.0; L["y"] = _my(L["y"]) + 20; L["size"] = int(L.get("size", 64) * 1.0)
+            if hook:
+                L["x"] = 960; L["y"] = 270; L["size"] = max(40, int(L.get("size", 64) * 0.85))
             else:
                 L["x"] = 960; L["y"] = 190; L["size"] = max(40, int(L.get("size", 64) * 0.85))
         out.append(L)
@@ -104,11 +127,11 @@ def to_landscape(spec):
                 if p in c: c[p] = [f(c[p][0]), f(c[p][1])]
         if "foreground" in sc and sc["foreground"] and "y" in sc["foreground"]:
             sc["foreground"]["y"] = FG_Y
-    h = spec["hook"]; h["layers"] = _map_layers(h.get("layers", []))
+    h = spec["hook"]; h["layers"] = _map_layers(h.get("layers", []), hook=True)
     if h.get("foreground"): h["foreground"]["y"] = FG_Y
     th = spec.get("thumbnail")
     if th:
-        th["layers"] = _map_layers(th["layers"], thumb=True)
+        th["layers"] = _map_thumb_layers(th["layers"])
         if th.get("foreground"): th["foreground"]["y"] = FG_Y
     return spec
 
@@ -665,7 +688,7 @@ def label_sprite(L):
 def label_pos(L, spr, sc=1.0):
     """Jepit pusat label agar seluruh kotaknya berada di zona aman. Mengembalikan (x, y, terjepit?)."""
     bw, bh = spr.bw * sc, spr.bh * sc
-    y0, y1 = (250, 1650) if L.get("zone") == "thumb" else (SAFE["y0"], SAFE["y1"])
+    y0, y1 = ((40, 1040) if LAND else (250, 1650)) if L.get("zone") == "thumb" else (SAFE["y0"], SAFE["y1"])
     x = min(max(L["x"], SAFE["x0"] + bw / 2), SAFE["x1"] - bw / 2)
     y = min(max(L["y"], y0 + bh / 2), y1 - bh / 2)
     return x, y, (abs(x - L["x"]) > 1 or abs(y - L["y"]) > 1)
