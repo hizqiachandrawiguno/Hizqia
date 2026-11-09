@@ -32,6 +32,86 @@ SAFE = dict(x0=60, x1=960, y0=150, y1=1500)
 SUB_Y = 1385      # pusat subtitle (maks 2 baris, kotak tidak melewati y 1500)
 FG_Y = 1500       # bagian bawah y>=1500 diisi pemandangan latar depan (bukan teks)
 
+TAG_XY = (CX, 290)
+SUB_W = 800
+LAND = False
+
+# ------------------------------------------------------- mode lanskap 16:9
+def use_landscape():
+    """Mengalihkan mesin ke 1920x1080. Spesifikasi tetap ditulis dalam koordinat 9:16; `to_landscape` memetakannya."""
+    global W, H, CX, SAFE, SUB_Y, FG_Y, TAG_XY, SUB_W, LAND
+    W, H, CX, LAND = 1920, 1080, 960, True
+    SAFE = dict(x0=110, x1=1810, y0=60, y1=930)
+    SUB_Y, FG_Y, TAG_XY, SUB_W = 880, 960, (330, 95), 1100
+
+KY, KS, KX = 0.63, 0.7, 1.5
+def _mx(x): return 960 + (x - 540) * KX
+def _my(y): return y * KY
+
+def _map_anim(an):
+    out = []
+    for a in an:
+        a = dict(a)
+        if a.get("type", "tween") == "tween":
+            for p, f in (("x", _mx), ("y", _my), ("scale", lambda v: v * KS)):
+                if p in a:
+                    a[p] = [f(a[p][0]), f(a[p][1])]
+        elif a.get("type") == "osc":
+            if a["prop"] == "y": a["amp"] = a["amp"] * KS
+            elif a["prop"] == "x": a["amp"] = a["amp"] * KX
+        out.append(a)
+    return out
+
+def _map_layers(layers, thumb=False):
+    out = []
+    for L in layers:
+        L = json.loads(json.dumps(L)); t = L["type"]
+        if t in ("sun", "disc", "rays"):
+            L["center"] = [_mx(L["center"][0]), _my(L["center"][1])]
+            if "r" in L: L["r"] = L["r"] * KS
+        elif t == "hill":
+            L["base"] = _my(L["base"]); L["amp"] = L.get("amp", 50) * KS; L["freq"] = L.get("freq", 150) * 1.3
+        elif t == "water":
+            L["y"] = _my(L["y"]); L["step"] = L.get("step", 62) * KY
+        elif t == "actor":
+            L["x"] = _mx(L["x"]); L["y"] = _my(L["y"]); L["scale"] = L.get("scale", 1.0) * KS
+            if "pivot_at" in L: L["pivot_at"] = [_mx(L["pivot_at"][0]), _my(L["pivot_at"][1])]
+            if "anim" in L: L["anim"] = _map_anim(L["anim"])
+            if "follow" in L:
+                L["follow"]["dx"] = L["follow"].get("dx", 0) * KS; L["follow"]["dy"] = L["follow"].get("dy", 0) * KS
+        elif t == "starburst":
+            if "x" in L: L["x"] = _mx(L["x"]); L["y"] = _my(L["y"])
+            L["r"] = L.get("r", 120) * KS
+        elif t == "confetti":
+            L["origin"] = [_mx(L["origin"][0]), _my(L["origin"][1])]
+        elif t == "panel":
+            x0, y0, x1, y1 = L["box"]; L["box"] = [_mx(x0), _my(y0), _mx(x1), _my(y1)]
+        elif t == "label":
+            if thumb:
+                L["x"] = 960 + (L["x"] - 510) * 1.0; L["y"] = _my(L["y"]) + 20; L["size"] = int(L.get("size", 64) * 1.0)
+            else:
+                L["x"] = 960; L["y"] = 190; L["size"] = max(40, int(L.get("size", 64) * 0.85))
+        out.append(L)
+    return out
+
+def to_landscape(spec):
+    m = spec["meta"]; m["ground_shift"] = m.get("ground_shift", 0) * KY
+    for sc in spec["scenes"]:
+        sc["layers"] = _map_layers(sc.get("layers", []))
+        if "camera" in sc: sc["camera"] = _map_anim(sc["camera"])
+        for c in sc.get("camera", []):
+            for p, f in (("cx", _mx), ("cy", _my)):
+                if p in c: c[p] = [f(c[p][0]), f(c[p][1])]
+        if "foreground" in sc and sc["foreground"] and "y" in sc["foreground"]:
+            sc["foreground"]["y"] = FG_Y
+    h = spec["hook"]; h["layers"] = _map_layers(h.get("layers", []))
+    if h.get("foreground"): h["foreground"]["y"] = FG_Y
+    th = spec.get("thumbnail")
+    if th:
+        th["layers"] = _map_layers(th["layers"], thumb=True)
+        if th.get("foreground"): th["foreground"]["y"] = FG_Y
+    return spec
+
 # ---------------------------------------------------------------- util
 def clamp(v, a=0.0, b=1.0):
     return max(a, min(b, v))
@@ -854,7 +934,7 @@ def draw_hook(spec, t, fi):
     m = spec["meta"]; h = dict(spec["hook"])
     layers = list(h.get("layers", []))
     if m.get("tag") and h.get("auto_tag", True):
-        layers.append({"type": "label", "text": m["tag"], "style": "tag", "size": 38, "x": CX, "y": 290, "t": 0.0, "angle": -2, "fixed": True})
+        layers.append({"type": "label", "text": m["tag"], "style": "tag", "size": 38, "x": TAG_XY[0], "y": TAG_XY[1], "t": 0.0, "angle": -2, "fixed": True})
     return draw_scene(spec, {"bg": h.get("bg", (140, 44, 36)), "layers": layers, "foreground": h.get("foreground")}, t, fi)
 
 
@@ -865,16 +945,18 @@ def draw_outro(spec, t, fi):
     o = spec.get("outro", {}); cues = dict(OUTRO_DEFAULT); cues.update(o.get("cues", {}))
     bgc = tup(o.get("bg", (126, 40, 34)))
     cv = bg(bgc, fi)
-    rays(cv, 540, 800, t * 0.2, 24, tuple(min(255, c + 24) for c in bgc), bgc)
-    draw_foreground(cv, darker(bgc, 1.0), "rock", 1560, t)
+    rays(cv, CX + 30, int(H * 0.42), t * 0.2, 24, tuple(min(255, c + 24) for c in bgc), bgc)
+    draw_foreground(cv, darker(bgc, 1.0), "rock", FG_Y if LAND else 1560, t)
     def pop(t0, dur=0.4):
         return back((t - t0) / dur) if t > t0 else 0.001
-    put(cv, label("Mau tahu kisah\nTokoh Alkitab lainnya?", 66, fg=CHAR, bg=PARCH), CX, 420, -2, pop(cues["question"], 0.5))
-    for i, (kind, text, x) in enumerate([("follow", "FOLLOW", 200), ("share", "SHARE", 510), ("komen", "KOMEN", 820)]):
+    qy, by_, sy = (190, 470, 760) if LAND else (420, 820, 1190)
+    xs = (CX - 420, CX, CX + 420) if LAND else (200, 510, 820)
+    put(cv, label("Mau tahu kisah\nTokoh Alkitab lainnya?", 66, fg=CHAR, bg=PARCH), CX, qy, -2, pop(cues["question"], 0.5))
+    for i, (kind, text, x) in enumerate([("follow", "FOLLOW", xs[0]), ("share", "SHARE", xs[1]), ("komen", "KOMEN", xs[2])]):
         t0 = cues[kind]
         bounce = math.sin((t - t0) * 4) * 8 if t > t0 + 0.5 else 0
-        putj(cv, btn(kind, text), x, 820 + bounce, ang=(-3, 2, -2)[i], sc=pop(t0, 0.45), i=80 + i, fi=fi, pa=1, ra=0.4)
-    put(cv, label("Jangan lupa untuk\nFollow, Share, dan Komen\nkonten ini!", 54, fg=PARCH, bg=EARTH), CX, 1190, 1.5, pop(cues["sentence"], 0.5))
+        putj(cv, btn(kind, text), x, by_ + bounce, ang=(-3, 2, -2)[i], sc=pop(t0, 0.45), i=80 + i, fi=fi, pa=1, ra=0.4)
+    put(cv, label("Jangan lupa untuk\nFollow, Share, dan Komen\nkonten ini!", 54, fg=PARCH, bg=EARTH), CX, sy, 1.5, pop(cues["sentence"], 0.5))
     return cv
 
 
@@ -933,7 +1015,7 @@ def draw_sub(cv, t, spec):
             lines, cur = [], ""
             for w in text.split(" "):
                 test = (cur + " " + w).strip()
-                if d0.textlength(test, font=f) > 800 and cur:
+                if d0.textlength(test, font=f) > SUB_W and cur:
                     lines.append(cur); cur = w
                 else:
                     cur = test
@@ -978,6 +1060,8 @@ def render_frame(fi):
 
 def _init(spec_path):
     spec = json.load(open(spec_path, encoding="utf-8"))
+    if os.environ.get("STORYKIT_FORMAT") == "16x9":
+        use_landscape(); to_landscape(spec)
     resolve_spoken(spec)
     prepare(spec)
     _SPEC["spec"] = spec; _SPEC["items"] = timeline(spec)
@@ -1239,10 +1323,12 @@ def main():
         tot = spec["meta"]["total"]
         times = [float(x) for x in sys.argv[4].split(",")] if len(sys.argv) > 4 else [round(tot * i / 14, 1) for i in range(1, 14)]
         for tm in times:
-            render_frame(int(tm * FPS)).resize((360, 640)).save(os.path.join(outdir, "s%05.1f.jpg" % tm), quality=85)
+            render_frame(int(tm * FPS)).resize((640, 360) if LAND else (360, 640)).save(os.path.join(outdir, "s%05.1f.jpg" % tm), quality=85)
     elif mode == "thumb":
         out = sys.argv[3]; os.makedirs(out, exist_ok=True)
         im = thumbnail(spec)
+        if LAND:
+            im.convert("RGB").save(os.path.join(out, "thumbnail-youtube-16x9.jpg"), quality=92); return
         im.save(os.path.join(out, "thumbnail-9x16.png"))
         im.crop((0, 240, W, 1680)).save(os.path.join(out, "thumbnail-3x4-crop-instagram.png"))
     elif mode == "render":
