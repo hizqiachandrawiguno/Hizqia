@@ -41,7 +41,7 @@ Ia diusir ke padang gurun, dengan air yang hampir habis. Tetapi ada Seseorang ya
 
 Di Video 7 Satu Kisah, kita membahas Hagar. Tuhan melihat dan mendengar mereka yang terabaikan.
 
-Kisahnya ada di kitab Kejadian, 16 dan 21. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
+Kisahnya ada di kitab Kejadian pasal 16 dan 21. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
 
 📌 Simpan dan bagikan ke temanmu.
 ➕ Follow @satukisah untuk tokoh Alkitab berikutnya.

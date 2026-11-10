@@ -41,7 +41,7 @@ Ia tertawa ketika dijanjikan seorang anak di masa tuanya. Lalu apa yang terjadi?
 
 Di Video 6 Satu Kisah, kita membahas Sara. Tuhan setia pada janji-Nya, bahkan saat terasa mustahil.
 
-Kisahnya ada di kitab Kejadian, 17, 18, dan 21. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
+Kisahnya ada di kitab Kejadian pasal 17, 18, dan 21. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
 
 📌 Simpan dan bagikan ke temanmu.
 ➕ Follow @satukisah untuk tokoh Alkitab berikutnya.

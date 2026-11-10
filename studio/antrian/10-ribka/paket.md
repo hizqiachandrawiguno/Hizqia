@@ -41,7 +41,7 @@ Ia hanya memberi minum unta-unta seorang asing. Tetapi itu mengubah seluruh hidu
 
 Di Video 10 Satu Kisah, kita membahas Ribka. Kebaikan kecil sehari-hari bisa menjadi pintu bagi rencana Allah.
 
-Kisahnya ada di kitab Kejadian, 24. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
+Kisahnya ada di kitab Kejadian pasal 24. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
 
 📌 Simpan dan bagikan ke temanmu.
 ➕ Follow @satukisah untuk tokoh Alkitab berikutnya.

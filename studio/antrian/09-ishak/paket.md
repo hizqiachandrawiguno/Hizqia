@@ -41,7 +41,7 @@ Seorang ayah diminta mempersembahkan anak yang sangat ia kasihi. Lalu apa yang t
 
 Di Video 9 Satu Kisah, kita membahas Ishak. Abraham taat bahkan saat belum mengerti, dan Allah menyediakan pada waktunya.
 
-Kisahnya ada di kitab Kejadian, 22. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
+Kisahnya ada di kitab Kejadian pasal 22. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
 
 📌 Simpan dan bagikan ke temanmu.
 ➕ Follow @satukisah untuk tokoh Alkitab berikutnya.

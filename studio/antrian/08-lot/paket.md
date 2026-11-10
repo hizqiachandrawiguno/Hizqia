@@ -41,7 +41,7 @@ Dua malaikat harus memegang tangannya untuk menuntunnya keluar dari kota. Mengap
 
 Di Video 8 Satu Kisah, kita membahas Lot. Allah sabar menarik kita keluar dari bahaya; jangan berlambat-lambat dan jangan menoleh ke belakang.
 
-Kisahnya ada di kitab Kejadian, 19. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
+Kisahnya ada di kitab Kejadian pasal 19. Bacalah sendiri di Alkitabmu, lalu ceritakan di komentar: bagian mana yang paling berkesan?
 
 📌 Simpan dan bagikan ke temanmu.
 ➕ Follow @satukisah untuk tokoh Alkitab berikutnya.
