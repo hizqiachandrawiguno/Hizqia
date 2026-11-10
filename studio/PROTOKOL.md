@@ -55,3 +55,7 @@ Lima agen bekerja untuk satu akun konten. Semua agen membaca dan menulis berkas 
 - **Penyangga:** usahakan selalu 5 sampai 7 video siap tayang di depan. Jangan bekerja hari-H.
 - **Hari longgar:** boleh ganti 1 sampai 2 video per minggu ke mode ringkas (75 sampai 80 detik, tetap di atas 1 menit untuk syarat monetisasi) bila beban terlalu berat.
 - Tanggal ada di `state/kalender.json` dan `panduan/jadwal-harian.md`.
+
+
+## Standar pengiriman (10 Nov 2026)
+Setiap pengiriman video ke pengguna wajib disertai judul, caption, dan deskripsi (TikTok, Instagram, YouTube video dan Shorts) di dalam pesan chat, siap salin. Social Media Specialist menyiapkan `unggah.md`; Production menyalinnya ke pesan pengiriman.

@@ -81,3 +81,12 @@ Keluarkan hanya bagian yang berubah: `/ganti-hook` (3 pilihan), `/pendekkan`, `/
 - Benda khusus (bahtera, tembok, singa) dibuat dari bentuk dasar di JSON; hasilnya kolase sederhana.
 - Musik dan efek suara sintetis. Skill ini tidak membuat suara; pengguna merekam di ElevenLabs.
 - Sesi cloud sering tidak bisa menjangkau situs Alkitab. Jika begitu, ayat tidak bisa diverifikasi otomatis dan harus ditempel pengguna.
+
+
+## Standar pengiriman hasil (wajib, permintaan pengguna 10 Nov 2026)
+Setiap kali video (9:16 atau 16:9) dikirim ke pengguna, kirim juga di chat, siap salin, dalam satu pesan:
+1. Judul dan caption TikTok (beserta komentar sematan).
+2. Caption Instagram Reels.
+3. Judul dan deskripsi YouTube video biasa (dengan bab) dan YouTube Shorts.
+4. Jam tayang yang disarankan dan pengingat label konten AI.
+Teksnya diambil dari `unggah.md` folder video (buat dulu bila belum ada). Jangan hanya menulis "caption ada di berkas".
