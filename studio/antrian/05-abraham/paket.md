@@ -1,6 +1,6 @@
 # Paket Video 5: Abraham (Kejadian 12 dan 15), mode detail
 
-> **Status:** naskah menunggu persetujuan G1. **Tayang rencana:** Rabu 11 Nov 2026. **Status ayat:** Kejadian 11 dan 12 sudah **dicocokkan dengan TB yang Anda tempel**. **Kejadian 15 BELUM ditempel**, jadi paragraf tentang bintang dan "percaya sebagai kebenaran" (dari 15:1–6) masih parafrase dari ingatan dan **belum terverifikasi**. Tempel Kejadian 15:1–6 dari Bible.com TB, lalu saya cocokkan sebelum Anda merekam.
+> **Status:** naskah menunggu persetujuan G1. **Tayang rencana:** Rabu 11 Nov 2026. **Status ayat:** Kejadian 11, 12, dan 15:1–6 sudah **dicocokkan dengan TB yang Anda tempel**. Satu-satunya yang belum terverifikasi: nama "Abraham" (Kej 17:5, belum ditempel).
 
 ## 1. Ringkasan
 Abraham (saat itu masih Abram), Kejadian 12 dan 15. Pesan inti: iman berjalan sebelum melihat tujuannya, dan Allah menepati janji-Nya pada waktu-Nya. Kejadian 22 (pengorbanan Ishak) dipakai di Video 9, jadi tidak dibahas di sini.
@@ -10,7 +10,7 @@ Abraham (saat itu masih Abram), Kejadian 12 dan 15. Pesan inti: iman berjalan se
 - Suara: "Seorang laki-laki berumur tujuh puluh lima tahun diminta pergi, tanpa diberi tahu ke mana. Apa yang ia lakukan?"
 
 ## 3. Naskah suara
-Lihat `naskah.txt`: hook 18 kata, cerita 282 kata (16 paragraf), penutup 15 kata. Perkiraan sekitar 2,5 menit. Tanpa tag, tanpa tanda kutip.
+Lihat `naskah.txt`: hook 18 kata, cerita 294 kata (16 paragraf), penutup 15 kata. Perkiraan sekitar 2,5 menit. Tanpa tag, tanpa tanda kutip.
 
 ## 4. Storyboard dengan animasi interaktif
 | # | Paragraf | Aksi interaktif | Label (satu per satu) |
@@ -74,9 +74,13 @@ Kisahnya ada di kitab Kejadian, pasal 12 dan 15. Bacalah sendiri di Alkitabmu, l
 | TUHAN menampakkan diri, janji negeri untuk keturunan; mezbah | 12:7 | cocok TB |
 | Pegunungan timur Betel, kemah, mezbah, memanggil nama TUHAN | 12:8 | cocok TB |
 | Nama "Abraham" kelak | 17:5 | belum TB (Kejadian 17 belum ditempel); dipakai di judul dan satu kalimat |
-| Abram belum punya anak; hamba pewaris; "dalam suatu penglihatan"; perisai; hitung bintang; percaya, diperhitungkan sebagai kebenaran | 15:1–6 | **belum TB** (parafrase dari ingatan) |
+| Firman TUHAN dalam suatu penglihatan: jangan takut, Akulah perisaimu | 15:1 | cocok TB |
+| Abram: akan meninggal tanpa anak, seorang hamba (Eliezer) menjadi ahli waris | 15:2–3 | cocok TB (nama Eliezer tidak disebut di naskah) |
+| TUHAN: anak kandungmu yang menjadi ahli waris | 15:4 | cocok TB |
+| Dibawa ke luar; lihat ke langit, hitunglah bintang, demikian banyaknya keturunanmu | 15:5 | cocok TB |
+| Abram percaya; diperhitungkan sebagai kebenaran | 15:6 | cocok TB |
 | Pesan "iman berjalan sebelum melihat tujuan" | 12:1, 4 | [penerapan] |
 Bagian Mesir (12:10–20, Abram berkata Sarai adalah adiknya) sengaja tidak dimasukkan; tidak mendukung pesan inti dan terlalu panjang.
 
 ## 8. Asumsi
-Mode detail; ejaan nama menurut TB yang ditempel (Sikhem, More, Betel, Ai, Negeb). Kejadian 15 menunggu verifikasi.
+Mode detail; ejaan nama menurut TB yang ditempel (Sikhem, More, Betel, Ai, Negeb). Kejadian 15:7–21 (perjanjian dengan potongan hewan) tidak dimasukkan.
