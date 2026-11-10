@@ -42,15 +42,13 @@ Kisah Hagar ada di kitab Kejadian pasal 16 dan 21. Tuhan melihat dan mendengar m
 Bab dalam video:
 0:00 Pembuka
 0:07 Hagar dan Sarai
-0:27 Hagar lari
 0:31 Di mata air
 1:00 El-Roi
 1:09 Ishak lahir
 1:19 Hagar diusir
 1:44 Air habis di padang gurun
 1:54 Allah mendengar
-2:05 Rujukan Alkitab
-2:11 Pesan untuk kita
+2:05 Rujukan dan pesan untuk kita
 
 Satu Kisah menyusuri tokoh Alkitab dari Kejadian sampai Wahyu, satu video setiap hari. Subscribe supaya tidak ketinggalan.
 

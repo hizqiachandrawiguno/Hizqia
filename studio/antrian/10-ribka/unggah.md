@@ -51,8 +51,7 @@ Bab dalam video:
 1:36 Maukah engkau pergi?
 1:48 Ishak melihat unta
 1:56 Kemah Sara
-2:06 Rujukan Alkitab
-2:11 Pesan untuk kita
+2:06 Rujukan dan pesan untuk kita
 
 Satu Kisah menyusuri tokoh Alkitab dari Kejadian sampai Wahyu, satu video setiap hari. Subscribe supaya tidak ketinggalan.
 

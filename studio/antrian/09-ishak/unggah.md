@@ -51,8 +51,7 @@ Bab dalam video:
 1:20 Seruan Malaikat TUHAN
 1:30 Domba di belukar
 1:39 TUHAN menyediakan
-1:53 Rujukan Alkitab
-1:58 Pesan untuk kita
+1:53 Rujukan dan pesan untuk kita
 
 Satu Kisah menyusuri tokoh Alkitab dari Kejadian sampai Wahyu, satu video setiap hari. Subscribe supaya tidak ketinggalan.
 

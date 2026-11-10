@@ -46,11 +46,9 @@ Bab dalam video:
 0:22 Abraham dan Sara
 0:40 Abraham tertawa
 0:57 Tiga tamu di Mamre
-1:23 Sara menguping
 1:29 Adakah yang mustahil bagi TUHAN?
 1:44 Ishak lahir
-2:04 Rujukan Alkitab
-2:10 Pesan untuk kita
+2:04 Rujukan dan pesan untuk kita
 
 Satu Kisah menyusuri tokoh Alkitab dari Kejadian sampai Wahyu, satu video setiap hari. Subscribe supaya tidak ketinggalan.
 

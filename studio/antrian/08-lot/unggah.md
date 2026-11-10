@@ -41,7 +41,6 @@ Kisah Lot ada di kitab Kejadian pasal 19. Allah sabar menarik kita keluar dari b
 
 Bab dalam video:
 0:00 Pembuka
-0:06 Lot di Sodom
 0:12 Dua malaikat tiba
 0:21 Rumah Lot dikepung
 0:37 Peringatan malaikat
@@ -50,8 +49,7 @@ Bab dalam video:
 1:09 Larilah, jangan menoleh
 1:21 Hujan belerang dan api
 1:30 Abraham melihat asap
-1:44 Rujukan Alkitab
-1:49 Pesan untuk kita
+1:44 Rujukan dan pesan untuk kita
 
 Satu Kisah menyusuri tokoh Alkitab dari Kejadian sampai Wahyu, satu video setiap hari. Subscribe supaya tidak ketinggalan.
 
