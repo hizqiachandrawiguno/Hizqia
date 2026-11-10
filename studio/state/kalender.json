@@ -67,8 +67,8 @@
       "hook_rencana": "Pergi ke tempat yang belum ia tahu. Apa yang membuat Abraham mau?",
       "pesan_inti": "Iman berjalan sebelum melihat.",
       "tanggal_rencana": "2026-11-11",
-      "status": "rencana",
-      "ayat_terverifikasi_tb": false,
+      "status": "naskah",
+      "ayat_terverifikasi_tb": "sebagian (Kej 12 ya; Kej 15 belum)",
       "folder": "studio/antrian/05-abraham",
       "tayang": null
     },
