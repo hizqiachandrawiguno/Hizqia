@@ -442,7 +442,7 @@
     "type": "actor",
     "sprite": "person",
     "x": 540,
-    "y": 1190,
+    "y": 1470,
     "scale": 1.2,
     "anchor": "bottom",
     "opts": {

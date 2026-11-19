@@ -1,6 +1,7 @@
 import math
 exec(open("../05-abraham/gen_spec.py").read().split("\nscenes=[]\n")[0])
 exec(open("../shared_extra.py").read())
+def PH(n,x,o,s_=1.3,**k): return actor("person",x,1470,s_,o,**k)
 scenes=[]
 D=[236,214,170]; SAND=[240,214,160]; DUSK=[232,170,120]
 gr=lambda: land([186,166,100],[146,126,80])
@@ -46,7 +47,7 @@ s="Kebaikan kecil"
 scenes.append(sc(s,[252,236,190],[dict(type="sun",center=[540,520],r=260,speed=0.15)]+gr()+[dict(P(0,540,RIBKA,1.4),id="rb"),actor("buyung",540,950,1.0,follow={"id":"rb","dx":0,"dy":-360,"t":[0,9]}),lab("Kebaikan kecil","Kebaikan kecil","gold",96),lab("Allah menuntun","Allah menuntun","paper",84)],intensity=0.15,oud={"notes":["D4","F#4","A4","D5","A4","F#4"],"step":0.7}))
 spec={"meta":{"tokoh":"Ribka","video_no":10,"tag":"TOKOH ALKITAB  ·  VIDEO 10","auto":True,"ground_shift":110,"hook_end":0,"outro_start":0,"total":0},"spoken":sp,
  "hook":{"bg":SAND,"foreground":{"color":[184,146,90],"kind":"sand","y":1500},"layers":[dict(type="sun",center=[540,880],r=190,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.1),actor("sumur",300,1450,1.2),actor("unta",820,1450,0.9),
-   dict(P(0,540,RIBKA,1.2,anim=[twn("x",500,560,0,3)]),id="rb"),actor("buyung",540,1100,0.9,follow={"id":"rb","dx":0,"dy":-310,"t":[0,9]}),
+   dict(PH(0,540,RIBKA,1.2,anim=[twn("x",500,560,0,3)]),id="rb"),actor("buyung",540,1100,0.9,follow={"id":"rb","dx":0,"dy":-310,"t":[0,9]}),
    lab("MEMBERI MINUM\nUNTA-UNTA","memberi minum unta-unta","paper",76,y=520),lab("SEORANG\nASING","seorang asing","brick",90,y=520),lab("MENGUBAH SELURUH\nHIDUPNYA","mengubah seluruh hidupnya","gold",68,y=520)]},
  "scenes":scenes,"sprites":sprites,
  "thumbnail":{"bg":SAND,"foreground":{"color":[184,146,90],"kind":"sand","y":1560},"layers":[dict(type="rays",center=[540,1000],colors=[[246,222,172],[240,214,160]],n=28,speed=0.0),dict(type="sun",center=[540,1000],r=230,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.0),

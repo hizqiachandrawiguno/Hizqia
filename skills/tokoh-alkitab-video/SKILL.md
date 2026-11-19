@@ -90,3 +90,6 @@ Setiap kali video (9:16 atau 16:9) dikirim ke pengguna, kirim juga di chat, siap
 3. Judul dan deskripsi YouTube video biasa (dengan bab) dan YouTube Shorts.
 4. Jam tayang yang disarankan dan pengingat label konten AI.
 Teksnya diambil dari `unggah.md` folder video (buat dulu bila belum ada). Jangan hanya menulis "caption ada di berkas".
+
+## Aturan hook (kesalahan 19 Nov 2026)
+Di `hook.layers` tidak ada `ground_shift`, jadi kaki tokoh harus di y sekitar 1470 (foreground mulai y 1500), bukan 1190. Tokoh yang kakinya di 1190 tampak melayang dan kepalanya tertutup label. Gunakan `actor("person", x, 1470, skala, ...)` di hook, dan selalu lihat satu still hook sebelum render.

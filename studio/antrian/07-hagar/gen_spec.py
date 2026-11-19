@@ -1,6 +1,7 @@
 import math
 exec(open("../05-abraham/gen_spec.py").read().split("\nscenes=[]\n")[0])
 exec(open("../shared_extra.py").read())
+def PH(n,x,o,s_=1.3,**k): return actor("person",x,1470,s_,o,**k)
 scenes=[]
 D=[236,214,170]; SAND=[240,208,150]
 gr=lambda: land([186,166,100],[146,126,80])
@@ -49,7 +50,7 @@ scenes.append(sc(s,[240,222,170],[dict(type="sun",center=[510,560],r=250,speed=0
 s="Tuhan melihat mereka"
 scenes.append(sc(s,[252,236,190],[dict(type="sun",center=[540,520],r=260,speed=0.15)]+ds()+[actor("sumur",820,1180,1.0),P(0,360,HAGAR,1.3),P(0,580,ISMAEL,1.0),lab("Tuhan melihat","Tuhan melihat mereka","gold",90),lab("Menyertai","menyertai","paper",96)],intensity=0.15,oud={"notes":["D4","F#4","A4","D5","A4","F#4"],"step":0.7}))
 spec={"meta":{"tokoh":"Hagar","video_no":7,"tag":"TOKOH ALKITAB  ·  VIDEO 7","auto":True,"ground_shift":110,"hook_end":0,"outro_start":0,"total":0},"spoken":sp,
- "hook":{"bg":SAND,"foreground":{"color":[184,146,90],"kind":"sand","y":1500},"layers":[dict(type="sun",center=[540,880],r=190,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.1),P(0,380,HAGAR,1.2,anim=[twn("x",260,520,0,6,"lin"),walk(0,6,10,9)]),P(0,520,ISMAEL,0.75,anim=[twn("x",400,660,0,6,"lin"),walk(0,6,10,9)]),
+ "hook":{"bg":SAND,"foreground":{"color":[184,146,90],"kind":"sand","y":1500},"layers":[dict(type="sun",center=[540,880],r=190,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.1),PH(0,380,HAGAR,1.2,anim=[twn("x",260,520,0,6,"lin"),walk(0,6,10,9)]),PH(0,520,ISMAEL,0.75,anim=[twn("x",400,660,0,6,"lin"),walk(0,6,10,9)]),
    lab("DIUSIR","diusir","brick",110,y=520),lab("AIR HAMPIR\nHABIS","air yang hampir habis","paper",84,y=520),lab("SIAPA YANG\nMELIHATNYA?","Siapa","gold",80,y=520)]},
  "scenes":scenes,"sprites":sprites,
  "thumbnail":{"bg":SAND,"foreground":{"color":[184,146,90],"kind":"sand","y":1560},"layers":[dict(type="rays",center=[540,1000],colors=[[246,218,168],[240,208,150]],n=28,speed=0.0),dict(type="sun",center=[540,1000],r=230,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.0),

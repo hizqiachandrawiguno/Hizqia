@@ -1,6 +1,7 @@
 import math
 exec(open("../05-abraham/gen_spec.py").read().split("\nscenes=[]\n")[0])
 exec(open("../shared_extra.py").read())
+def PH(n,x,o,s_=1.3,**k): return actor("person",x,1470,s_,o,**k)
 scenes=[]
 D=[236,214,170]; DUSK=[236,176,200]; NIGHT=[40,36,70]; DAWN=[252,224,204]
 gr=lambda: land([186,166,100],[146,126,80])
@@ -43,7 +44,7 @@ scenes.append(sc(s,[240,222,170],[dict(type="sun",center=[510,560],r=250,speed=0
 s="Allah sabar"
 scenes.append(sc(s,[252,236,190],[dict(type="sun",center=[540,520],r=260,speed=0.15)]+gr()+[P(0,540,LOT,1.4,anim=[twn("x",760,540,0,3,"out")]),actor("cahaya",540,620,0.9),lab("Allah sabar","Allah sabar menarik kita","gold",92),lab("Jangan berlambat-lambat","Jangan berlambat-lambat","paper",64)],intensity=0.15,oud={"notes":["D4","F#4","A4","D5","A4","F#4"],"step":0.7}))
 spec={"meta":{"tokoh":"Lot","video_no":8,"tag":"TOKOH ALKITAB  ·  VIDEO 8","auto":True,"ground_shift":110,"hook_end":0,"outro_start":0,"total":0},"spoken":sp,
- "hook":{"bg":DAWN,"foreground":{"color":[96,150,112],"kind":"grass","y":1500},"layers":[dict(type="sun",center=[540,880],r=190,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.1),P(0,540,LOT,1.4),P(0,260,TAMU,1.3),P(0,820,TAMU,1.3),
+ "hook":{"bg":DAWN,"foreground":{"color":[96,150,112],"kind":"grass","y":1500},"layers":[dict(type="sun",center=[540,880],r=190,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.1),PH(0,540,LOT,1.4),PH(0,260,TAMU,1.3),PH(0,820,TAMU,1.3),
    lab("DUA MALAIKAT","Dua malaikat","paper",96,y=520),lab("MEMEGANG\nTANGANNYA","memegang tangannya","brick",84,y=520),lab("MENGAPA\nBERLAMBAT-LAMBAT?","berlambat-lambat","gold",64,y=520)]},
  "scenes":scenes,"sprites":sprites,
  "thumbnail":{"bg":DAWN,"foreground":{"color":[96,150,112],"kind":"grass","y":1560},"layers":[dict(type="rays",center=[540,1000],colors=[[254,232,214],[252,224,204]],n=28,speed=0.0),dict(type="sun",center=[540,1000],r=230,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.0),

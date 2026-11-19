@@ -416,7 +416,7 @@
     "type": "actor",
     "sprite": "person",
     "x": 380,
-    "y": 1190,
+    "y": 1470,
     "scale": 1.2,
     "anchor": "bottom",
     "opts": {
@@ -463,7 +463,7 @@
     "type": "actor",
     "sprite": "person",
     "x": 520,
-    "y": 1190,
+    "y": 1470,
     "scale": 0.75,
     "anchor": "bottom",
     "opts": {

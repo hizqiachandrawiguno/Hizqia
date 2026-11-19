@@ -1,6 +1,7 @@
 import math
 exec(open("../05-abraham/gen_spec.py").read().split("\nscenes=[]\n")[0])
 exec(open("../shared_extra.py").read())
+def PH(n,x,o,s_=1.3,**k): return actor("person",x,1470,s_,o,**k)
 scenes=[]
 D=[236,214,170]; DAWN=[250,210,160]; NIGHT=[28,34,70]
 gr=lambda: land([186,166,100],[146,126,80])
@@ -50,7 +51,7 @@ s="Abraham taat"
 scenes.append(sc(s,[252,236,190],[dict(type="sun",center=[540,520],r=260,speed=0.15)]+gr()+[P(0,420,ABRAM,1.4),P(0,680,ISHAK,1.0),lab("Abraham taat","Abraham taat","gold",96),lab("Allah menyediakan","Allah menyediakan","paper",76)],intensity=0.15))
 spec={"meta":{"tokoh":"Ishak","video_no":9,"tag":"TOKOH ALKITAB  ·  VIDEO 9","auto":True,"ground_shift":110,"hook_end":0,"outro_start":0,"total":0},"spoken":sp,
  "hook":{"bg":DAWN,"foreground":{"color":[146,126,80],"kind":"grass","y":1500},"layers":[dict(type="sun",center=[540,900],r=190,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.1),actor("gunung",760,1350,1.4),
-   P(0,420,ABRAM,1.2,anim=[twn("x",200,560,0,6,"lin"),walk(0,6,10,9)]),P(0,620,ISHAK,0.85,anim=[twn("x",380,740,0,6,"lin"),walk(0,6,10,9)]),
+   PH(0,420,ABRAM,1.2,anim=[twn("x",200,560,0,6,"lin"),walk(0,6,10,9)]),PH(0,620,ISHAK,0.85,anim=[twn("x",380,740,0,6,"lin"),walk(0,6,10,9)]),
    lab("SEORANG AYAH","Seorang ayah","paper",96,y=520),lab("SANGAT IA\nKASIHI","sangat ia kasihi","brick",84,y=520),lab("LALU APA YANG\nTERJADI?","Lalu apa yang terjadi","gold",76,y=520)]},
  "scenes":scenes,"sprites":sprites,
  "thumbnail":{"bg":DAWN,"foreground":{"color":[146,126,80],"kind":"grass","y":1560},"layers":[dict(type="rays",center=[540,1000],colors=[[252,222,176],[250,210,160]],n=28,speed=0.0),dict(type="sun",center=[540,1000],r=230,color=[255,236,170],ray_color=[255,224,150],n=24,speed=0.0),
