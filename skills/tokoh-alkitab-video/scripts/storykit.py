@@ -1318,6 +1318,8 @@ def thumbnail(spec):
     for L in th["layers"]:
         if L["type"] == "label":
             L.setdefault("zone", "thumb")
+        elif L["type"] == "actor" and L.get("sprite") == "person" and not LAND and L.get("scale", 1.0) > 1.3:
+            L["scale"] = 1.3   # tokoh besar menutupi wajah oleh label; batasi tinggi supaya kepala berada di bawah teks
     return draw_scene(spec, {"bg": th.get("bg", (140, 44, 36)), "layers": th["layers"], "foreground": th.get("foreground")}, 99.0, 3)
 
 
