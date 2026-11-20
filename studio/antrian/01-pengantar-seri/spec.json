@@ -1,0 +1,2195 @@
+{
+ "meta": {
+  "tokoh": "Pengantar seri",
+  "video_no": 1,
+  "tag": "TOKOH ALKITAB  ·  VIDEO 1",
+  "auto": true,
+  "ground_shift": 110,
+  "hook_end": 0,
+  "outro_start": 0,
+  "total": 0
+ },
+ "spoken": [
+  [
+   0.0,
+   1.91,
+   "Alkitab punya enam puluh enam kitab,"
+  ],
+  [
+   2.22,
+   3.96,
+   "dari Kejadian sampai Wahyu."
+  ],
+  [
+   4.43,
+   7.12,
+   "Bagaimana kalau kita menyusurinya lewat tokoh-tokohnya?"
+  ],
+  [
+   7.61,
+   10.98,
+   "Banyak orang ingin membaca Alkitab dari awal sampai akhir."
+  ],
+  [
+   11.4,
+   13.32,
+   "Tapi sering berhenti di tengah jalan,"
+  ],
+  [
+   13.58,
+   16.12,
+   "karena kitabnya banyak dan ceritanya panjang."
+  ],
+  [
+   16.51,
+   17.13,
+   "Karena itu,"
+  ],
+  [
+   17.13,
+   19.39,
+   "di seri ini kita belajar secara singkat."
+  ],
+  [
+   19.75,
+   20.48,
+   "Satu video,"
+  ],
+  [
+   20.48,
+   21.75,
+   "satu tokoh Alkitab."
+  ],
+  [
+   22.12,
+   24.27,
+   "Dari Adam dan Hawa di kitab Kejadian,"
+  ],
+  [
+   24.27,
+   26.02,
+   "sampai Yohanes di kitab Wahyu."
+  ],
+  [
+   26.32,
+   28.43,
+   "Kita akan bertemu Abraham,"
+  ],
+  [
+   28.43,
+   28.83,
+   "Musa,"
+  ],
+  [
+   28.83,
+   29.24,
+   "Daud,"
+  ],
+  [
+   29.24,
+   30.05,
+   "dan Ester."
+  ],
+  [
+   30.37,
+   31.22,
+   "Lalu Maria,"
+  ],
+  [
+   31.43,
+   31.96,
+   "Petrus,"
+  ],
+  [
+   31.96,
+   32.79,
+   "dan Paulus."
+  ],
+  [
+   33.1,
+   34.23,
+   "Ada yang gagah berani,"
+  ],
+  [
+   34.53,
+   35.34,
+   "ada yang ragu."
+  ],
+  [
+   35.68,
+   36.63,
+   "Ada yang jatuh,"
+  ],
+  [
+   36.63,
+   37.65,
+   "lalu dipulihkan."
+  ],
+  [
+   38.02,
+   40.21,
+   "Tiap video berisi ringkasan kisahnya,"
+  ],
+  [
+   40.41,
+   41.49,
+   "bacaan Alkitabnya,"
+  ],
+  [
+   41.49,
+   44.0,
+   "dan satu pesan yang bisa kamu bawa pulang."
+  ],
+  [
+   44.27,
+   47.47,
+   "Supaya kamu bisa membaca sendiri kisah aslinya di Alkitab,"
+  ],
+  [
+   47.73,
+   50.77,
+   "dan melihat bagaimana Allah bekerja dalam hidup mereka."
+  ],
+  [
+   51.09,
+   52.63,
+   "Siap menyusuri Alkitab bersama?"
+  ],
+  [
+   53.04,
+   54.25,
+   "Kita mulai dari awal,"
+  ],
+  [
+   54.25,
+   55.41,
+   "dari kitab Kejadian."
+  ],
+  [
+   55.74,
+   57.52,
+   "Mau tahu kisah tokoh Alkitab lainnya?"
+  ],
+  [
+   57.78,
+   59.33,
+   "Jangan lupa untuk follow,"
+  ],
+  [
+   59.33,
+   59.7,
+   "share,"
+  ],
+  [
+   59.7,
+   61.0,
+   "dan komen konten ini!"
+  ]
+ ],
+ "hook": {
+  "bg": [
+   140,
+   44,
+   36
+  ],
+  "foreground": {
+   "color": [
+    96,
+    34,
+    30
+   ],
+   "kind": "rock",
+   "y": 1500
+  },
+  "layers": [
+   {
+    "type": "rays",
+    "center": [
+     540,
+     1010
+    ],
+    "colors": [
+     [
+      160,
+      54,
+      44
+     ],
+     [
+      140,
+      44,
+      36
+     ]
+    ],
+    "n": 28,
+    "speed": 0.3
+   },
+   {
+    "type": "disc",
+    "center": [
+     540,
+     1010
+    ],
+    "r": 290,
+    "color": [
+     236,
+     176,
+     96
+    ]
+   },
+   {
+    "type": "actor",
+    "sprite": "kitab",
+    "x": 540,
+    "y": 1400,
+    "scale": 2.0,
+    "anchor": "bottom",
+    "anim": [
+     {
+      "t": [
+       0,
+       0.6
+      ],
+      "scale": [
+       0.001,
+       2.0
+      ],
+      "ease": "back"
+     }
+    ]
+   },
+   {
+    "type": "label",
+    "text": "ALKITAB PUNYA\n66 KITAB",
+    "at": "Alkitab punya",
+    "x": 510,
+    "y": 520,
+    "style": "paper",
+    "size": 84,
+    "angle": 0
+   },
+   {
+    "type": "label",
+    "text": "DARI KEJADIAN\nSAMPAI WAHYU",
+    "at": "dari Kejadian sampai Wahyu",
+    "x": 510,
+    "y": 520,
+    "style": "brick",
+    "size": 76,
+    "angle": 0
+   },
+   {
+    "type": "label",
+    "text": "LEWAT TOKOH-\nTOKOHNYA?",
+    "at": "Bagaimana kalau",
+    "x": 510,
+    "y": 520,
+    "style": "gold",
+    "size": 80,
+    "angle": 0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "start_at": "Banyak orang ingin",
+   "bg": [
+    240,
+    222,
+    170
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      170,
+      166,
+      92
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      112,
+      126,
+      60
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "sun",
+     "center": [
+      780,
+      330
+     ],
+     "r": 120
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 330,
+     "y": 1180,
+     "scale": 1.3,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       190,
+       150,
+       100
+      ],
+      "hair": [
+       90,
+       60,
+       40
+      ],
+      "staff": false
+     }
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 720,
+     "y": 1170,
+     "scale": 1.7,
+     "anchor": "bottom",
+     "anim": [
+      {
+       "at": "Banyak orang ingin",
+       "dt": [
+        0.1,
+        0.7
+       ],
+       "scale": [
+        0.001,
+        1.7
+       ],
+       "ease": "back"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Dari awal sampai akhir",
+     "at": "dari awal sampai akhir",
+     "x": 510,
+     "y": 380,
+     "style": "paper",
+     "size": 64,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.3
+  },
+  {
+   "start_at": "Tapi sering berhenti",
+   "bg": [
+    205,
+    185,
+    150
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      160,
+      140,
+      100
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      120,
+      100,
+      70
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "sun",
+     "center": [
+      250,
+      330
+     ],
+     "r": 110,
+     "color": [
+      236,
+      200,
+      128
+     ],
+     "ray_color": [
+      226,
+      186,
+      110
+     ],
+     "n": 14
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 120,
+     "y": 1170,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 250,
+     "y": 1180,
+     "scale": 0.92,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 380,
+     "y": 1170,
+     "scale": 1.04,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 510,
+     "y": 1180,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 640,
+     "y": 1170,
+     "scale": 0.92,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 770,
+     "y": 1180,
+     "scale": 1.04,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 900,
+     "y": 1170,
+     "scale": 0.8,
+     "anchor": "bottom"
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 830,
+     "y": 1180,
+     "scale": 1.1,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       190,
+       150,
+       100
+      ],
+      "hair": [
+       90,
+       60,
+       40
+      ],
+      "staff": false
+     },
+     "anim": [
+      {
+       "at": "Tapi sering berhenti",
+       "dt": [
+        1.0,
+        2.5
+       ],
+       "x": [
+        830,
+        980
+       ],
+       "ease": "io"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Berhenti di tengah jalan",
+     "at": "berhenti di tengah jalan",
+     "x": 510,
+     "y": 380,
+     "style": "earth",
+     "size": 62,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.25
+  },
+  {
+   "start_at": "Karena itu,",
+   "bg": [
+    248,
+    230,
+    176
+   ],
+   "layers": [
+    {
+     "type": "sun",
+     "center": [
+      510,
+      540
+     ],
+     "r": 300,
+     "speed": 0.15
+    },
+    {
+     "type": "hill",
+     "color": [
+      170,
+      166,
+      92
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      112,
+      126,
+      60
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 510,
+     "y": 1160,
+     "scale": 1.9,
+     "anchor": "bottom",
+     "anim": [
+      {
+       "at": "Karena itu,",
+       "dt": [
+        0.1,
+        0.7
+       ],
+       "scale": [
+        0.001,
+        1.9
+       ],
+       "ease": "back"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Belajar singkat",
+     "at": "belajar secara singkat",
+     "x": 510,
+     "y": 380,
+     "style": "gold",
+     "size": 84,
+     "angle": 0
+    },
+    {
+     "type": "label",
+     "text": "Satu video, satu tokoh",
+     "at": "Satu video",
+     "x": 510,
+     "y": 380,
+     "style": "paper",
+     "size": 70,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.3,
+   "oud": {
+    "notes": [
+     "D4",
+     "F#4",
+     "G4",
+     "F#4",
+     "Eb4",
+     "D4"
+    ],
+    "step": 0.6
+   }
+  },
+  {
+   "start_at": "Dari Adam dan Hawa",
+   "bg": [
+    236,
+    214,
+    160
+   ],
+   "layers": [
+    {
+     "type": "sun",
+     "center": [
+      510,
+      360
+     ],
+     "r": 120
+    },
+    {
+     "type": "hill",
+     "color": [
+      170,
+      150,
+      96
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      130,
+      112,
+      70
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 160,
+     "y": 1180,
+     "scale": 1.1,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       190,
+       150,
+       100
+      ],
+      "hair": [
+       90,
+       60,
+       40
+      ],
+      "staff": false
+     }
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 330,
+     "y": 1180,
+     "scale": 1.1,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       150,
+       90,
+       60
+      ],
+      "dress": true,
+      "long_hair": true,
+      "staff": false
+     }
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 860,
+     "y": 1180,
+     "scale": 1.1,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       232,
+       226,
+       210
+      ],
+      "beard": [
+       185,
+       185,
+       185
+      ],
+      "staff": false
+     }
+    },
+    {
+     "type": "actor",
+     "sprite": "stone",
+     "x": 250,
+     "y": 1190,
+     "scale": 0.001,
+     "anchor": "bottom",
+     "anim": [
+      {
+       "at": "Dari Adam dan Hawa",
+       "dt": [
+        0.4,
+        3.6
+       ],
+       "x": [
+        250,
+        860
+       ],
+       "ease": "io"
+      },
+      {
+       "at": "Dari Adam dan Hawa",
+       "dt": [
+        0.2,
+        0.5
+       ],
+       "scale": [
+        0.001,
+        1.6
+       ],
+       "ease": "back"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Kejadian",
+     "at": "kitab Kejadian",
+     "x": 510,
+     "y": 380,
+     "style": "gold",
+     "size": 110,
+     "angle": 0
+    },
+    {
+     "type": "label",
+     "text": "Wahyu",
+     "at": "kitab Wahyu",
+     "x": 510,
+     "y": 380,
+     "style": "brick",
+     "size": 110,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.3
+  },
+  {
+   "start_at": "Kita akan bertemu",
+   "bg": [
+    170,
+    200,
+    196
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      120,
+      160,
+      150
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      80,
+      120,
+      110
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 150,
+     "y": 1160,
+     "scale": 1.0,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       200,
+       190,
+       170
+      ],
+      "beard": [
+       205,
+       205,
+       205
+      ],
+      "hat": "turban",
+      "hat_color": [
+       232,
+       224,
+       204
+      ],
+      "staff": true
+     },
+     "anim": [
+      {
+       "at": "Kita akan bertemu",
+       "dt": [
+        0.2,
+        0.8
+       ],
+       "y": [
+        1400,
+        1160
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 380,
+     "y": 1160,
+     "scale": 1.0,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       140,
+       100,
+       70
+      ],
+      "beard": [
+       130,
+       130,
+       130
+      ],
+      "staff": true
+     },
+     "anim": [
+      {
+       "at": "Kita akan bertemu",
+       "dt": [
+        0.8999999999999999,
+        1.5
+       ],
+       "y": [
+        1400,
+        1160
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 610,
+     "y": 1160,
+     "scale": 1.0,
+     "anchor": "bottom",
+     "opts": {
+      "staff": true
+     },
+     "anim": [
+      {
+       "at": "Kita akan bertemu",
+       "dt": [
+        1.5999999999999999,
+        2.2
+       ],
+       "y": [
+        1400,
+        1160
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 840,
+     "y": 1160,
+     "scale": 1.0,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       120,
+       60,
+       120
+      ],
+      "dress": true,
+      "long_hair": true,
+      "hat": "veil",
+      "staff": false
+     },
+     "anim": [
+      {
+       "at": "Kita akan bertemu",
+       "dt": [
+        2.3,
+        2.8999999999999995
+       ],
+       "y": [
+        1400,
+        1160
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Abraham, Musa, Daud, Ester",
+     "at": "Kita akan bertemu",
+     "x": 510,
+     "y": 380,
+     "style": "paper",
+     "size": 64,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.35
+  },
+  {
+   "start_at": "Lalu Maria,",
+   "bg": [
+    170,
+    200,
+    196
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      120,
+      160,
+      150
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      80,
+      120,
+      110
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 200,
+     "y": 1155,
+     "scale": 1.15,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       60,
+       90,
+       140
+      ],
+      "dress": true,
+      "hat": "veil",
+      "staff": false
+     },
+     "anim": [
+      {
+       "at": "Lalu Maria,",
+       "dt": [
+        0.1,
+        0.6
+       ],
+       "y": [
+        1400,
+        1155
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 480,
+     "y": 1155,
+     "scale": 1.15,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       90,
+       120,
+       140
+      ],
+      "beard": [
+       90,
+       70,
+       50
+      ],
+      "staff": false
+     },
+     "anim": [
+      {
+       "at": "Lalu Maria,",
+       "dt": [
+        0.6,
+        1.1
+       ],
+       "y": [
+        1400,
+        1155
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 760,
+     "y": 1155,
+     "scale": 1.15,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       110,
+       70,
+       90
+      ],
+      "beard": [
+       80,
+       60,
+       50
+      ],
+      "hair": [
+       80,
+       60,
+       50
+      ],
+      "staff": false
+     },
+     "anim": [
+      {
+       "at": "Lalu Maria,",
+       "dt": [
+        1.1,
+        1.6
+       ],
+       "y": [
+        1400,
+        1155
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Maria, Petrus, Paulus",
+     "at": "Lalu Maria,",
+     "x": 510,
+     "y": 380,
+     "style": "paper",
+     "size": 62,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.35
+  },
+  {
+   "start_at": "Ada yang gagah berani",
+   "bg": [
+    240,
+    226,
+    176
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      170,
+      166,
+      92
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      112,
+      126,
+      60
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "sun",
+     "center": [
+      790,
+      340
+     ],
+     "r": 110
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 300,
+     "y": 1180,
+     "scale": 1.3,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       160,
+       60,
+       50
+      ],
+      "hat": "helm",
+      "staff": true
+     },
+     "show": [
+      0,
+      1.5
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 500,
+     "y": 1180,
+     "scale": 1.15,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       100,
+       110,
+       130
+      ],
+      "staff": false
+     },
+     "anim": [
+      {
+       "type": "osc",
+       "prop": "x",
+       "amp": 14,
+       "freq": 9,
+       "t": [
+        1.4,
+        3.4
+       ]
+      }
+     ],
+     "show": [
+      1.4,
+      3.5
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 620,
+     "y": 1180,
+     "scale": 1.3,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       150,
+       120,
+       90
+      ],
+      "staff": false
+     },
+     "anim": [
+      {
+       "at": "Ada yang jatuh,",
+       "dt": [
+        0.0,
+        0.6
+       ],
+       "rot": [
+        0,
+        -70
+       ],
+       "ease": "in"
+      },
+      {
+       "at": "lalu dipulihkan",
+       "dt": [
+        0.1,
+        0.9
+       ],
+       "rot": [
+        -70,
+        0
+       ],
+       "ease": "out"
+      }
+     ],
+     "pivot": [
+      150,
+      566
+     ],
+     "pivot_at": [
+      620,
+      1180
+     ],
+     "show": [
+      3.4,
+      99
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Gagah berani",
+     "at": "Ada yang gagah berani",
+     "x": 510,
+     "y": 380,
+     "style": "brick",
+     "size": 90,
+     "angle": 0
+    },
+    {
+     "type": "label",
+     "text": "Ragu",
+     "at": "ada yang ragu",
+     "x": 510,
+     "y": 380,
+     "style": "earth",
+     "size": 100,
+     "angle": 0
+    },
+    {
+     "type": "label",
+     "text": "Jatuh, lalu dipulihkan",
+     "at": "Ada yang jatuh,",
+     "x": 510,
+     "y": 380,
+     "style": "gold",
+     "size": 64,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.3
+  },
+  {
+   "start_at": "Tiap video berisi",
+   "bg": [
+    230,
+    215,
+    185
+   ],
+   "layers": [
+    {
+     "type": "hill",
+     "color": [
+      170,
+      160,
+      110
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      120,
+      110,
+      70
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "gulungan",
+     "x": 210,
+     "y": 1130,
+     "scale": 1.2,
+     "anchor": "bottom",
+     "anim": [
+      {
+       "at": "ringkasan kisahnya",
+       "dt": [
+        0.0,
+        0.5
+       ],
+       "scale": [
+        0.001,
+        1.2
+       ],
+       "ease": "back"
+      }
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 510,
+     "y": 1130,
+     "scale": 1.3,
+     "anchor": "bottom",
+     "anim": [
+      {
+       "at": "bacaan Alkitabnya",
+       "dt": [
+        0.0,
+        0.5
+       ],
+       "scale": [
+        0.001,
+        1.3
+       ],
+       "ease": "back"
+      }
+     ]
+    },
+    {
+     "type": "actor",
+     "sprite": "surat",
+     "x": 810,
+     "y": 1130,
+     "scale": 1.2,
+     "anchor": "bottom",
+     "anim": [
+      {
+       "at": "satu pesan",
+       "dt": [
+        0.0,
+        0.5
+       ],
+       "scale": [
+        0.001,
+        1.2
+       ],
+       "ease": "back"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Ringkasan kisah",
+     "at": "ringkasan kisahnya",
+     "x": 510,
+     "y": 380,
+     "style": "paper",
+     "size": 72,
+     "angle": 0
+    },
+    {
+     "type": "label",
+     "text": "Bacaan Alkitab",
+     "at": "bacaan Alkitabnya",
+     "x": 510,
+     "y": 380,
+     "style": "gold",
+     "size": 72,
+     "angle": 0
+    },
+    {
+     "type": "label",
+     "text": "Satu pesan",
+     "at": "satu pesan",
+     "x": 510,
+     "y": 380,
+     "style": "brick",
+     "size": 84,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.3
+  },
+  {
+   "start_at": "Supaya kamu bisa membaca",
+   "bg": [
+    248,
+    230,
+    176
+   ],
+   "layers": [
+    {
+     "type": "sun",
+     "center": [
+      510,
+      540
+     ],
+     "r": 300,
+     "speed": 0.15
+    },
+    {
+     "type": "hill",
+     "color": [
+      170,
+      166,
+      92
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      112,
+      126,
+      60
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 330,
+     "y": 1180,
+     "scale": 1.4,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       190,
+       150,
+       100
+      ],
+      "hair": [
+       90,
+       60,
+       40
+      ],
+      "staff": false
+     }
+    },
+    {
+     "type": "actor",
+     "sprite": "kitab",
+     "x": 640,
+     "y": 1150,
+     "scale": 1.5,
+     "anchor": "bottom"
+    },
+    {
+     "type": "disc",
+     "center": [
+      800,
+      380
+     ],
+     "r": 130,
+     "color": [
+      250,
+      235,
+      170
+     ],
+     "at": "Allah bekerja",
+     "at_offset": -0.2
+    },
+    {
+     "type": "label",
+     "text": "Baca sendiri",
+     "at": "membaca sendiri",
+     "x": 510,
+     "y": 380,
+     "style": "paper",
+     "size": 84,
+     "angle": 0
+    },
+    {
+     "type": "label",
+     "text": "Allah bekerja",
+     "at": "Allah bekerja",
+     "x": 510,
+     "y": 380,
+     "style": "gold",
+     "size": 84,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.2
+  },
+  {
+   "start_at": "Siap menyusuri",
+   "bg": [
+    250,
+    214,
+    160
+   ],
+   "layers": [
+    {
+     "type": "sun",
+     "center": [
+      510,
+      600
+     ],
+     "r": 280,
+     "color": [
+      240,
+      170,
+      80
+     ],
+     "ray_color": [
+      246,
+      190,
+      110
+     ],
+     "speed": 0.12
+    },
+    {
+     "type": "hill",
+     "color": [
+      190,
+      160,
+      100
+     ],
+     "base": 1030,
+     "amp": 50,
+     "freq": 160,
+     "phase": 0.4,
+     "drift": 0
+    },
+    {
+     "type": "hill",
+     "color": [
+      130,
+      110,
+      70
+     ],
+     "base": 1150,
+     "amp": 45,
+     "freq": 140,
+     "phase": 1.9,
+     "drift": 0
+    },
+    {
+     "type": "actor",
+     "sprite": "person",
+     "x": 510,
+     "y": 1180,
+     "scale": 1.4,
+     "anchor": "bottom",
+     "opts": {
+      "robe": [
+       190,
+       150,
+       100
+      ],
+      "hair": [
+       90,
+       60,
+       40
+      ],
+      "staff": true
+     },
+     "anim": [
+      {
+       "at": "Siap menyusuri",
+       "dt": [
+        0.0,
+        2.5
+       ],
+       "x": [
+        330,
+        510
+       ],
+       "ease": "out"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "Mulai dari Kejadian",
+     "at": "Kita mulai dari awal",
+     "x": 510,
+     "y": 380,
+     "style": "brick",
+     "size": 70,
+     "angle": 0
+    }
+   ],
+   "intensity": 0.2,
+   "oud": {
+    "notes": [
+     "D4",
+     "F#4",
+     "A4",
+     "D5",
+     "A4",
+     "F#4"
+    ],
+    "step": 0.7
+   }
+  }
+ ],
+ "sprites": {
+  "kitab": {
+   "w": 300,
+   "h": 380,
+   "shapes": [
+    {
+     "poly": [
+      [
+       20,
+       10
+      ],
+      [
+       280,
+       10
+      ],
+      [
+       284,
+       372
+      ],
+      [
+       16,
+       372
+      ]
+     ],
+     "fill": [
+      100,
+      56,
+      42
+     ]
+    },
+    {
+     "poly": [
+      [
+       20,
+       10
+      ],
+      [
+       56,
+       10
+      ],
+      [
+       56,
+       372
+      ],
+      [
+       16,
+       372
+      ]
+     ],
+     "fill": [
+      66,
+      36,
+      28
+     ]
+    },
+    {
+     "poly": [
+      [
+       276,
+       22
+      ],
+      [
+       296,
+       26
+      ],
+      [
+       298,
+       364
+      ],
+      [
+       278,
+       368
+      ]
+     ],
+     "fill": [
+      240,
+      230,
+      200
+     ]
+    },
+    {
+     "line": [
+      [
+       78,
+       34
+      ],
+      [
+       262,
+       34
+      ]
+     ],
+     "width": 5,
+     "fill": [
+      217,
+      164,
+      65
+     ]
+    },
+    {
+     "line": [
+      [
+       78,
+       350
+      ],
+      [
+       262,
+       350
+      ]
+     ],
+     "width": 5,
+     "fill": [
+      217,
+      164,
+      65
+     ]
+    },
+    {
+     "text": "ALKITAB",
+     "xy": [
+      168,
+      120
+     ],
+     "size": 40,
+     "fill": [
+      232,
+      190,
+      96
+     ]
+    },
+    {
+     "line": [
+      [
+       168,
+       190
+      ],
+      [
+       168,
+       300
+      ]
+     ],
+     "width": 16,
+     "fill": [
+      232,
+      190,
+      96
+     ]
+    },
+    {
+     "line": [
+      [
+       122,
+       236
+      ],
+      [
+       214,
+       236
+      ]
+     ],
+     "width": 16,
+     "fill": [
+      232,
+      190,
+      96
+     ]
+    }
+   ]
+  },
+  "gulungan": {
+   "w": 300,
+   "h": 240,
+   "shapes": [
+    {
+     "poly": [
+      [
+       30,
+       40
+      ],
+      [
+       270,
+       40
+      ],
+      [
+       270,
+       200
+      ],
+      [
+       30,
+       200
+      ]
+     ],
+     "fill": [
+      235,
+      221,
+      189
+     ]
+    },
+    {
+     "ell": [
+      8,
+      30,
+      56,
+      210
+     ],
+     "fill": [
+      200,
+      170,
+      120
+     ]
+    },
+    {
+     "ell": [
+      244,
+      30,
+      292,
+      210
+     ],
+     "fill": [
+      200,
+      170,
+      120
+     ]
+    },
+    {
+     "line": [
+      [
+       80,
+       90
+      ],
+      [
+       220,
+       90
+      ]
+     ],
+     "width": 6,
+     "fill": [
+      140,
+      110,
+      80
+     ]
+    },
+    {
+     "line": [
+      [
+       80,
+       130
+      ],
+      [
+       220,
+       130
+      ]
+     ],
+     "width": 6,
+     "fill": [
+      140,
+      110,
+      80
+     ]
+    },
+    {
+     "line": [
+      [
+       80,
+       170
+      ],
+      [
+       180,
+       170
+      ]
+     ],
+     "width": 6,
+     "fill": [
+      140,
+      110,
+      80
+     ]
+    }
+   ]
+  },
+  "surat": {
+   "w": 300,
+   "h": 220,
+   "shapes": [
+    {
+     "poly": [
+      [
+       10,
+       30
+      ],
+      [
+       290,
+       30
+      ],
+      [
+       290,
+       200
+      ],
+      [
+       10,
+       200
+      ]
+     ],
+     "fill": [
+      240,
+      226,
+      190
+     ]
+    },
+    {
+     "poly": [
+      [
+       10,
+       30
+      ],
+      [
+       150,
+       130
+      ],
+      [
+       290,
+       30
+      ]
+     ],
+     "fill": [
+      222,
+      200,
+      150
+     ]
+    },
+    {
+     "ell": [
+      126,
+      96,
+      174,
+      144
+     ],
+     "fill": [
+      168,
+      50,
+      45
+     ]
+    }
+   ]
+  }
+ },
+ "thumbnail": {
+  "bg": [
+   140,
+   44,
+   36
+  ],
+  "foreground": {
+   "color": [
+    96,
+    34,
+    30
+   ],
+   "kind": "rock",
+   "y": 1540
+  },
+  "layers": [
+   {
+    "type": "rays",
+    "center": [
+     540,
+     1060
+    ],
+    "colors": [
+     [
+      166,
+      56,
+      46
+     ],
+     [
+      140,
+      44,
+      36
+     ]
+    ],
+    "n": 28,
+    "speed": 0.0
+   },
+   {
+    "type": "disc",
+    "center": [
+     540,
+     1060
+    ],
+    "r": 380,
+    "color": [
+     236,
+     176,
+     96
+    ]
+   },
+   {
+    "type": "actor",
+    "sprite": "kitab",
+    "x": 540,
+    "y": 1480,
+    "scale": 2.5,
+    "anchor": "bottom"
+   },
+   {
+    "type": "actor",
+    "sprite": "person",
+    "x": 150,
+    "y": 1560,
+    "scale": 0.9,
+    "anchor": "bottom",
+    "opts": {
+     "robe": [
+      200,
+      190,
+      170
+     ],
+     "beard": [
+      205,
+      205,
+      205
+     ],
+     "hat": "turban",
+     "hat_color": [
+      232,
+      224,
+      204
+     ],
+     "staff": true
+    }
+   },
+   {
+    "type": "actor",
+    "sprite": "person",
+    "x": 360,
+    "y": 1560,
+    "scale": 0.9,
+    "anchor": "bottom",
+    "opts": {
+     "staff": true
+    }
+   },
+   {
+    "type": "actor",
+    "sprite": "person",
+    "x": 720,
+    "y": 1560,
+    "scale": 0.9,
+    "anchor": "bottom",
+    "opts": {
+     "robe": [
+      60,
+      90,
+      140
+     ],
+     "dress": true,
+     "hat": "veil",
+     "staff": false
+    }
+   },
+   {
+    "type": "actor",
+    "sprite": "person",
+    "x": 900,
+    "y": 1560,
+    "scale": 0.9,
+    "anchor": "bottom",
+    "opts": {
+     "robe": [
+      110,
+      70,
+      90
+     ],
+     "beard": [
+      80,
+      60,
+      50
+     ],
+     "hair": [
+      80,
+      60,
+      50
+     ],
+     "staff": false
+    }
+   },
+   {
+    "type": "label",
+    "text": "SERI BARU",
+    "x": 510,
+    "y": 330,
+    "t": 0,
+    "style": "tag",
+    "size": 44,
+    "angle": -2
+   },
+   {
+    "type": "label",
+    "text": "TOKOH ALKITAB",
+    "x": 510,
+    "y": 520,
+    "t": 0,
+    "style": "gold",
+    "size": 150,
+    "angle": -3
+   },
+   {
+    "type": "label",
+    "text": "DARI KEJADIAN\nSAMPAI WAHYU",
+    "x": 510,
+    "y": 760,
+    "t": 0,
+    "style": "dark",
+    "size": 84,
+    "angle": 2
+   }
+  ]
+ }
+}
