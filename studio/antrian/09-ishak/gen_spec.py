@@ -56,7 +56,7 @@ spec={"meta":{"tokoh":"Ishak","video_no":9,"tag":"TOKOH ALKITAB  ·  VIDEO 9","a
  "scenes":scenes,"sprites":sprites,
  "thumbnail":{"bg":[26,34,84],"foreground":{"color":[40,96,76],"kind":"grass","y":1560},"layers":[dict(type="rays",center=[540,980],colors=[[40,52,112],[26,34,84]],n=26,speed=0.0),dict(type="disc",center=[540,980],r=250,color=[255,226,140])]+
    [actor("bintang",x,y,s_) for x,y,s_ in [(110,420,1.6),(950,520,1.4),(220,820,1.0),(880,860,1.2),(80,1180,0.9),(990,1150,1.0),(300,520,0.8),(760,420,0.9)]]+[
-   actor("mezbah",760,1560,1.7),actor("sheep",760,1230,1.3),actor("person",340,1560,1.7,ABRAM),actor("person",560,1560,1.15,ISHAK),
+   actor("mezbah",780,1560,1.5),actor("sheep",780,1290,1.15),actor("person",340,1560,1.3,ABRAM),actor("person",560,1560,0.95,ISHAK),
    dict(type="label",text="SATU KISAH  ·  VIDEO 9",x=510,y=330,t=0,style="tag",size=44,angle=-2),dict(type="label",text="ISHAK",x=510,y=520,t=0,style="gold",size=180,angle=-3),dict(type="label",text="TUHAN MENYEDIAKAN",x=510,y=740,t=0,style="paper",size=76,angle=2)]}}
 json.dump(spec,open("spec.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
 print("ok",len(scenes))

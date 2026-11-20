@@ -5818,17 +5818,17 @@
    {
     "type": "actor",
     "sprite": "mezbah",
-    "x": 760,
+    "x": 780,
     "y": 1560,
-    "scale": 1.7,
+    "scale": 1.5,
     "anchor": "bottom"
    },
    {
     "type": "actor",
     "sprite": "sheep",
-    "x": 760,
-    "y": 1230,
-    "scale": 1.3,
+    "x": 780,
+    "y": 1290,
+    "scale": 1.15,
     "anchor": "bottom"
    },
    {
@@ -5836,7 +5836,7 @@
     "sprite": "person",
     "x": 340,
     "y": 1560,
-    "scale": 1.7,
+    "scale": 1.3,
     "anchor": "bottom",
     "opts": {
      "robe": [
@@ -5862,7 +5862,7 @@
     "sprite": "person",
     "x": 560,
     "y": 1560,
-    "scale": 1.15,
+    "scale": 0.95,
     "anchor": "bottom",
     "opts": {
      "robe": [
